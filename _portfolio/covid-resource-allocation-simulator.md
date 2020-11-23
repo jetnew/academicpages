@@ -1,6 +1,6 @@
 ---
 title: "COVID Resource Allocation Simulator"
-excerpt: "Agent-based modelling for resource allocation in viral crises to investigate resource allocation and policy interventions with respect to transmission rate.<br/><img src='https://user-images.githubusercontent.com/27071473/77895747-cea23d80-72a9-11ea-99c6-582c7c6db101.png' height="600">"
+excerpt: "Agent-based modelling for resource allocation in viral crises to investigate resource allocation and policy interventions with respect to transmission rate."
 collection: portfolio
 ---
 
