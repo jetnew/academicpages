@@ -1,7 +1,7 @@
 ---
 title: "Google Developer Student Club NUS: Data Analytics Workshop 2 - Data Collection"
 collection: talks
-type: "Talk"
+type: "Workshop"
 permalink: /talks/2020-02-14-data-analytics-workshop-2
 venue: "National University of Singapore"
 date: 2020-02-14

@@ -1,7 +1,7 @@
 ---
 title: "Google Developer Student Club NUS: Data Analytics Workshop 4 - Machine Learning"
 collection: talks
-type: "Talk"
+type: "Workshop"
 permalink: /talks/2020-03-13-data-analytics-workshop-4
 venue: "National University of Singapore"
 date: 2020-03-13

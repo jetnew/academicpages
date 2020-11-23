@@ -1,7 +1,7 @@
 ---
 title: "Google Developer Student Club NUS: Data Analytics Workshop 3 - Data Visualization and Pre-processing"
 collection: talks
-type: "Talk"
+type: "Workshop"
 permalink: /talks/2020-02-21-data-analytics-workshop-3
 venue: "National University of Singapore"
 date: 2020-02-21

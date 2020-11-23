@@ -1,5 +1,5 @@
 ---
-title: "SQL for Data Science 101"
+title: "NUS Statistics Society: SQL for Data Science 101"
 collection: talks
 type: "Workshop"
 permalink: /talks/2020-09-03-sql-for-data-science-101
