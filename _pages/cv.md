@@ -11,30 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Comp. in Computer Science, minor in Statistics, National University of Singapore, 2023 (expected)
+* University Scholars Programme, National University of Singapore, 2023 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019 Pre-University: Executive, Machine Learning
+  * Infocomm Media Development Authority
+  * Projects: Anomaly Detection, Natural Language Processing
+  * Achievements: [Chiller Doctor](https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor) (anomaly detection) secured $500K project deal.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2020: Intern, Machine Learning Engineer
+  * Grabtaxi Holdings Pte. Ltd.
+  * Projects: Generative & Probabilistic Modelling
+  * Achievements: [Simkit](https://www.youtube.com/watch?v=wl_Z9URl6BU) (generative & probabilistic modelling framework) presented at La Kopi @ Google Developer Space: Data Science.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Data Science
+  * TensorFlow, PyTorch, Keras
+  * NumPy, Pandas, Matplotlib
+* Machine Learning Engineering
+  * Apache Spark, SQL
+  * Jupyter, Git, Docker
+* Research
+  * Reinforcement Learning, Causal Inference
 
 Publications
 ======
