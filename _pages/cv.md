@@ -57,4 +57,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Director of Workshops at NUS Statistics Society, leading team of 10.
+* Advisory Singapore, Development and Data.
+* Google Developer Student Club NUS, Data Analytics Associate.
+* Google Code In The Community, Python Instructor.
