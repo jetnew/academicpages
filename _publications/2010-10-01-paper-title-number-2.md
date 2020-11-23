@@ -1,15 +1,15 @@
 ---
-title: "Paper Title Number 2"
+title: "Gaussian Mixture Models with TensorFlow Probability"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2020-06-27-gaussian-mixture-models-with-tensorflow-probability
+excerpt: 'A note on Gaussian Mixture Models with TensorFlow Probability.'
+date: 2020-06-27
+venue: 'Analytics Vidhya'
+paperurl: 'https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22'
+citation: 'Jun Jie, New. (2020). &quot;Gaussian Mixture Models with TensorFlow Probability.&quot; <i>Analytics Vidhya</i>.'
 ---
-This paper is about the number 2. The number 3 is left for future work.
+A note on Gaussian Mixture Models with TensorFlow Probability.
 
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
+[Read on Medium](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22)
 
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
+Recommended citation: Jun Jie, New. (2020). "Gaussian Mixture Models with TensorFlow Probability." <i>Analytics Vidhya</i>.
