@@ -16,15 +16,15 @@ Education
 
 Work experience
 ======
-* 2019 Pre-University: Executive, Machine Learning
-  * Infocomm Media Development Authority
-  * Projects: Anomaly Detection, Natural Language Processing
-  * Achievements: [Chiller Doctor](https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor) (anomaly detection) secured $500K project deal.
-
 * Summer 2020: Intern, Machine Learning Engineer
   * Grabtaxi Holdings Pte. Ltd.
   * Projects: Generative & Probabilistic Modelling
   * Achievements: [Simkit](https://www.youtube.com/watch?v=wl_Z9URl6BU) (generative & probabilistic modelling framework) presented at La Kopi @ Google Developer Space: Data Science.
+  
+* 2019 Pre-University: Executive, Machine Learning
+  * Infocomm Media Development Authority
+  * Projects: Anomaly Detection, Natural Language Processing
+  * Achievements: [Chiller Doctor](https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor) (anomaly detection) secured $500K project deal.
   
 Skills
 ======
