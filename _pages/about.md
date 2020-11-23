@@ -12,6 +12,6 @@ redirect_from:
 
 :video_game: I'm currently researching causal reinforcement learning under Prof. Harold Soh at the Collaborative Learning and Adaptive Robots (CLeAR) lab as an undergraduate researcher.
 
-:chart_with_upwards_trend: In my free time, I'm the Workshops Director at NUS Statistics Society, leading a team of 10 to deliver data science workshops in NUS.
+:chart_with_upwards_trend: In my free time, I direct the workshops team at at NUS Statistics Society, delivering data science workshops in NUS.
 
- :briefcase: I previously interned as a machine learning engineer at Grab and IMDA.
+:briefcase: I previously interned as a machine learning engineer at Grab and IMDA.
