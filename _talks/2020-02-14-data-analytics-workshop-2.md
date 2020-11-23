@@ -8,6 +8,8 @@ date: 2020-02-14
 location: "Singapore"
 ---
 
+[Watch on YouTube](https://www.youtube.com/watch?v=_B44x2IKSig&list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu&index=1)
+
 #### Workshop 2 - Data Collection and Web Scraping
 
 Before any data analytics project, data needs to be collected. Data collection can be challenging when we are interested in different data sources. In this 2nd of 5-workshop series on Data Analytics, DSC NUS covers Web Scraping using BeautifulSoup and Requests, as well as APIs for data collection. We'll learn to collect, save and load data for analysis in the next workshop.
