@@ -1,6 +1,6 @@
 ---
 title: 'A Genetic Algorithm Tutorial'
-date: 2020-11-27
+date: 2020-11-26
 permalink: /posts/2020/11/a-genetic-algorithm-tutorial/
 tags:
   - evolutionary-computation
