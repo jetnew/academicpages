@@ -357,6 +357,7 @@ def animate(i):
 ani = FuncAnimation(fig, animate, frames=np.arange(0, num_generations), interval=80, repeat=False)
 ```
 
+The following interactive is only available on nbviewer or Google Colab.
 
 ```python
 from IPython import display as ipythondisplay
