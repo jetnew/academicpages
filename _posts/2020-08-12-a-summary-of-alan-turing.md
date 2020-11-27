@@ -1,5 +1,5 @@
 ---
-title: 'A Summary of Alan Turing's Computing Machinery and Intelligence'
+title: 'A Summary of Alan Turing Computing Machinery and Intelligence'
 date: 2020-08-12
 permalink: /posts/2020/08/a-summary-of-alan-turing/
 tags:
