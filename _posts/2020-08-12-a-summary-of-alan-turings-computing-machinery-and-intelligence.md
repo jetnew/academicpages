@@ -4,7 +4,7 @@ date: 2020-08-12
 permalink: /posts/2020/08/a-summary-of-alan-turings-computing-machinery-and-intelligence/
 tags:
   - artificial-intelligence
-  - reinforcement learning
+  - reinforcement-learning
 ---
 
 A summary of computer scientist Alan Turing’s Computing Machinery and Intelligence in 1950.
