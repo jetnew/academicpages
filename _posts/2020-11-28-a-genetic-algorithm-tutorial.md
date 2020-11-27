@@ -7,9 +7,12 @@ tags:
   - complex-systems
 ---
 
+The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.
+
 # Genetic Algorithms
 
 The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.
+
 
 The genetic algorithm consists of 5 processes:
 1. Initial population
