@@ -2,6 +2,7 @@
 title: 'Agent-Based Modelling of the Spread of Infectious Diseases: Compliance on Mask-Wearing and its Consequences on Policies'
 date: 2020-06-28
 author: New Jun Jie, Lim Wei Liang, Gwendolyn Yong En Ling, Tan Pei Han
+excerpt: 'The objective of this study is to develop an agent-based modelling framework to simulate the spread of infectious diseases in order to investigate the extent to which mask-wearing is beneficial in the context of different policy interventions.'
 permalink: /posts/2020/06/agent-based-modelling-of-the-spread-of-infectious-diseases/
 tags:
   - agent-based-modelling
