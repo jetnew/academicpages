@@ -15,10 +15,3 @@ redirect_from:
 📈 In my free time, I direct the workshops team at at NUS Statistics Society, delivering data science workshops in NUS.
 
 💼 I previously interned as a machine learning engineer at Grab and IMDA.
-
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
-
-{% for tag in group_names %}
-  <p id="{{ tag }}">{{ tag }}</p>
-{% endfor %}
