@@ -58,8 +58,10 @@ plt.plot(X, y, '.')
 plt.show()
 ```
 
+
     
 ![png](/images/genetic-algorithm/output_3_0.png)
+    
 
 
 # Process 1: Generate the initial population of individuals.
@@ -128,13 +130,13 @@ plt.show()
 
 
     
-![png](/images/genetic-algorithm/output_6_0.png)
+![png](/images/genetic-algorithm/output_7_0.png)
     
 
 
 
     
-![png](/images/genetic-algorithm/output_6_1.png)
+![png](/images/genetic-algorithm/output_7_1.png)
     
 
 
@@ -306,7 +308,7 @@ plt.show()
 
 
     
-![png](/images/genetic-algorithm/output_15_2.png)
+![png](/images/genetic-algorithm/output_16_2.png)
     
 
 
@@ -330,13 +332,13 @@ plt.show()
 
 
     
-![png](/images/genetic-algorithm/output_17_0.png)
+![png](/images/genetic-algorithm/output_18_0.png)
     
 
 
 
     
-![png](/images/genetic-algorithm/output_17_1.png)
+![png](/images/genetic-algorithm/output_18_1.png)
     
 
 
@@ -369,6 +371,7 @@ from IPython.display import HTML
 
 HTML(ani.to_jshtml())
 ```
+
 
 
 ```python
