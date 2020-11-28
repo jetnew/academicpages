@@ -10,6 +10,8 @@ tags:
 
 # Neuroevolution
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fneuroevolution.ipynb)
+
 Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks. The neural network can be adapted in terms of parameters, hyperparameters or architecture. Prominent examples are NeuroEvolution of Augmenting Topologies (NEAT) and Covariance-Matrix Adaptation Evolution Strategy (CMA-ES). The evolutionary algorithm employed in this notebook is the genetic algorithm, excluding crossing-over. 
 
 

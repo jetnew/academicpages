@@ -10,6 +10,8 @@ tags:
 
 # Genetic Algorithm
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fgenetic_algorithm.ipynb)
+
 The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.
 
 The genetic algorithm consists of 5 processes:
