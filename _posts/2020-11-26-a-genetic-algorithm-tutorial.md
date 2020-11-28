@@ -1,13 +1,12 @@
 ---
 title: 'A Genetic Algorithm Tutorial'
 date: 2020-11-26
+excerpt: 'The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.'
 permalink: /posts/2020/11/a-genetic-algorithm-tutorial/
 tags:
   - evolutionary-computation
   - complex-systems
 ---
-
-The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.
 
 # Genetic Algorithms
 
@@ -357,7 +356,9 @@ def animate(i):
 ani = FuncAnimation(fig, animate, frames=np.arange(0, num_generations), interval=80, repeat=False)
 ```
 
+
 The following interactive is only available on nbviewer or Google Colab.
+
 
 ```python
 from IPython import display as ipythondisplay

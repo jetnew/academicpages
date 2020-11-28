@@ -1,13 +1,12 @@
 ---
 title: 'A Summary of Alan Turing Computing Machinery and Intelligence'
 date: 2020-08-12
+excerpt: 'A summary of computer scientist Alan Turing Computing Machinery and Intelligence in 1950.'
 permalink: /posts/2020/08/a-summary-of-alan-turing/
 tags:
   - artificial-intelligence
   - reinforcement-learning
 ---
-
-A summary of computer scientist Alan Turing’s Computing Machinery and Intelligence in 1950.
 
 <img src="https://miro.medium.com/max/875/0*3KoQ22n6444LQr0K">
 “I propose to consider the question, ‘Can machines think?’” — Alan Turing

@@ -2,13 +2,12 @@
 title: 'Anomaly Detection of Time Series Data'
 date: 2019-06-06
 permalink: /posts/2019/06/anomaly-detection-of-time-series-data/
+excerpt: 'A note on anomaly detection techniques, evaluation and application on time series data.'
 tags:
   - anomaly-detection
   - time-series
   - machine-learning
 ---
-
-A note on anomaly detection techniques, evaluation and application on time series data.
 
 # Overview
 

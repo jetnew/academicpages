@@ -1,14 +1,13 @@
 ---
 title: 'Agent-Based Modelling of the Spread of Infectious Diseases: Compliance on Mask-Wearing and its Consequences on Policies'
 date: 2020-06-28
+author: New Jun Jie, Lim Wei Liang, Gwendolyn Yong En Ling, Tan Pei Han
 permalink: /posts/2020/06/agent-based-modelling-of-the-spread-of-infectious-diseases/
 tags:
   - agent-based-modelling
   - simulation
   - complex-systems
 ---
-
-By New Jun Jie, Lim Wei Liang, Gwendolyn Yong En Ling, Tan Pei Han
 
 Abstract
 ======
