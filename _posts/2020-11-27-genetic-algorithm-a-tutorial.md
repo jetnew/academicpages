@@ -13,9 +13,7 @@ tags:
 
 # Genetic Algorithm
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fgenetic_algorithm.ipynb)
-
-The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.
+The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation. A 3-part series on evolutionary computation.
 
 The genetic algorithm consists of 5 processes:
 1. Initial population
@@ -32,19 +30,11 @@ Terminology:
 - Crossing-over refers to a swapping of segments of 2 parents' genes, producing a child individual with a new gene combination.
 - Mutation is a random perturbation of genes based on a probability.
 
-Process:
-1. Generate the initial population of individuals.
-2. Repeat until convergence:
-  1. Compute fitness of the population.
-  2. Select the fittest individuals (parent subpopulation).
-  3. Perform crossing-over between parents to produce children.
-  4. Perform mutation on the population.
-3. Select the fittest individual of the population as the solution.
-
-
 # Optimization Problem: Linear Regression
 
-To illustrate that evolutionary algorithms can optimise, the simple linear regression problem is used. Define a linear function $y = mx + c + \epsilon$ to be modelled, where $m=1$, $c=0$, $\epsilon\sim N(0,1)$ represents gradient, y-intercept and noise respectively.
+Evolutionary algorithms can serve as "black box" optimisation algorithms without needing to solving the objective function analytically. To illustrate that evolutionary algorithms can optimise, the simple linear regression problem is used. Define a linear function:
+$$y = mx + c + \epsilon$$
+to be modelled by a linear regression model, where $m=1$, $c=0$, $\epsilon\sim N(0,1)$ represents gradient, y-intercept and Gaussian noise respectively.
 
 
 ```python
@@ -71,7 +61,7 @@ plt.show()
 
 # Process 1: Generate the initial population of individuals.
 
-Given that each individual is defined by a set of parameters, we define hyperparameters, which are variables that are not updated at every iteration of optimisation, the population size (number of individuals at any point) and the number of parameters that defines an individual. The initial population can be zero-initialised or random-initialised. For your interest, there also exists many other initialisation methods to be used depending on context, such as the He initialisation and Xavier initialisation.
+Each individual (solution/model) is defined by a set of parameters. Hyperparameters to be specified, which are variables that are not updated at every iteration of optimisation, are the population size (number of individuals in the population at any point in time) and the number of parameters that defines an individual. The initial population's parameters can be zero-initialised or random-initialised. For your interest, there also exists many other initialisation methods to be used depending on context, such as the He initialisation and Xavier initialisation. The set of parameters that defines each individual is biologically analogous to the individual's genome (or gene or chromosome, depending on the computational process).
 
 
 ```python
@@ -101,7 +91,7 @@ initial_population
 
 # Process 2: Compute the fitness of all individuals.
 
-Another 2 hyperparameters are in the form of functions - the solution and the fitness function. The solution is a model that uses the individual's parameters to compute the output $y$ given input $X$. For simplicity, we use the polynomial regression model (with 2 parameters, it is a linear regression model). The fitness function measures the performance of an individual solution. The evolutionary biology analogy of the fitness function of an organism would include its survivability and reproductive success. We use the negative mean squared error (MSE) for the fitness function. The MSE is negated to reflect a higher value as more desirable.
+Another 2 hyperparameters are in the form of functions - the solution and the fitness function. The solution is a model that uses the individual's parameters to compute the output $y$ given input $X$. For simplicity, we use the polynomial regression model (with 2 parameters, it is a simple linear regression model). The fitness function measures the performance of an individual solution. The evolutionary analogy of the fitness function of an organism would be, for example, its survivability and/or reproductive success. Because we want to model the linear function with Gaussian noise dataset, the negative mean squared error (MSE) is used as the fitness function to determine how well the solution models the dataset. Because the fitness function is to be maximised, MSE is negated to reflect a higher value of MSE as more desirable.
 
 
 ```python
@@ -165,7 +155,7 @@ fitness_scores
 
 # Process 3: Select the fittest individuals.
 
-Select the top $k$ percentage of individuals with the highest fitness score, where $k$ is a hyperparameter, to form the parent subpopulation.
+Like natural selection, select the top $k$ percentage of individuals with the highest fitness scores, where $k$ is a hyperparameter, to form the parent subpopulation that will reproduce to form the next generation of the population later.
 
 
 ```python
@@ -189,7 +179,15 @@ parent_subpopulation, compute_fitness(parent_subpopulation)
 
 # Process 4: Perform crossing-over between parents to produce children.
 
-Crossing-over is a biological process that exchanges genetic material to result in new combinations of genetic material. For the benefit of non-biology students, much detail has been abstracted out, so for your interest, refer to chromosomal crossovers. Crossing over is performed in the genetic algorithm by swapping a segment parameters of one parent with another parent. For example, take 2 parents defined by 4 parameters: P1 = [A1, A2, A3, A4], P2 = [B1, B2, B3, B4]. A crossing-over at the 3rd index will result in a child C = [A1, A2, B3, B4]. There exists other methods of genetic exchange to introduce randomness, such as swapping elements instead of segments.
+Crossing-over is a biological process that exchanges genetic material to result in new combinations of genetic material. For the benefit of non-biology students, much detail has been abstracted out, so for your interest, refer to chromosomal crossovers. In the genetic algorithm, crossing-over is performed during reproduction by swapping a segment of parameters of one parent with another parent. For example, take 2 parents defined by 4 parameters:
+
+$$P1 = [A1, A2, A3, A4],  P2 = [B1, B2, B3, B4]$$
+
+A crossing-over at the index 3 will result in a child:
+
+$$C = [A1, A2, B3, B4]$$
+
+There exists other methods of genetic exchange to introduce variance in the population gene pool, such as swapping elements instead of segments.
 
 
 ```python
@@ -227,7 +225,7 @@ next_population, compute_fitness(next_population)
 
 # Process 5: Perform mutation on the population.
 
-A mutation is defined as a change in a DNA sequence. While we do not hold the exact differences between DNA, gene and chromosome in our genetic algorithm, we draw inspiration from mutation in biology that usually worsens fitness but can occasionally improve fitness. To perform mutation on the population parameters, add Gaussian noise $\epsilon\sim N(0, \sigma)$, where $\sigma$ is the standard deviation hyperparameter.
+A mutation is defined as a change in the DNA sequence. While the exact differences between DNA, gene and chromosome in the genetic algorithm are not maintained, inspiration is drawn from mutation in biology that usually worsens fitness but can occasionally improve fitness of the individual. To perform mutation on the population parameters, add Gaussian noise $\epsilon\sim N(0, \sigma)$ to the individuals' parameters, where $\sigma$ is the standard deviation hyperparameter.
 
 
 ```python
@@ -258,12 +256,19 @@ mutated_population, compute_fitness(mutated_population)
 
 # The Genetic Algorithm: All 5 Processes Together
 
-Having understood and implemented the 5 processes of the genetic algorithm, let's put them all together. We first define the hyperparameters as previously discussed.
+By combining the 5 processes together, we construct the genetic algorithm and run it to find a solution that models the linear function well.
+
+Genetic Algorithm:
+1. Generate the initial population of individuals.
+2. Repeat until convergence:
+  1. Compute fitness of the population.
+  2. Select the fittest individuals (parent subpopulation).
+  3. Perform crossing-over between parents to produce children.
+  4. Perform mutation on the population.
+3. Select the fittest individual of the population as the solution.
 
 
 ```python
-from tqdm.notebook import tqdm
-
 # Define hyperparameters of the genetic algorithm.
 population_size = 20
 num_parameters = 2
@@ -279,7 +284,7 @@ scores = []
 solutions = []
 
 # Iterate the process over multiple generations of populations.
-for i in tqdm(range(num_generations)):
+for i in range(num_generations):
 
   # Process 2: Compute the fitness of all individuals.
   fitness_scores = compute_fitness(population)
@@ -305,21 +310,14 @@ plt.show()
 ```
 
 
-    HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=50.0), HTML(value='')))
-
-
     
-    
-
-
-    
-![png](/images/genetic-algorithm/output_16_2.png)
+![png](/images/genetic-algorithm/output_16_0.png)
     
 
 
 # Experiment Result
 
-Looking at the fittest individual in the final population, it looks like a reasonable well-fit linear regression model. The rest of the population are worse but not too bad as well.
+The fittest individual in the final population is a reasonably well-fit linear regression model. The rest of the population have a lower fitness score but are quite well-fit as well.
 
 
 ```python
@@ -371,17 +369,10 @@ ani = FuncAnimation(fig, animate, frames=np.arange(0, num_generations), interval
 
 
 ```python
-from IPython import display as ipythondisplay
-from IPython.display import HTML
-
-HTML(ani.to_jshtml())
+ani.save('../images/genetic-algorithm/genetic_algorithm.gif')
 ```
 
-
-
-```python
-ani.save('genetic_algorithm.gif')
-```
-
+    MovieWriter ffmpeg unavailable; using Pillow instead.
+    
 
 <img src="/images/genetic-algorithm/genetic_algorithm.gif">
