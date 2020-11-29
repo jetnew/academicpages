@@ -10,7 +10,7 @@ tags:
   - tutorial
 ---
 
-# Neuroevolution: A Tutorial
+# Neuroevolution
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fneuroevolution.ipynb)
 
