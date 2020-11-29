@@ -1,14 +1,16 @@
 ---
-title: 'A Neuroevolution Tutorial'
+title: 'Neuroevolution: A Tutorial'
 date: 2020-11-28
 excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks. The neural network can be adapted in terms of parameters, hyperparameters or architecture.'
-permalink: /posts/2020/11/a-neuroevolution-tutorial/
+permalink: /posts/2020/11/neuroevolution-a-tutorial/
 tags:
   - evolutionary-computation
   - complex-systems
+  - neural-networks
+  - tutorial
 ---
 
-# Neuroevolution
+# Neuroevolution: A Tutorial
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fneuroevolution.ipynb)
 

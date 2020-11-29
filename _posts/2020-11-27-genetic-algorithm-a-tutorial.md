@@ -1,14 +1,16 @@
 ---
-title: 'A Genetic Algorithm Tutorial'
+title: 'Genetic Algorithm: A Tutorial'
 date: 2020-11-27
 excerpt: 'The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.'
 permalink: /posts/2020/11/a-genetic-algorithm-tutorial/
 tags:
   - evolutionary-computation
   - complex-systems
+  - optimisation
+  - tutorial
 ---
 
-# Genetic Algorithm
+# Genetic Algorithm: A Tutorial
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fgenetic_algorithm.ipynb)
 
