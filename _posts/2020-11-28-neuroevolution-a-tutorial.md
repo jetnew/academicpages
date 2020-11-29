@@ -1,7 +1,7 @@
 ---
 title: 'Evolutionary Computation: Neuroevolution (Part 2/3)'
 date: 2020-11-28
-excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks, easily parallelisable to improve wall-clock training duration. A 3-part series on evolutionary computation.'
+excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks instead of using backpropagation. Neuroevolution therefore is a non-gradient (or derivation-free) optimisation, which can speed up training as backward passes are not computed. 2nd of a 3-part series on evolutionary computation.'
 permalink: /posts/2020/11/neuroevolution/
 tags:
   - evolutionary-computation
@@ -12,9 +12,7 @@ tags:
 
 # Neuroevolution
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jetnew/jetnew.github.io/HEAD?filepath=_jupyter%2Fneuroevolution.ipynb)
-
-Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks. The neural network can be adapted in terms of parameters, hyperparameters or architecture. Prominent examples are NeuroEvolution of Augmenting Topologies (NEAT) and Covariance-Matrix Adaptation Evolution Strategy (CMA-ES). The evolutionary algorithm employed in this notebook is the genetic algorithm, excluding crossing-over. 
+Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks instead of using backpropagation. Neuroevolution therefore is a non-gradient (or derivation-free) optimisation, which can speed up training as backward passes are not computed. The neural network optimised by neuroevolution can be adapted in terms of parameters, hyperparameters or network architecture. Prominent examples of neuroevolution are NeuroEvolution of Augmenting Topologies (NEAT) and Covariance-Matrix Adaptation Evolution Strategy (CMA-ES). The evolutionary algorithm employed in this notebook is the vanilla genetic algorithm without crossing-over, applying only mutation over neural network parameters (weights). 2nd of a 3-part series on evolutionary computation (Part 1 - [Genetic Algorithm](https://jetnew.io/posts/2020/11/genetic-algorithm/), Part 3 - [Novelty Search](https://jetnew.io/posts/2020/11/novelty-search/)).
 
 
 ```python
@@ -30,7 +28,7 @@ from torch.autograd import Variable
 
 # The Neural Network Model ("Neuro"-evolution)
 
-The neural network, or a multi-layer perceptron, is a universal function approximator. We define the neural network in PyTorch with 2 hidden layers and non-linear activation functions hyperbolic tangent (tanh) and sigmoid.
+The neural network, or a multi-layer perceptron, is a universal function approximator. The neural network in PyTorch with 2 hidden layers and non-linear activation functions hyperbolic tangent (tanh) and sigmoid is defined.
 
 
 ```python
@@ -60,16 +58,18 @@ net = Net(2, 1)
 
 # The Mutation Function (Neuro-"evolution")
 
-As with the genetic algorithm, neuroevolution can be implemented by adding a Gaussian noise perturbation $\epsilon\sim N(0,\sigma)$ to all neural network parameters (weights). 
+As with the genetic algorithm, neuroevolution can be implemented by adding an additive Gaussian noise $\epsilon\sim N(0,\sigma)$ to all neural network weights to introduce variance in the "gene pool" of the population.
 
 
 ```python
+from torch.nn.utils import parameters_to_vector, vector_to_parameters
+
 def get_params(net):
-  return list(net.parameters())
+  return parameters_to_vector(net.parameters())
 
 def mutate_params(net, sigma=0.1):
-  for param in net.parameters():
-    param.data += torch.normal(0, sigma, size=param.data.shape)
+    mutated_params = get_params(net) + torch.normal(0, sigma, size=get_params(net).data.shape)
+    vector_to_parameters(mutated_params, net.parameters())
 
 print(f"Before mutation:\n {get_params(net)}\n")
 mutate_params(net, sigma=0.1)
@@ -77,61 +77,31 @@ print(f"After mutation:\n {get_params(net)}")
 ```
 
     Before mutation:
-     [Parameter containing:
-    tensor([[-0.5985,  0.4917],
-            [-0.0633,  0.1432],
-            [ 0.3094, -0.4816],
-            [-0.2772, -0.6005],
-            [-0.5020, -0.0903],
-            [ 0.3371, -0.1493],
-            [-0.6466, -0.4469],
-            [ 0.6083,  0.5705],
-            [-0.5431, -0.0150],
-            [ 0.3457,  0.5112],
-            [-0.6700, -0.0966],
-            [ 0.6679, -0.5396],
-            [ 0.2121, -0.4112],
-            [ 0.3969, -0.4720],
-            [ 0.5546, -0.1207],
-            [-0.3864,  0.3729]], requires_grad=True), Parameter containing:
-    tensor([-0.1281,  0.4373,  0.4592, -0.0993, -0.6697,  0.0267,  0.6746, -0.4179,
-             0.4445,  0.1585, -0.0689,  0.1920,  0.5797, -0.1392, -0.0417, -0.5453],
-           requires_grad=True), Parameter containing:
-    tensor([[ 0.1679, -0.2125, -0.1130,  0.0409, -0.2212,  0.0010, -0.0643,  0.2213,
-             -0.0512,  0.1632, -0.0483,  0.0701, -0.2269, -0.2319, -0.2164, -0.1803]],
-           requires_grad=True), Parameter containing:
-    tensor([-0.0253], requires_grad=True)]
+     tensor([-0.5949, -0.1591, -0.6217,  0.0710, -0.6687, -0.3964,  0.3319, -0.2988,
+             0.6695,  0.4645,  0.2398, -0.2250, -0.5464,  0.2512,  0.0582,  0.0818,
+             0.1810, -0.5316,  0.3275, -0.1162,  0.2542, -0.6751,  0.4344,  0.1846,
+             0.4996, -0.1422,  0.3201, -0.0814, -0.1195,  0.1880, -0.2272, -0.4236,
+            -0.0218, -0.6078, -0.0099,  0.1856, -0.4883, -0.2465,  0.0166, -0.1269,
+             0.4119,  0.0229,  0.2381, -0.0007, -0.2959, -0.4865,  0.0240,  0.0228,
+             0.2293, -0.0649, -0.1661,  0.0788,  0.2253, -0.1549, -0.2465, -0.0267,
+            -0.1861, -0.2189,  0.0964,  0.0684, -0.0555,  0.0063,  0.1374, -0.1588,
+             0.2334], grad_fn=<CatBackward>)
     
     After mutation:
-     [Parameter containing:
-    tensor([[-0.5121,  0.3732],
-            [ 0.1361,  0.0854],
-            [ 0.3698, -0.5275],
-            [-0.3828, -0.5228],
-            [-0.6721, -0.1574],
-            [ 0.3032, -0.1792],
-            [-0.7435, -0.3916],
-            [ 0.5647,  0.7127],
-            [-0.6399, -0.0281],
-            [ 0.3779,  0.6381],
-            [-0.6625,  0.0447],
-            [ 0.6614, -0.5958],
-            [ 0.2576, -0.3177],
-            [ 0.3492, -0.5496],
-            [ 0.4177, -0.0997],
-            [-0.4521,  0.2513]], requires_grad=True), Parameter containing:
-    tensor([-0.0971,  0.3119,  0.3968,  0.0030, -0.7713, -0.1176,  0.6502, -0.3455,
-             0.3499,  0.0260, -0.0677,  0.3131,  0.6707, -0.1527,  0.1088, -0.7122],
-           requires_grad=True), Parameter containing:
-    tensor([[ 0.2753, -0.3125, -0.1651,  0.0171, -0.1943,  0.1222, -0.0498,  0.1714,
-             -0.0279,  0.1025, -0.0307, -0.0436, -0.2260, -0.3107,  0.0153, -0.1368]],
-           requires_grad=True), Parameter containing:
-    tensor([0.1065], requires_grad=True)]
+     tensor([-0.6005, -0.2099, -0.5364,  0.1007, -0.5897, -0.5340,  0.3688, -0.3615,
+             0.7335,  0.3900,  0.2519, -0.1144, -0.5839,  0.2251,  0.0043,  0.1630,
+             0.1419, -0.6593,  0.3079, -0.1238,  0.3217, -0.7810,  0.4419,  0.3621,
+             0.5246,  0.0064,  0.4284, -0.1177, -0.0700, -0.0537, -0.1281, -0.3613,
+            -0.0873, -0.6996, -0.1507,  0.1944, -0.6326, -0.1384, -0.0384,  0.0323,
+             0.3344,  0.0667,  0.1177, -0.1347, -0.3413, -0.5302, -0.1326,  0.3330,
+             0.2282, -0.1485, -0.1944,  0.2058,  0.2997, -0.0631, -0.1202, -0.0973,
+            -0.1269, -0.4766, -0.0509,  0.1725, -0.0470, -0.0562,  0.1357, -0.2274,
+             0.3410], grad_fn=<CatBackward>)
     
 
 # Optimization Problem: Circles Dataset
 
-The optimization problem is the Circles dataset from Scikit-Learn, where the neural network model must learn to predict and discriminate between the inner and outer circles. This problem is the reason we need a non-linear activation function in the neural network architecture defined previously.
+The optimization problem is the Circles dataset from Scikit-Learn, where the neural network model must learn to predict and discriminate between the inner circles (labelled 1) and outer circles (labelled 0). The Circles dataset is the reason that non-linear activation functions in the neural network architecture are needed. $X$ is 2-dimensional while $y$ is 1-dimensional.
 
 
 ```python
@@ -154,11 +124,11 @@ net(X[:5, :])
 
 
 
-    tensor([[0.4839],
-            [0.3917],
-            [0.4997],
-            [0.5347],
-            [0.4956]], grad_fn=<SigmoidBackward>)
+    tensor([[0.5009],
+            [0.4840],
+            [0.6110],
+            [0.6143],
+            [0.5136]], grad_fn=<SigmoidBackward>)
 
 
 
@@ -170,7 +140,7 @@ net(X[:5, :])
 
 # Process 1: Generate the initial population of neural networks.
 
-For purpose of explanation, we use a small population size of 5 and 4 hidden units per neural network layer. Looking at the first 2 neural networks in the population, we can notice that neural network parameters are randomly initialised.
+For illustration purposes, a small population size of 5 and 4 hidden units per neural network layer is used. Inspecting the first 2 neural networks in the population, neural network weights are randomly initialised. The specific initialisation method used for the weights is documented in the [PyTorch documentation](https://pytorch.org/docs/stable/generated/torch.nn.Linear.html) for interested readers.
 
 
 ```python
@@ -178,60 +148,40 @@ population_size = 5
 initial_population = np.array([Net(2,1,n_hidden=4) for _ in range(population_size)])
 
 for p in initial_population[:2]:
-  print(list(p.parameters()))
+  print(get_params(p))
 ```
 
-    [Parameter containing:
-    tensor([[ 0.2215, -0.1025],
-            [-0.3548, -0.6888],
-            [ 0.6237,  0.3281],
-            [-0.6007, -0.6913]], requires_grad=True), Parameter containing:
-    tensor([ 0.4499,  0.2065,  0.0315, -0.2500], requires_grad=True), Parameter containing:
-    tensor([[0.0066, 0.0281, 0.1353, 0.0016]], requires_grad=True), Parameter containing:
-    tensor([0.0507], requires_grad=True)]
-    [Parameter containing:
-    tensor([[ 0.3563, -0.0548],
-            [-0.6633,  0.2389],
-            [-0.0208,  0.1780],
-            [ 0.0464, -0.0717]], requires_grad=True), Parameter containing:
-    tensor([ 0.3902, -0.0124,  0.4183,  0.4199], requires_grad=True), Parameter containing:
-    tensor([[-0.1430,  0.0287,  0.0106,  0.1742]], requires_grad=True), Parameter containing:
-    tensor([0.0604], requires_grad=True)]
+    tensor([ 0.5282,  0.4404, -0.6330, -0.1387, -0.2104,  0.5194,  0.3596,  0.2664,
+             0.1044,  0.5380,  0.1583,  0.1221,  0.0324,  0.1239, -0.3698, -0.3658,
+            -0.0879], grad_fn=<CatBackward>)
+    tensor([ 0.3366, -0.6526, -0.1909, -0.4681, -0.3542,  0.2475,  0.1892, -0.1961,
+            -0.2867, -0.4570, -0.3183, -0.2220,  0.1677,  0.2118,  0.1053,  0.3238,
+             0.0737], grad_fn=<CatBackward>)
     
 
 # Process 2: Compute the fitness of the population.
 
-The fitness function measures the performance of an individual neural network. We use the negative binary cross entropy error (BCE), which is negated to reflect a higher value as more desirable.
+The fitness function measures the performance of an individual neural network. Because $y$ is a binary variable of values $\{0,1\}$, the negative binary cross entropy error (BCE) is employed, negated to reflect a higher value as more desirable.
 
 
 ```python
 def fitness_function(net):
   return -nn.BCELoss()(net(X), y).detach().numpy().item()
 
-fitness_score = fitness_function(net)
-fitness_score
-```
-
-
-
-
-    -0.7074669003486633
-
-
-
-
-```python
 def compute_fitness(population):
   return np.array([fitness_function(individual) for individual in population])
 
+fitness_score = fitness_function(net)
 fitness_scores = compute_fitness(initial_population)
-fitness_scores
+
+fitness_score, fitness_scores
 ```
 
 
 
 
-    array([-0.69372076, -0.69437325, -0.69708216, -0.7153697 , -0.7563709 ])
+    (-0.7065134644508362,
+     array([-0.69943392, -0.70006615, -0.70542192, -0.69766504, -0.76979303]))
 
 
 
@@ -251,30 +201,19 @@ def select_fittest(population, fitness_scores, k=0.5):
   return population[np.argsort(fitness_scores)[-int(len(population) * k):]]
 
 parent_subpopulation = select_fittest(initial_population, fitness_scores, k=0.4)
-parent_subpopulation, compute_fitness(parent_subpopulation)
+compute_fitness(parent_subpopulation)
 ```
 
 
 
 
-    (array([Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     ),
-            Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     )], dtype=object), array([-0.69437325, -0.69372076]))
+    array([-0.69943392, -0.69766504])
 
 
 
 # Process 4: Perform reproduction of the parents to replenish the population.
 
-In contrast to common implementations of genetic algorithms, no crossing-over is performed. Parent neural networks are sampled to create an identical copy as the child.
+In contrast to common implementations of genetic algorithms, no crossing-over is performed. Parent neural networks are simply uniformly sampled with replacement to create an identical copy as the child.
 
 
 ```python
@@ -286,43 +225,13 @@ def perform_reproduction(subpopulation):
   return np.append(subpopulation, [copy.deepcopy(p) for p in parents], axis=0)
 
 next_population = perform_reproduction(parent_subpopulation)
-next_population, compute_fitness(next_population)
+compute_fitness(next_population)
 ```
 
 
 
 
-    (array([Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     ),
-            Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     ),
-            Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     ),
-            Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     ),
-            Net(
-       (linear1): Linear(in_features=2, out_features=4, bias=True)
-       (tanh1): Tanh()
-       (linear2): Linear(in_features=4, out_features=1, bias=True)
-       (sigmoid): Sigmoid()
-     )], dtype=object),
-     array([-0.69437325, -0.69372076, -0.69437325, -0.69437325, -0.69372076]))
+    array([-0.69943392, -0.69766504, -0.69943392, -0.69943392, -0.69766504])
 
 
 
@@ -332,8 +241,8 @@ As explained previously, add a Gaussian noise perturbation to all parameters of 
 
 
 ```python
-def get_population_parameter(population, index):
-  return [get_params(net)[index] for net in population]
+def get_population_parameter(population):
+  return [get_params(net) for net in population]
 
 def perform_mutation(population, sigma=0.1):
   for individual in population:
@@ -341,34 +250,46 @@ def perform_mutation(population, sigma=0.1):
   return population
 
 print("Before mutation:")
-print(get_population_parameter(next_population, 1))
+print(get_population_parameter(next_population))
 
 perform_mutation(next_population)
 
 print("\nAfter mutation:")
-print(get_population_parameter(next_population, 1))
+print(get_population_parameter(next_population))
 ```
 
     Before mutation:
-    [Parameter containing:
-    tensor([ 0.3902, -0.0124,  0.4183,  0.4199], requires_grad=True), Parameter containing:
-    tensor([ 0.4499,  0.2065,  0.0315, -0.2500], requires_grad=True), Parameter containing:
-    tensor([ 0.3902, -0.0124,  0.4183,  0.4199], requires_grad=True), Parameter containing:
-    tensor([ 0.3902, -0.0124,  0.4183,  0.4199], requires_grad=True), Parameter containing:
-    tensor([ 0.4499,  0.2065,  0.0315, -0.2500], requires_grad=True)]
+    [tensor([ 0.5282,  0.4404, -0.6330, -0.1387, -0.2104,  0.5194,  0.3596,  0.2664,
+             0.1044,  0.5380,  0.1583,  0.1221,  0.0324,  0.1239, -0.3698, -0.3658,
+            -0.0879], grad_fn=<CatBackward>), tensor([ 0.3565, -0.1857,  0.2187,  0.1788,  0.1412,  0.1778, -0.6750,  0.6518,
+            -0.5023,  0.2402,  0.4160, -0.0343,  0.0818,  0.2978,  0.3582, -0.0858,
+            -0.3332], grad_fn=<CatBackward>), tensor([ 0.5282,  0.4404, -0.6330, -0.1387, -0.2104,  0.5194,  0.3596,  0.2664,
+             0.1044,  0.5380,  0.1583,  0.1221,  0.0324,  0.1239, -0.3698, -0.3658,
+            -0.0879], grad_fn=<CatBackward>), tensor([ 0.5282,  0.4404, -0.6330, -0.1387, -0.2104,  0.5194,  0.3596,  0.2664,
+             0.1044,  0.5380,  0.1583,  0.1221,  0.0324,  0.1239, -0.3698, -0.3658,
+            -0.0879], grad_fn=<CatBackward>), tensor([ 0.3565, -0.1857,  0.2187,  0.1788,  0.1412,  0.1778, -0.6750,  0.6518,
+            -0.5023,  0.2402,  0.4160, -0.0343,  0.0818,  0.2978,  0.3582, -0.0858,
+            -0.3332], grad_fn=<CatBackward>)]
     
     After mutation:
-    [Parameter containing:
-    tensor([ 0.2092, -0.0546,  0.4219,  0.3351], requires_grad=True), Parameter containing:
-    tensor([ 0.4878,  0.0379,  0.2894, -0.2511], requires_grad=True), Parameter containing:
-    tensor([ 0.4366, -0.1424,  0.3989,  0.3069], requires_grad=True), Parameter containing:
-    tensor([0.2994, 0.1719, 0.3107, 0.3521], requires_grad=True), Parameter containing:
-    tensor([ 0.4133,  0.2068,  0.0257, -0.2052], requires_grad=True)]
+    [tensor([ 0.6775,  0.5253, -0.6425,  0.0200, -0.2527,  0.5128,  0.4704,  0.1674,
+             0.0913,  0.3902,  0.1255,  0.2492, -0.1159,  0.0734, -0.2054, -0.3601,
+            -0.1615], grad_fn=<CatBackward>), tensor([ 0.4123, -0.2091,  0.3269,  0.2261,  0.2042,  0.2701, -0.7392,  0.5924,
+            -0.5903,  0.0912,  0.2945, -0.2038,  0.0711,  0.1820,  0.3112, -0.0067,
+            -0.3152], grad_fn=<CatBackward>), tensor([ 0.6215,  0.5592, -0.5993, -0.0947, -0.3291,  0.4888,  0.3596,  0.2436,
+             0.2440,  0.4675, -0.0707,  0.0269,  0.0515,  0.0444, -0.3241, -0.3425,
+            -0.1050], grad_fn=<CatBackward>), tensor([ 0.4444,  0.4725, -0.6944, -0.2502, -0.1153,  0.5679,  0.2696,  0.4509,
+            -0.0502,  0.6541,  0.0673,  0.1718,  0.0901,  0.0092, -0.2689, -0.4209,
+            -0.0223], grad_fn=<CatBackward>), tensor([ 0.2158, -0.1765,  0.0658,  0.1894,  0.0741, -0.1204, -0.7014,  0.5762,
+            -0.3188,  0.3198,  0.5875, -0.0955,  0.0913,  0.2711,  0.3587, -0.0755,
+            -0.4120], grad_fn=<CatBackward>)]
     
 
 # The Neuroevolution Algorithm: All 5 Processes Together
 
-Algorithm:
+By combining the 5 processes together, we construct the neuroevolution algorithm and run it to find a neural network solution that models the Circles dataset well.
+
+Neuroevolution:
 1. Generate the initial population of individuals.
 2. Repeat until convergence:
   1. Compute fitness of the population.
@@ -379,8 +300,6 @@ Algorithm:
 
 
 ```python
-from tqdm.notebook import tqdm
-
 # Neuroevolution hyperparameters
 population_size = 100
 num_generations = 300
@@ -396,7 +315,7 @@ scores = []
 solutions = []
 fittests = []
 
-for i in tqdm(range(num_generations)):
+for i in range(num_generations):
   # Process 2: Compute fitness of the population.
   fitness_scores = compute_fitness(population)
 
@@ -422,21 +341,14 @@ plt.show()
 ```
 
 
-    HBox(children=(HTML(value=''), FloatProgress(value=0.0, max=300.0), HTML(value='')))
-
-
     
-    
-
-
-    
-![png](/images/neuroevolution/output_20_2.png)
+![png](/images/neuroevolution/output_19_0.png)
     
 
 
 # Experiment Result
 
-The background colours illustrate the neural network's decision boundary, while the individual data points are the original dataset. Looking at the fittest individual neural network of the final population, the non-linear decision boundary has been correctly learnt by the fittest neural network in the final population.
+The background colours illustrate the neural network's decision boundary, while the individual data points are the original dataset. Looking at the fittest individual neural network of the final population, the non-linear decision boundary has been correctly and well-learnt by the fittest neural network in the final population.
 
 
 ```python
@@ -463,16 +375,16 @@ plot_data(X, y)
 plot_individual(fittest)
 ```
 
-    Fittest score: -0.04997977614402771
+    Fittest score: -0.028863554820418358
     
 
 
     
-![png](/images/neuroevolution/output_22_1.png)
+![png](/images/neuroevolution/output_21_1.png)
     
 
 
-To conclude the tutorial, let's visualise the optimisation process. If the interactive demo does not work for you, please view this notebook on [jupyter/nbviewer](https://nbviewer.jupyter.org/).
+By visualising the fittest model at each generation of neuroevolution, notice that the circular decision boundary is eventually found. For an evolutionary strategy based on novelty applied on reinforcement learning, refer to [Part 3](https://jetnew.io/posts/2020/11/novelty-search/) of the Evolutionary Computation series on Novelty Search. For an introductory treatment of the genetic algorithm, refer to [Part 1](https://jetnew.io/posts/2020/11/genetic-algorithm/).
 
 
 ```python
@@ -500,17 +412,10 @@ ani = FuncAnimation(fig, animate, frames=np.arange(0, num_generations), interval
 
 
 ```python
-from IPython import display as ipythondisplay
-from IPython.display import HTML
-
-HTML(ani.to_jshtml())
+ani.save('/images/neuroevolution/neuroevolution.gif')
 ```
 
-
-
-```python
-ani.save('neuroevolution.gif')
-```
+    MovieWriter ffmpeg unavailable; using Pillow instead.
     
 
 <img src="/images/neuroevolution/neuroevolution.gif">
