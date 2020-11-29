@@ -36,8 +36,11 @@ $$Observation = [Cart Position, Cart Velocity, Pole Angle, Pole Angular Velocity
 where the range of values are:
 
 $$Cart Position = [-4.8,4.8]$$
+
 $$Cart Velocity = [-Inf, Inf]$$
+
 $$Pole Angle = [-24 degrees, 24 degrees]$$
+
 $$Pole Angular Velocity = [-Inf, Inf]$$
 
 and the action is a single scalar discrete value:
