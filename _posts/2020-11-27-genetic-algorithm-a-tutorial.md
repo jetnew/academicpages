@@ -261,10 +261,10 @@ By combining the 5 processes together, we construct the genetic algorithm and ru
 Genetic Algorithm:
 1. Generate the initial population of individuals.
 2. Repeat until convergence:
-  1. Compute fitness of the population.
-  2. Select the fittest individuals (parent subpopulation).
-  3. Perform crossing-over between parents to produce children.
-  4. Perform mutation on the population.
+	1. Compute fitness of the population.
+	2. Select the fittest individuals (parent subpopulation).
+	3. Perform crossing-over between parents to produce children.
+	4. Perform mutation on the population.
 3. Select the fittest individual of the population as the solution.
 
 

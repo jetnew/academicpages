@@ -176,11 +176,10 @@ By selecting the most novel individuals over generations, the individuals in the
 Novelty Search:
 1. Generate the initial population of individuals.
 2. Repeat until convergence:
-  1. Compute novelty of the population.
-  2. Select the most novel individuals to form the parent subpopulation.
-  3. Perform reproduction between parents to produce children.
-  4. Perform mutation on the population.
-    
+	1. Compute novelty of the population.
+	2. Select the most novel individuals to form the parent subpopulation.
+	3. Perform reproduction between parents to produce children.
+	4. Perform mutation on the population.
 3. Select the fittest individual of the population as the solution.
 
 
