@@ -1,8 +1,8 @@
 ---
-title: 'Neuroevolution: A Tutorial'
+title: 'Evolutionary Computation: Neuroevolution (Part 2/3)'
 date: 2020-11-28
-excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks. The neural network can be adapted in terms of parameters, hyperparameters or architecture.'
-permalink: /posts/2020/11/neuroevolution-a-tutorial/
+excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks, easily parallelisable to improve wall-clock training duration. A 3-part series on evolutionary computation.'
+permalink: /posts/2020/11/neuroevolution/
 tags:
   - evolutionary-computation
   - complex-systems

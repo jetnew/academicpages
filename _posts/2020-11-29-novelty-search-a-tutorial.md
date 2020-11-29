@@ -1,8 +1,8 @@
 ---
-title: 'Novelty Search: A Tutorial'
+title: 'Evolutionary Computation: Novelty Search (Part 3/3)'
 date: 2020-11-29
-excerpt: 'Novelty Search is an Evolutionary Strategy (ES) algorithm that optimises using a novelty function instead of a fitness function in a genetic algorithm. Novelty Search has shown to produce good performance for exploration in reinforcement learning.'
-permalink: /posts/2020/11/novelty-search-a-tutorial/
+excerpt: 'Novelty Search is an Evolutionary Strategy (ES) algorithm that optimises using a novelty function instead of a fitness function, which has shown to produce competitive performance in reinforcement learning. A 3-part series on evolutionary computation.'
+permalink: /posts/2020/11/novelty-search/
 tags:
   - evolutionary-computation
   - complex-systems

@@ -1,11 +1,12 @@
 ---
-title: 'Genetic Algorithm: A Tutorial'
+title: 'Evolutionary Computation: Genetic Algorithm (Part 1/3)'
 date: 2020-11-27
-excerpt: 'The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation.'
-permalink: /posts/2020/11/genetic-algorithm-a-tutorial/
+excerpt: 'The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation. A 3-part series on evolutionary computation.'
+permalink: /posts/2020/11/genetic-algorithm/
 tags:
   - evolutionary-computation
   - complex-systems
+  - regression
   - optimisation
   - tutorial
 ---
