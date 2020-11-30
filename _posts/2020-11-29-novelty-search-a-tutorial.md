@@ -12,7 +12,7 @@ tags:
 
 # Novelty Search
 
-Novelty Search is an Evolutionary Strategy (ES) algorithm that optimises using a novelty function instead of a fitness function (like in a vanilla genetic algorithm), which has shown to produce competitive performance for exploration in reinforcement learning. The novelty of a solution is defined by how similar the solution's behaviour is as compared to the rest of the population. The novelty score is therefore computed by its average distance from the k-nearest neighbours in the population. 3rd of a 3-part series on evolutionary computation (Part 1 - [Genetic Algorithm](https://jetnew.io/posts/2020/11/genetic-algorithm/), Part 2 - [Neuroevolution](https://jetnew.io/posts/2020/11/neuroevolution/)).
+Novelty Search is an Evolutionary Strategy (ES) algorithm that optimises using a novelty function instead of a fitness function (like in a vanilla genetic algorithm), which has shown to produce competitive performance for exploration in reinforcement learning. The novelty of a solution is defined by how similar the solution's behaviour is as compared to the rest of the population. The novelty score is therefore computed by its average distance from the $k$-nearest neighbours in the population. 3rd of a 3-part series on evolutionary computation (Part 1 - [Genetic Algorithm](https://jetnew.io/posts/2020/11/genetic-algorithm/), Part 2 - [Neuroevolution](https://jetnew.io/posts/2020/11/neuroevolution/)).
 
 
 ```python
@@ -29,7 +29,7 @@ from torch.autograd import Variable
 
 # Neuroevolution for Reinforcement Learning
 
-Neuroevolution is the application of evolutionary strategies to neural networks. We use a simple neural network in PyTorch, with 2 linear layers and 2 non-linear activation functions tangent and sigmoid. In deep reinforcement learning, the neural network serves as function mapping from the observation of the environment to an action chosen by the agent. Over one episode, the agent performs an action and the state of the environment is observed by the agent, along with a reward at that particular timestep. The fitness of an individual neural network is therefore defined by the cumulative reward obtained by the agent over one episode of interacting with the environment. The environment used is [CartPole-v1](https://gym.openai.com/envs/CartPole-v1/), where the agent's goal is to balance the pole by pushing the cart. The state observed by the agent is defined as:
+Neuroevolution is the application of evolutionary strategies to neural networks. We use a simple neural network in PyTorch, with 2 linear layers and 2 non-linear activation functions tangent and sigmoid. In deep reinforcement learning, the neural network policy $\pi: s \rightarrow a$ serves as function mapping from the observation of the environment to an action chosen by the agent. Over one episode, the agent performs an action and the state of the environment is observed by the agent, along with a reward at that particular timestep. The fitness of an individual neural network is therefore defined by the cumulative reward obtained by the agent over one episode of interacting with the environment. The environment used is [CartPole-v1](https://gym.openai.com/envs/CartPole-v1/), where the agent's goal is to balance the pole by pushing the cart. The state observed by the agent is defined as:
 
 $$Observation = [Cart Position, Cart Velocity, Pole Angle, Pole Angular Velocity]$$
 
@@ -91,19 +91,19 @@ def get_fittest(population, fitness_scores):
 
 # Novelty Selection
 
-The main difference between neuroevolution and novelty search is the selection criterion, changed from the fitness score to the novelty score. Instead of selecting for the fittest individuals in a population, novelty search selects the most novel individuals by the novelty score with respect to the rest of the population. The novelty score indicates the novelty of an individual, defined as the average difference of an individual $\pi$ to $k$-nearest neighbours in the population, notably in terms of their behaviour. Therefore, the behaviour of an individual $b(\pi_i)$ must be defined. We employ a simple characterisation of a neural network's behaviour as the terminal (final) state $s_n$ in the sequence of states observed by the agent $S_{\pi_i} = [s_1, s_2, ..., s_n]$ in 1 evaluation:
+The main difference between neuroevolution and novelty search is the selection criterion, changed from the fitness score to the novelty score. Instead of selecting for the fittest individuals in a population, novelty search selects the most novel individuals by the novelty score with respect to the rest of the population. The novelty score indicates the novelty of an individual, defined as the average difference of an individual neural network policy $\pi$ to $k$-nearest neighbours in the population, notably in terms of their behaviour. Therefore, the behaviour of an individual $b(\pi_i)$ must be defined. We employ a simple characterisation of a neural network's behaviour as the terminal (final) state $s_n$ in the sequence of states observed by the agent $S_{\pi_i} = [s_1, s_2, ..., s_n]$ in 1 evaluation:
 
 $$Behaviour(\pi_i) = Terminal(S_{\pi_i}) = s_{n}$$
 
 The similarity between 2 individuals' behaviours is simply the sum of squared difference between final observations:
 
-$$Similarity(\pi_i, \pi_j) = ||Behaviour(\pi_i) - Behaviour(\pi_j)||$$
+$$Similarity(\pi_i, \pi_j) = ||Behaviour(\pi_i) - Behaviour(\pi_j)||_2$$
 
 The novelty of an individual with respect to its $k$-nearest neighbours of the population $P$ is defined by:
 
 $$Novelty(\pi_i, N_{\pi_i}) = \frac{1}{|N_{\pi_i}|} \sum_{\pi_k\in N_{\pi_i}}Similarity(\pi_i, \pi_k)$$
 
-where $N_{\pi_i}$ refers to the $k$-nearest neighbours of $\pi_i$. The $k$-nearest neighbours $N_{\pi_i}$ are selected by the $k$ largest similarity scores between $\pi_i$ and $\pi_{k}\in N_{\pi_i}$.
+where $N_{\pi_i}$ refers to the $k$-nearest neighbours of $\pi_i$. The $k$-nearest neighbours $N_{\pi_i}$ are selected by the $k$ largest similarity scores between $\pi_i$ and $\pi_{k}\in P$.
 
 
 ```python
