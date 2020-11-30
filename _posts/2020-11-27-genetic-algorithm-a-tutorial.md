@@ -99,7 +99,7 @@ $$f(X) =  \theta_1 X + \theta_2$$
 
 where $\theta_1$ and $\theta_2$ should converge to $m$ and $c$ respectively eventually. The fitness function measures the performance of an individual solution. The evolutionary analogy of the fitness function of an organism would be, for example, its survivability and/or reproductive success. Because we want to model the linear function with Gaussian noise dataset, the negative mean squared error (MSE) is used as the fitness function to determine how well the solution models the dataset:
 
-$$MSE = \frac{1=1}{n} \sum_i^n (y_{i} - f(x_i))^2$$
+$$MSE = \frac{1}{n} \sum_{i=1}^n (y_{i} - f(x_i))^2$$
 
 Because the fitness function is to be maximised, MSE is negated to reflect a higher value of MSE as more desirable.
 
