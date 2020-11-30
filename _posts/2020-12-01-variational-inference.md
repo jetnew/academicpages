@@ -1,7 +1,7 @@
 ---
 title: 'Variational Inference: An Introduction'
 date: 2020-12-01
-excerpt: 'Variational inference'
+excerpt: 'Variational inference is a technique for approximating intractable probability distributions by optimization.'
 permalink: /posts/2020/12/variational-inference/
 tags:
   - bayesian-learning
