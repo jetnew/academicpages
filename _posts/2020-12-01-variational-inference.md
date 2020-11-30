@@ -11,13 +11,13 @@ tags:
 
 # Variational Inference
 
-In variational inference, the true but intractable distribution $p^*(x)$, defined by the posterior distribution $p(x|D)$ over a set of unobserved variables $x = \{x_1 ... x_n\}$ given data $D$, is approximated by a tractable variational distribution $q(x)$:
+In variational inference, the true but intractable distribution $p^*(x)$, defined by the posterior distribution $p(x\mid D)$ over a set of unobserved variables $x = \{x_1 ... x_n\}$ given data $D$, is approximated by a tractable variational distribution $q(x)$:
 
-$$p^*(x) = p(x|D) \approx q(x)$$
+$$p^*(x) = p(x\mid D) \approx q(x)$$
 
 ## Derivation from the Kullback-Leibler Divergence
 
-To approximate $Q(\theta)$ to $P(\theta|X)$, the Kullback-Leibler (KL) divergence can be employed as the cost function:
+To approximate $q(x)$ to $p(x\mid D)$, the Kullback-Leibler (KL) divergence can be employed as the cost function:
 
 $$KL(p^*\Vert q) = \sum_x p^*(x) log \frac{p^*(x)}{q(x)}$$
 
@@ -25,7 +25,7 @@ However, since $p^*(x)$ is intractable, the reverse KL divergence is employed:
 
 $$KL(q\Vert p^*) = \sum_x q(x) log \frac{q(x)}{p^*(x)}$$
 
-Because evaluating $p^*(x)=p(x|D)$ pointwise is hard due to the intractable normalization constant $p(D)$, it is replaced with the unnormalized distribution:
+Because evaluating $p^*(x)=p(x\mid D)$ pointwise is hard due to the intractable normalization constant $p(D)$, it is replaced with the unnormalized distribution:
 
 $$\tilde{p}(x)=p(x,D)=p^*(x)p(D)$$
 
