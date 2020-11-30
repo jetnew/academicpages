@@ -10,7 +10,7 @@ tags:
 ---
 
 # Variational Inference
-
+u
 In variational inference, the true but intractable distribution $p^*(x)$, defined by the posterior distribution $p(x|D)$ over a set of unobserved variables $x = \{x_1 ... x_n\}$ given data $D$, is approximated by a tractable variational distribution $q(x)$:
 
 $$p^*(x) = p(x|D) \approx q(x)$$
