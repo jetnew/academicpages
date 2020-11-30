@@ -11,11 +11,11 @@ tags:
 
 # Variational Inference
 
-In variational inference, the true but intractable distribution $p^*(x)$, defined by the posterior distribution $p(x\mid D)$ over a set of unobserved variables $x = \{x_1 ... x_n\}$ given data $D$, is approximated by a tractable variational distribution $q(x)$:
+Variational inference is a technique for approximating intractable probability distributions by optimization. In variational inference, the true but intractable distribution $p^*(x)$, defined by the posterior distribution $p(x\mid D)$ over a set of unobserved variables $x = \{x_1 ... x_n\}$ given data $D$, is approximated by a tractable variational distribution $q(x)$:
 
 $$p^*(x) = p(x\mid D) \approx q(x)$$
 
-# Derivation from the Kullback-Leibler Divergence
+## Derivation from the Kullback-Leibler Divergence
 
 To approximate $q(x)$ to $p(x\mid D)$, the Kullback-Leibler (KL) divergence can be employed as the cost function:
 
@@ -43,7 +43,7 @@ $$=KL(q\Vert p^*)-log p(D)$$
 
 Since $p(D)$ is a constant, by minimizing $J(q)$, $q$ approximates to $p^*$.
 
-# Deriving the Lower Bound on Log Likelihood
+## Deriving the Lower Bound on Log Likelihood
 
 Since KL divergence is non-negative, $J(q)$ is an upper bound on the negative log likelihood to be minimised:
 
