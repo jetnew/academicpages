@@ -97,7 +97,7 @@ $$Behaviour(\pi_i) = Terminal(S_{\pi_i}) = s_{n}$$
 
 The similarity between 2 individuals' behaviours is simply the sum of squared difference between final observations:
 
-$$Similarity(\pi_i, \pi_j) = ||Behaviour(\pi_i) - Behaviour(\pi_j)||_2$$
+$$Similarity(\pi_i, \pi_j) = \Vert Behaviour(\pi_i) - Behaviour(\pi_j)\Vert_2$$
 
 The novelty of an individual with respect to its $k$-nearest neighbours of the population $P$ is defined by:
 
