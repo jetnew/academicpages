@@ -107,7 +107,7 @@ where $N_{\pi_i}$ refers to the $k$-nearest neighbours of $\pi_i$. The $k$-neare
 
 <p align="center"><img src="/images/novelty-search/novelty_knn.jpg"></p>
 
-<p align="center"><i>Local sparseness around each individual behaviour, ([Naredo 2016](https://dl.acm.org/doi/10.1016/j.ins.2016.06.044))</i></p>
+<p align="center"><i>Local sparseness around each individual behaviour, (<a href="https://dl.acm.org/doi/10.1016/j.ins.2016.06.044">Naredo 2016</a>)</i></p>
 
 As shown above, individuals in a dense region of the behaviour space have less novel behaviour, while individuals in a sparse region have most novel behaviour and are selected for.
 
