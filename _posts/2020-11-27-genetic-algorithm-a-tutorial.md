@@ -95,7 +95,7 @@ initial_population
 
 Another 2 hyperparameters are in the form of functions - the solution and the fitness function. The solution is a model that uses the individual's parameters to compute the output $y$ given input $X$. For simplicity, we use the polynomial regression model (with 2 parameters, it is a simple linear regression model):
 
-$$f(x) =  \theta_1 x + \theta_2$$
+$$f(X) =  \theta_1 X + \theta_2$$
 
 where $\theta_1$ and $\theta_2$ should converge to $m$ and $c$ respectively eventually. The fitness function measures the performance of an individual solution. The evolutionary analogy of the fitness function of an organism would be, for example, its survivability and/or reproductive success. Because we want to model the linear function with Gaussian noise dataset, the negative mean squared error (MSE) is used as the fitness function to determine how well the solution models the dataset:
 
