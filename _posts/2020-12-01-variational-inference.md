@@ -43,7 +43,7 @@ $$=KL(q\Vert p^*)-log p(D)$$
 
 Since $p(D)$ is a constant, by minimizing $J(q)$, $q$ approximates to $p^*$.
 
-## Deriving the Lower Bound on Log Likelihood
+## Deriving the Lower Bound on the Log Likelihood
 
 Since KL divergence is non-negative, $J(q)$ is an upper bound on the negative log likelihood to be minimised:
 
