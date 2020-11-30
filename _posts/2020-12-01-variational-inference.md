@@ -15,7 +15,7 @@ In variational inference, the true but intractable distribution $p^*(x)$, define
 
 $$p^*(x) = p(x\mid D) \approx q(x)$$
 
-## Derivation from the Kullback-Leibler Divergence
+# Derivation from the Kullback-Leibler Divergence
 
 To approximate $q(x)$ to $p(x\mid D)$, the Kullback-Leibler (KL) divergence can be employed as the cost function:
 
@@ -43,7 +43,7 @@ $$=KL(q\Vert p^*)-log p(D)$$
 
 Since $p(D)$ is a constant, by minimizing $J(q)$, $q$ approximates to $p^*$.
 
-## Deriving the Lower Bound on Log Likelihood
+# Deriving the Lower Bound on Log Likelihood
 
 Since KL divergence is non-negative, $J(q)$ is an upper bound on the negative log likelihood to be minimised:
 
@@ -54,3 +54,7 @@ Equivalently, maximising the negative of $J(q)$ derives a lower bound on the log
 $$L(q) = -J(q) = -KL(q\Vert p^*) + log p(D) \leq log p(D)$$
 
 When $q=p^*$, the lower bound is tight and variational inference is closely related to expectation maximisation.
+
+## References
+
+Murphy, Kevin P. Machine learning: a probabilistic perspective. MIT press, 2012.
