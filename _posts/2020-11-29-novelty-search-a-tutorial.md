@@ -105,6 +105,11 @@ $$Novelty(\pi_i, N_{\pi_i}) = \frac{1}{|N_{\pi_i}|} \sum_{\pi_k\in N_{\pi_i}}Sim
 
 where $N_{\pi_i}$ refers to the $k$-nearest neighbours of $\pi_i$. The $k$-nearest neighbours $N_{\pi_i}$ are selected by the $k$ largest similarity scores between $\pi_i$ and $\pi_{k}\in P$.
 
+![png](/images/novelty-search/novelty_knn.jpg)
+*Local sparseness around each individual behaviour, ([Naredo 2016](https://dl.acm.org/doi/10.1016/j.ins.2016.06.044))*
+
+As shown above, individuals in a dense region of the behaviour space have less novel behaviour, while individuals in a sparse region have most novel behaviour and are selected for.
+
 
 ```python
 def behaviour(net):
