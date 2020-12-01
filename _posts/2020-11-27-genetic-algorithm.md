@@ -24,7 +24,7 @@ The genetic algorithm consists of 5 processes:
 
 Terminology:
 - Population refers to the set of individuals (solution).
-- Individual is defined by its chromsome (set of parameters/variables).
+- Individual is defined by its chromosome (set of parameters/variables).
 - Fitness function refers to the performance measure of an individual.
 - Selection refers to the selection of the fittest.
 - Crossing-over refers to a swapping of segments of 2 parents' genes, producing a child individual with a new gene combination.
