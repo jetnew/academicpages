@@ -21,10 +21,10 @@ Correlation does not imply causation. The mantra-like statement is engrained in 
 
 # Terminology
 
-* Potential outcome: The effect of a treatment on some outcome, $Y_i|_{do(T=1)}=Y_i(1)$.
+* Potential outcome: The effect of a treatment on some outcome, $Y_i\vert_{do(T=1)}=Y_i(1)$.
 * Causal effect: $Y_i(1)-Y_i(0)$
 * Individual treatment effect (ITE): $Y_i(1)-Y_i(0)$
-* Average treatment effect (ATE): $E[Y_i(1)-Y_i(0)]=E[Y(1)]-E[Y(0)]\neq E[Y|T=1]-E[Y|T=0]$
+* Average treatment effect (ATE): $E[Y_i(1)-Y_i(0)]=E[Y(1)]-E[Y(0)]\neq E[Y\vertT=1]-E[Y\vertT=0]$
 
 # The Fundamental Problem of Causal Inference
 
@@ -52,8 +52,8 @@ because the groups may be uncomparable due to a difference in ratios of confound
 
 # Assumptions for ATE to Equal Associational Difference
 
-1. Ignorability (exchangeability): The potential outcomes are independent to the treatment, $(Y(1),Y(0))\perp T$ allowing the causal quantity $E[Y(t)]$ to be identifiable from the statistical quantity $E[Y|T]$.
-2. Positivity: The probability of treatment given the covariate $0<P(T=1|X=x)<1$ for all covariates is positive (and non-zero).
+1. Ignorability (exchangeability): The potential outcomes are independent to the treatment, $(Y(1),Y(0))\perp T$ allowing the causal quantity $E[Y(t)]$ to be identifiable from the statistical quantity $E[Y\vert T]$.
+2. Positivity: The probability of treatment given the covariate $0<P(T=1\vert X=x)<1$ for all covariates is positive (and non-zero).
 3. No interference: The potential outcome is a function of only the treatment, $Y_i(t_1,...,t_i,t_{i+1},...,t_n)=Y_i(t_i)$.
 4. Consistency: The same treatment implies the same potential outcome, $T=t\rightarrow Y=Y(t)$.
 
@@ -73,7 +73,7 @@ $$E_X[E[Y|T=1,X]-E[Y|T=0,X]] \tag{consistency}$$
 
 * Estimand: Any quantity to estimate.
 * Causal estimand: e.g. $E[Y(1)-Y(0)]$.
-* Statistical estimand: e.g. $E_X[E[Y|T=1,X]-E[Y|T=0,X]]$.
+* Statistical estimand: e.g. $E_X[E[Y\vert T=1,X]-E[Y\vert T=0,X]]$.
 * Estimate: Approximation of estimand using data.
 * Estimation: Process to approximate from data and estimand to the estimate.'
 
@@ -101,7 +101,7 @@ Local Markov Assumption $\leftrightarrow$ Bayesian Network Factorization
 
 # Minimality Assumption
 
-1. Local Markov Assumption: Permits distributions where $P(x,y)=P(x)P(y|x)$ and where $P(x,y)=P(x)P(y)$.
+1. Local Markov Assumption: Permits distributions where $P(x,y)=P(x)P(y\vert x)$ and where $P(x,y)=P(x)P(y)$.
 2. Adjacent nodes in the DAG are dependent ($X\rightarrow Y$). Does not permit distributions where $P(x,y)=P(x)P(y)$.
 
 # Causal Edges Assumption
@@ -135,7 +135,7 @@ In both chains and forks as above, when conditioned as $X_2$, association is blo
 
 # D-Separation
 * Two (sets of) nodes $X$ and $Y$ are d-separated by a set of nodes $Z$ if all of the paths between (any node in) $X$ and (any node in) $Y$ are blocked by $Z$.
-* Theorem: Given that probability distribution $P$ is Markov with respect to graph $G$, $X\perp_G Y|Z\rightarrow X\perp_P Y|Z$.
+* Theorem: Given that probability distribution $P$ is Markov with respect to graph $G$, $X\perp_G Y\vert Z\rightarrow X\perp_P Y\vert Z$.
 * Global Markov assumption: D-separation implies conditional independencies in the distribution ($\leftrightarrow$ Local Markov Assumption $\leftrightarrow$ Markov Assumption)
 
 # Structural Causal Model
