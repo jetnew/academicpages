@@ -24,7 +24,7 @@ Correlation does not imply causation. The mantra-like statement is engrained in 
 * Potential outcome: The effect of a treatment on some outcome, $Y_i\vert_{do(T=1)}=Y_i(1)$.
 * Causal effect: $Y_i(1)-Y_i(0)$
 * Individual treatment effect (ITE): $Y_i(1)-Y_i(0)$
-* Average treatment effect (ATE): $E[Y_i(1)-Y_i(0)]=E[Y(1)]-E[Y(0)]\neq E[Y\vertT=1]-E[Y\vertT=0]$
+* Average treatment effect (ATE): $E[Y_i(1)-Y_i(0)]=E[Y(1)]-E[Y(0)]\neq E[Y\vert T=1]-E[Y\vert T=0]$
 
 # The Fundamental Problem of Causal Inference
 
