@@ -166,3 +166,6 @@ A SCM is a tuple of the following sets:
 * By not conditioning on descendants of the treatment variable, the collider bias on post-treatment covariates can be avoided.
 * However, collider bias can still be observed by inducing pre-treatment association, known as the M-bias.
 * To avoid M-bias, do not condition on the relevant covariate by referencing the causal graph.
+
+# References
+* Brady Neal [Causal Inference Course](https://www.bradyneal.com/causal-inference-course)
