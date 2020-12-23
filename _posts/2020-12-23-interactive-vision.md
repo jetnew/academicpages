@@ -1,7 +1,7 @@
 ---
 title: 'Interactive Vision: Lessons from Attentional Reinforcement Learning'
 date: 2020-12-23
-excerpt: 'Interactive vision was a framework proposed in 1994 by Churchland to replace the Pure Vision paradigm and its "rich replica" assumptions. 20 years on, indeed as Churchland wondered, how much mileage can we get out of reinforcement learning should we assume that perceptions are a semi-world representation of goal-relevant properties?'
+excerpt: 'Interactive vision was a framework proposed in 1994 by Churchland to replace the Pure Vision paradigm and its "rich replica" assumptions. After 20 years, as Churchland questioned, how much mileage can we get out of reinforcement learning should we assume that perceptions are a "semi-world representation" of goal-relevant properties?'
 permalink: /posts/2020/12/interative-vision/
 tags:
   - reinforcement-learning
@@ -28,7 +28,7 @@ Churchland suggests that reinforcement learning, a learning paradigm by which de
 The rich-replica assumption is implied by the theory of pure vision, which characterises what we literally see as “a fully elaborated representation of the visual scene” (Churchland, Ramachandran and Sejnowski 24). Pure vision also entails a dependency relation, that higher levels in the visual processing “hierarchy” depend on lower levels, but not vice versa.
 
 <figure align="center">
-    <img src='../images/interactive-vision/feed-forward-vision.jpg' alt='missing' />
+    <img src='/images/interactive-vision/feed-forward-vision.jpg' alt='missing' />
     <figcaption>Figure 1: The classical view of hierarchical feed-forward processing (Herzog and Clarke).</figcaption>
 </figure>
 
@@ -39,14 +39,14 @@ The dependency relation, described as the “classical view of hierarchical feed
 Visual attention is the ability to focus on important parts of the visual world without distraction from irrelevant details (Tang and Ha). Visual attention enables people to condense broad visual information to be used in decision making. The attention mechanism is a recent breakthrough in the application of deep learning to many fields, including image processing.
 
 <figure align="center">
-    <img src='../images/interactive-vision/attention-mechanism.png' alt='missing' />
+    <img src='/images/interactive-vision/attention-mechanism.png' alt='missing' />
     <figcaption>Figure 2: The attention mechanism (Singh).</figcaption>
 </figure>
 
 As illustrated on Figure 2, the attention mechanism produces an attention score that weights each segment of the visual input by its importance according to the agent’s received reward, or the “utility in the predictive game” as described by Churchland, to construct a useful representation of the visual input. By weighting each visual input segment with an attention score, segments with a lower score have a smaller influence, to the extent of negligibility, over the action chosen by the agent. As a result, the attention mechanism contributes to a partially elaborated representation of the visual scene, simplifying the credit assignment problem as the agent can now determine which segment of the visual input is relevant to the utility received. In contrast, the construction of a perfect representation of the visual world within an agent, which is independent of the reward received, tends to be a disadvantage because the construction consumes additional time, space and energy (Churchland, Ramachandran and Sejnowski 47).
 
 <figure align="center">
-    <img src='../images/interactive-vision/carracing-neuroevolution.png' alt='missing' />
+    <img src='/images/interactive-vision/carracing-neuroevolution.png' alt='missing' />
     <figcaption>Figure 3: The car racing simulation (left) and attention score for various visual input segments (right) (Tang, Nguyen and Ha).</figcaption>
 </figure>
 
