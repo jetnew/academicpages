@@ -29,7 +29,7 @@ The rich-replica assumption is implied by the theory of pure vision, which chara
 
 <figure align="center">
     <img src='/images/interactive-vision/feed-forward-vision.jpg' alt='missing' />
-    <figcaption>Figure 1: The classical view of hierarchical feed-forward processing (Herzog and Clarke).</figcaption>
+    <figcaption align="center">Figure 1: The classical view of hierarchical feed-forward processing (Herzog and Clarke).</figcaption>
 </figure>
 
 The dependency relation, described as the “classical view of hierarchical feed-forward processing” (Medathati, Neumann and Masson) in Figure 1, can be illustrated through the propagation of signals from the initial retinal stages, to the lateral geniculate nucleus (LGN), to the later visual cortical processing stages (e.g. V1, V2) (Churchland, Ramachandran and Sejnowski 24). The dependency relation implicates that vision operates independently of other sensory modalities, such as learning and motor execution. However, Churchland argues that what we see at any given moment is only the “visual semi-world”, a partially elaborated representation of the visual scene, based on what is immediately relevant to us, because visual perception evolved from the organism’s need to excel in survival. By attending only to immediately relevant segments of the visual scene, the theory of interactive vision states that we construct only a partially elaborated representation of the visual world in our visual perception.
@@ -40,14 +40,14 @@ Visual attention is the ability to focus on important parts of the visual world 
 
 <figure align="center">
     <img src='/images/interactive-vision/attention-mechanism.png' alt='missing' />
-    <figcaption>Figure 2: The attention mechanism (Singh).</figcaption>
+    <figcaption align="center">Figure 2: The attention mechanism (Singh).</figcaption>
 </figure>
 
 As illustrated on Figure 2, the attention mechanism produces an attention score that weights each segment of the visual input by its importance according to the agent’s received reward, or the “utility in the predictive game” as described by Churchland, to construct a useful representation of the visual input. By weighting each visual input segment with an attention score, segments with a lower score have a smaller influence, to the extent of negligibility, over the action chosen by the agent. As a result, the attention mechanism contributes to a partially elaborated representation of the visual scene, simplifying the credit assignment problem as the agent can now determine which segment of the visual input is relevant to the utility received. In contrast, the construction of a perfect representation of the visual world within an agent, which is independent of the reward received, tends to be a disadvantage because the construction consumes additional time, space and energy (Churchland, Ramachandran and Sejnowski 47).
 
 <figure align="center">
     <img src='/images/interactive-vision/carracing-neuroevolution.png' alt='missing' />
-    <figcaption>Figure 3: The car racing simulation (left) and attention score for various visual input segments (right) (Tang, Nguyen and Ha).</figcaption>
+    <figcaption align="center">Figure 3: The car racing simulation (left) and attention score for various visual input segments (right) (Tang, Nguyen and Ha).</figcaption>
 </figure>
 
 As shown in Figure 3, after attentional reinforcement learning agents were trained on a car racing simulation, visual input segments containing red-white markers that indicate a sharp turn are assigned a high attention score by the agent (Tang, Nguyen and Ha 8). When the background of the simulation was modified by the experimenters, the agent remains performant. By limiting sensory information through an attentional bottleneck, the agent is shown to learn to ignore information that is non-critical to the task. By encouraging the agent to attend to only a small fraction of its visual input, as Churchland reasoned, the agent learns to focus its attention to visual targets that benefits it in the survival game, as an attended target of the visual scene is more probable to be causally related to the utility received (Churchland, Ramachandran and Sejnowski 44).
