@@ -1,171 +1,153 @@
 ---
-title: 'A Note on Causal Inference'
-date: 2030-12-03
-excerpt: 'Causal inference is the inference of the effect of any treatment, policy or intervention based on the causal structures of the underlying process.'
-permalink: /posts/2020/12/causal-inference/
+title: 'Introduction to Causal Inference'
+date: 2021-01-01
+excerpt: 'Causal inference is the inference of the effect of any treatment on the outcome, based on the causal structures of the underlying process.'
+permalink: /posts/2021/1/causal-inference/
 tags:
   - causal-inference
-  - bayesian-learning
-  - statistics
 ---
 
-# Causal Inference
+# Introduction to Causal Inference
 
-Causal inference is the inference of the effect of any treatment, policy or intervention, the effect of $X$ on $Y$, based on the causal structures of the underlying process, e.g. inferring the effect of a treatment on a disease.
+Causal inference is the inference of the effect of any treatment of $T$ on the outcome $Y$, based on the causal structure of the underlying process, e.g. inferring the effect of a treatment on a disease.
 
-Having read 4 weeks of Brady Neal's Causal Inference course, the purpose of this note is to consolidate my learning and provide an easy way to revise causal inference concepts.
+## Correlation and Causation
 
-## Correlation v.s. Causation
-
-Correlation does not imply causation. The mantra-like statement is engrained in students of science since young, but what is causation then? Let's illustrate the statement with an example: Sleeping with shoes on is strongly correlated with waking up with a headache, but sleeping with shoes on (as we know it) do not cause a headache when waking up. The reason for the association is the existence of a confounder variable (a common cause), drinking the night before, that confounds the association of shoe-sleepers to headaches. Correlation = Causation is a cognitive bias that is due to the availability heuristic and motivated reasoning, where people believe a correlated event as causal because the thought of the event is more available to the person (availability heuristic) and because people produce justifications that are most desired (motivated reasoning) ([Blanco & Matute, 2018](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4488611/)).
-
-# Terminology
-
-* Potential outcome: The effect of a treatment on some outcome, $Y_i\vert_{do(T=1)}=Y_i(1)$.
-* Causal effect: $Y_i(1)-Y_i(0)$
-* Individual treatment effect (ITE): $Y_i(1)-Y_i(0)$
-* Average treatment effect (ATE): $E[Y_i(1)-Y_i(0)]=E[Y(1)]-E[Y(0)]\neq E[Y\vert T=1]-E[Y\vert T=0]$
+Correlation is not causation. A confounder variable $Z$ can confound the association between the treatment variable $T$ and outcome variable $Y$. The potential outcome $Y(t)$ is the outcome of taking a particular treatment $T=t$.
 
 # The Fundamental Problem of Causal Inference
 
-Given a treatment $T$, if we perform $do(T=1)$, the potential outcome of $do(T=0)$, $Y_i(0)$ cannot be observed (because we cannot go back in time to repeat the opposite treatment on the same individual), and vice versa.
+It is impossible to observe all potential outcomes for a given individual, because the opposite treatment cannot be repeated on the same individual in the past. Counterfactuals are potential outcomes that are not observed and cannot be observed because they are counter to fact. Because counterfactuals cannot be observed, it is fundamentally a missing data problem.
 
-# Randomized Control Trials (RCTs)
+## Individual and Average Treatment Effects
+
+The individual treatment effect (ITE) $\tau_i$ is the causal effect of taking a treatment on a potential outcome. The ITE computes the difference in potential outcomes of an individual given different treatments.
+
+$$ \tau_i \overset{\Delta}{=} Y_i(1)-Y_i(0)$$
+
+The average treatment effect (ATE) $\tau$ is an average over ITEs, because the ITE cannot easily be accessed. The ATE computes the difference in expected potential outcomes given different treatments.
+
+$$ \tau \overset{\Delta}{=} E[Y_i(1)-Y_i(0)] = E[Y(1)-Y(0)] $$
+
+## Associational and Causal Quantities
+
+The ITE and ATE are causal quantities that are not equal to the associational quantity of conditional expectation, due to the existence of confounders.
 
 When confounding exists, the ATE:
 
-$$E[Y(1)]-E[Y(0)]\neq E[Y|T=1]-E[Y|T=0]$$
+$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} \neq \underbrace{E[Y|T=1]-E[Y|T=0]}_{associational}$$
 
 When confounding does not exist, the ATE:
 
-$$E[Y(1)]-E[Y(0)]=E[Y|T=1]-E[Y|T=0]$$
+$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} \neq \underbrace{E[Y\vert T=1]-E[Y\vert T=0]}_{associational} $$
 
-Randomized Control Trials (RCTs) is the process where the experimenter randomizes subjects into the treatment or control group, resulting in the treatment $T$ to not have any causal parents, removing the confounding association to isolate the causal association.
+Identification is the computation of causal quantities from associational quantities, which requires assumptions about the causal structures of the underlying processes.
 
-# Measuring Causal Effects in Observational Studies
+## Randomized Control Trials
 
-The average treatment effect (ATE) is not equal to the associational difference:
+A randomized control trial (RCT) is the random assignment of individuals into the treatment or control group. As a result, the treatment variable $T$ does not have any causal parents, removing the confounding association, isolating the causal association to allow identification.
 
-$$E[Y(1)]-E[Y(0)]\neq E[Y|T=1]-E[Y|T=0]$$
+# Assumptions for Identification
 
-because the groups may be uncomparable due to a difference in ratios of confounder characteristics between groups. To compute the ATE based on the associational difference, the ATE must be equal the associational difference, and 4 assumptions must hold.
+## Ignorability / Exchangeability
 
-# Assumptions for ATE to Equal Associational Difference
+$$ (Y(1),Y(0)) \perp\!\!\!\perp T $$
 
-1. Ignorability (exchangeability): The potential outcomes are independent to the treatment, $(Y(1),Y(0))\perp T$ allowing the causal quantity $E[Y(t)]$ to be identifiable from the statistical quantity $E[Y\vert T]$.
-2. Positivity: The probability of treatment given the covariate $0<P(T=1\vert X=x)<1$ for all covariates is positive (and non-zero).
-3. No interference: The potential outcome is a function of only the treatment, $Y_i(t_1,...,t_i,t_{i+1},...,t_n)=Y_i(t_i)$.
-4. Consistency: The same treatment implies the same potential outcome, $T=t\rightarrow Y=Y(t)$.
+Ignorability of how the treatment was assigned, i.e. assuming random assignment of the treatment, allows reduction of the ATE to the associational quantity.
 
-When all 4 assumptions hold,
+$$ E[Y(1)-E[Y(0)] $$
 
-$$E[Y(1)-Y(0)] \tag{no interference}$$
+$$ = E[Y(1)\vert Y=1]-E[Y(0)\vert T=0] \tag{Ignorability} $$
 
-$$=E[Y(1)]-E[Y(0)] \tag{linearity of expectation}$$
+$$ = E[Y\vert T=1]-E[Y\vert T=0] $$
 
-$$=E_X[E[Y(1)|x]-E[Y(0)|X]] \tag{law of iterated expectations}$$
+Exchangeability of treatment and control groups means that the same outcomes are observed should they be exchanged and thus are comparable. In reality, ignorability/exchangeability does not usually hold due to confounding but can be applied using randomized control trials (RCTs).
 
-$$=E_X[E|Y(1)|T=1,X]-E[Y(0)|T=0,X]] \tag{unconfoundedness and positivity}$$
+## Identifiability
 
-$$E_X[E[Y|T=1,X]-E[Y|T=0,X]] \tag{consistency}$$
+A causal quantity is identifiable if it can be computed from a purely statistical/associational quantity.
 
-# Terminology
+## Assumption 1: Conditional Exchangeability / Unconfoundedness
 
-* Estimand: Any quantity to estimate.
-* Causal estimand: e.g. $E[Y(1)-Y(0)]$.
-* Statistical estimand: e.g. $E_X[E[Y\vert T=1,X]-E[Y\vert T=0,X]]$.
-* Estimate: Approximation of estimand using data.
-* Estimation: Process to approximate from data and estimand to the estimate.'
+$$ (Y(1),Y(0)) \perp\!\!\!\perp T\vert X $$
 
-# Identification-Estimation Flowchart
+Controlling for $X$ by conditioning on $X$ results in treatment groups being comparable, removing any non-causal association between treatment $T$ and outcome $Y$.
 
-Causal Estimand $\overset{Identification}{\rightarrow}$ Statistical Estimand $\overset{Estimation}{\rightarrow}$ Estimate
+$$ E[Y(1)-Y(0)\vert X] $$
 
-1. Identification
+$$ = E[Y(1)\vert X] - E[Y(0)\vert X] $$
 
-$$E[Y(1)-Y(0)]=E_X[E[Y|T=1,X]-E[Y|T=0,X]]$$
+$$ = E[Y(1)\vert T=1,X] - E[Y(0)\vert T=0,X] $$
 
-2. Estimation
+$$ = E[Y\vert T=1,X] - E[Y\vert T=0,X] $$
 
-$$\frac{1}{n}\sum_x[E[Y|T=1,x]-E[Y|T=0,x]]$$
+The marginal effect before assuming unconditional exchangeability can be obtained by marginalizing out $X$.
 
-# Local Markov Assumption
+$$ E[Y(1)-Y(0)] $$
 
-Given its parents in a Directed Acyclic Graph (DAG), a node $X$ is independent of all its non-descendants.
+$$ = E_X E[Y(1)-Y(0)\vert X] $$
 
-Bayesian network factorization:
+$$ = E_X [E[Y\vert T=1,X] - E[Y\vert T=0,X]] $$
 
-$$P(x_1,..,x_n)=\Pi_i P(x_i|pa_i)$$
+In contrast to exchangeability, conditional exchangeability allows conditioning on X to identify the causal effect.
 
-Local Markov Assumption $\leftrightarrow$ Bayesian Network Factorization
+## Assumption 2: Positivity / Overlap / Common Support
 
-# Minimality Assumption
+For all values of covariates $x$ present in the population of interest (such that $P(X=x)>0$),
 
-1. Local Markov Assumption: Permits distributions where $P(x,y)=P(x)P(y\vert x)$ and where $P(x,y)=P(x)P(y)$.
-2. Adjacent nodes in the DAG are dependent ($X\rightarrow Y$). Does not permit distributions where $P(x,y)=P(x)P(y)$.
+$$ 0 < P(T=1\vert X=x) < 1 $$
 
-# Causal Edges Assumption
-In a directed graph, every parent is a direct cause of all its children.
+If positivity is violated, a zero probability event will be conditioned on, translating into a division by zero when Baye's rule is applied on:
 
-# Assumptions Flowchart
-$\overset{Markov Assumption}{\rightarrow}$ Statistical Independencies $\overset{Minimality Assumption}{\rightarrow}$ Statistical Dependencies $\overset{Causal Edges Assumption}{\rightarrow}$ Causal Dependencies
+$$ E_X [E[Y\vert T=1,X] - E[Y\vert T=0,X]] $$
 
-Causal Dependencies: DAG + Markov Assumption + Causal Edges Assumption
+A positivity violation happens when, within some subgroup of data, every individual receives the treatment or every individual receives the control, and the causal effect of treatment vs. control cannot be estimated because the alternative is not observed.
 
-# Basic Building Blocks of Graphs
-* Unconnected nodes: $X_1,X_2$
-* Connected nodes: $X_1\rightarrow X_2$
-* Chain: $X_1\rightarrow X_2\rightarrow X_3$
-* Fork: $X_1\leftarrow X_2\rightarrow X_3$
-* Immorality: $X_1\rightarrow X_2\leftarrow X_3$
-* In the graph $X_1\rightarrow X_2$, the local Markov assumption states that $X_1$ and $X_2$ are associated.
+## Assumption 3: No Interference
 
-# Chains and Forks: Dependence
-* $X_1\rightarrow X_2\rightarrow X_3$: $X_1$ is associated with $X_3$ (statistical dependence).
-* $X_1\leftarrow X_2\rightarrow X_3$: $X_1$ is associated with $X_3$ because they share a common cause $X_2$.
-* Association flows in the paths between $X_1$ and $X_3$.
+No interference holds if one individual's outcome is unaffected by another's treatment, i.e. one individual's outcome is only a function of one's own treatment.
 
-# Chains and Forks: Independence
-In both chains and forks as above, when conditioned as $X_2$, association is blocked from $X_1$ to $X_3$, making them conditionall independent (blocked path).
+$$ Y_i(t_1, ..., t_i, ..., t_n) = Y_i(t_i) $$
 
-# Immoralities
-* $X_1\rightarrow X_2\leftarrow X_3$: $X_1$ and $X_3$ are not associated (blocked path).
-* $X_2$ is a collider and blocks association flow between $X_1$ and $X_3$.
-* By conditioning on the collider, the path is unblocked to allow association flow.
+## Assumption 4: Consistency
 
-# D-Separation
-* Two (sets of) nodes $X$ and $Y$ are d-separated by a set of nodes $Z$ if all of the paths between (any node in) $X$ and (any node in) $Y$ are blocked by $Z$.
-* Theorem: Given that probability distribution $P$ is Markov with respect to graph $G$, $X\perp_G Y\vert Z\rightarrow X\perp_P Y\vert Z$.
-* Global Markov assumption: D-separation implies conditional independencies in the distribution ($\leftrightarrow$ Local Markov Assumption $\leftrightarrow$ Markov Assumption)
+Consistency of the treatment holds if the observed outcome $Y$ is actually the potential outcome under the observed treatment $T$.
 
-# Structural Causal Model
+$$ (T=t \rightarrow Y=Y(t)) $$
 
-A structural equation defines $A$ as a cause of $B$, $B:=f(A)$.
+$$ \equiv Y=Y(T) $$
 
-A causal mechanism for $X_iL=f(A,B,...)$ where $A,B,...$ are direct causes of $X_i$. 
+A consistency violation happens if the treatment specification is too coarse. Different versions of the same treatment exists, resulting in different potential outcomes even if the same treatment is applied.
 
-A structural causal model (SCM) is a collection of structural equations.
+# Identification of the Causal Effect
 
-$$M: (B:=f_B(A,U_B), C:=f_C(A,B,U_C), D:=f_D(A,C,U_D)）$$
+## Assumptions
 
-Endogenous variables are endogenous to the model as their causal mechanisms are modelled, while exogenous variables are exogenous to the model as their causes are not modelled (and do not have parents).
+The following 4 assumptions are held to identify the causal effect.
 
-A SCM is a tuple of the following sets:
-* A set of endogenous variables
-* A set of exogenous variables
-* A set of functions to generate each endogenous variable as a function of other variables.
+1. Unconfoundedness / Conditional Exchangeability
+     * Conditioning on $X$, treatment groups are comparable, $(Y(1),Y(0)) \perp\!\!\!\perp T\vert X$.
+2. Positivity
+     * The probability of treatment given the covariate $0<P(T=1\vert X=x)<1$ for all covariates is positive (and non-zero).
+3. No Interference
+     * The potential outcome is a function of only the treatment, $Y_i(t_1,...,t_i,...,t_n)=Y_i(t_i)$.
+4. Consistency
+     * The same treatment implies the same potential outcome, $T=t\rightarrow Y=Y(t)$.
 
-# Intervention
+## Identification
 
-* SCM (Model) - $M: (T:=f_T(X,U_T), Y:=f_Y(X,T,U_Y))$
-* Interventional SCM (Submodel) - $M_t: (T:=t, Y:=f_Y(X,T,U_Y))$
-* Modularity assumption for SCMs: Consider an SCM $M$ and an interventional SCM $M_t$ obtained by performing the intervention $do(T=t)$. The modularity assumption states that $M$ and $M_t$ share all their structural equations except the structural equation for $T$, which is $T:=t$ in $M_t$.
+When all 4 assumptions hold, the causal effect can be identified from the associational quantities.
 
-# Collider Bias from Conditioning on Treatment Descendants
+$$E[Y(1)-Y(0)] \tag{No Interference}$$
 
-* By not conditioning on descendants of the treatment variable, the collider bias on post-treatment covariates can be avoided.
-* However, collider bias can still be observed by inducing pre-treatment association, known as the M-bias.
-* To avoid M-bias, do not condition on the relevant covariate by referencing the causal graph.
+$$=E[Y(1)]-E[Y(0)] \tag{Linearity of Expectation}$$
+
+$$=E_X[E[Y(1)|x]-E[Y(0)|X]] \tag{Law of Iterated Expectations}$$
+
+$$=E_X[E|Y(1)|T=1,X]-E[Y(0)|T=0,X]] \tag{Unconfoundedness and Positivity}$$
+
+$$E_X[E[Y|T=1,X]-E[Y|T=0,X]] \tag{Consistency}$$
 
 # References
-* Brady Neal [Causal Inference Course](https://www.bradyneal.com/causal-inference-course)
+
+Introduction to Causal Inference from a Machine Learning Perspective, [Brady Neal 2020](https://www.bradyneal.com/causal-inference-course).
