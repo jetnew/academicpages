@@ -35,11 +35,11 @@ The ITE and ATE are causal quantities that are not equal to the associational qu
 
 When confounding exists, the ATE:
 
-$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} \neq \underbrace{E[Y|T=1]-E[Y|T=0]}_{associational}$$
+$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} \neq \underbrace{E[Y\vert T=1]-E[Y\vert T=0]}_{associational}$$
 
 When confounding does not exist, the ATE:
 
-$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} \neq \underbrace{E[Y\vert T=1]-E[Y\vert T=0]}_{associational} $$
+$$ \underbrace{E[Y(1)]-E[Y(0)]}_{causal} = \underbrace{E[Y\vert T=1]-E[Y\vert T=0]}_{associational} $$
 
 Identification is the computation of causal quantities from associational quantities, which requires assumptions about the causal structures of the underlying processes.
 
