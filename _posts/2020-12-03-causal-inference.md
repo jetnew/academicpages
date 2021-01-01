@@ -31,7 +31,7 @@ $$ \tau \overset{\Delta}{=} E[Y_i(1)-Y_i(0)] = E[Y(1)-Y(0)] $$
 
 ## Associational and Causal Quantities
 
-The ITE and ATE are causal quantities that are not equal to the associational quantity of conditional expectation, due to the existence of confounders.
+The ITE and ATE are causal quantities that are not equal to the conditional expectation, which is an associational quantity, due to the existence of confounders.
 
 When confounding exists, the ATE:
 
@@ -49,6 +49,10 @@ A randomized control trial (RCT) is the random assignment of individuals into th
 
 # Assumptions for Identification
 
+## Identifiability
+
+A causal quantity is identifiable if it can be computed from a purely statistical/associational quantity.
+
 ## Ignorability / Exchangeability
 
 $$ (Y(1),Y(0)) \perp\!\!\!\perp T $$
@@ -62,10 +66,6 @@ $$ = E[Y(1)\vert Y=1]-E[Y(0)\vert T=0] \tag{Ignorability} $$
 $$ = E[Y\vert T=1]-E[Y\vert T=0] $$
 
 Exchangeability of treatment and control groups means that the same outcomes are observed should they be exchanged and thus are comparable. In reality, ignorability/exchangeability does not usually hold due to confounding but can be applied using randomized control trials (RCTs).
-
-## Identifiability
-
-A causal quantity is identifiable if it can be computed from a purely statistical/associational quantity.
 
 ## Assumption 1: Conditional Exchangeability / Unconfoundedness
 
