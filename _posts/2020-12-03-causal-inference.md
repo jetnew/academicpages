@@ -1,5 +1,5 @@
 ---
-title: 'Introduction to Causal Inference'
+title: 'Causal Inference'
 date: 2021-01-01
 excerpt: 'Causal inference is the inference of the effect of any treatment on the outcome, based on the causal structures of the underlying process.'
 permalink: /posts/2021/1/causal-inference/
@@ -7,7 +7,7 @@ tags:
   - causal-inference
 ---
 
-# Introduction to Causal Inference
+# Causal Inference
 
 Causal inference is the inference of the effect of any treatment of $T$ on the outcome $Y$, based on the causal structure of the underlying process, e.g. inferring the effect of a treatment on a disease.
 
@@ -121,22 +121,7 @@ A consistency violation happens if the treatment specification is too coarse. Di
 
 # Identification of the Causal Effect
 
-## Assumptions
-
-The following 4 assumptions are held to identify the causal effect.
-
-1. Unconfoundedness / Conditional Exchangeability
-     * Conditioning on $X$, treatment groups are comparable, $(Y(1),Y(0)) \perp\!\!\!\perp T\vert X$.
-2. Positivity
-     * The probability of treatment given the covariate $0<P(T=1\vert X=x)<1$ for all covariates is positive (and non-zero).
-3. No Interference
-     * The potential outcome is a function of only the treatment, $Y_i(t_1,...,t_i,...,t_n)=Y_i(t_i)$.
-4. Consistency
-     * The same treatment implies the same potential outcome, $T=t\rightarrow Y=Y(t)$.
-
-## Identification
-
-When all 4 assumptions hold, the causal effect can be identified from the associational quantities.
+When all 4 assumptions (unconfoundedness, positivity, no interference, consistency) hold, the causal effect can be identified from the associational quantities.
 
 $$E[Y(1)-Y(0)] \tag{No Interference}$$
 
@@ -146,7 +131,7 @@ $$=E_X[E[Y(1)|x]-E[Y(0)|X]] \tag{Law of Iterated Expectations}$$
 
 $$=E_X[E|Y(1)|T=1,X]-E[Y(0)|T=0,X]] \tag{Unconfoundedness and Positivity}$$
 
-$$E_X[E[Y|T=1,X]-E[Y|T=0,X]] \tag{Consistency}$$
+$$=E_X[E[Y|T=1,X]-E[Y|T=0,X]] \tag{Consistency}$$
 
 # References
 
