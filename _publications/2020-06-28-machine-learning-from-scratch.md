@@ -6,7 +6,6 @@ excerpt: 'A quick start “from scratch” on 3 basic machine learning models �
 date: 2020-06-28
 venue: 'The Startup'
 paperurl: 'https://medium.com/swlh/machine-learning-101-classification-regression-gradient-descent-and-clustering-b3449f270dbe'
-citation: 'Jun Jie, New. (2020). &quot;Machine Learning From Scratch: Classification, Regression, Clustering and Gradient Descent.&quot; <i>The Startup</i>.'
 ---
 A quick start “from scratch” on 3 basic machine learning models — Linear regression, Logistic regression, K-means clustering, and Gradient Descent, the optimisation algorithm acting as a driving force behind them.
 
