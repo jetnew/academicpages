@@ -9,8 +9,11 @@ redirect_from:
 ---
 
 💻 I’m a computer science undergraduate, enrolled in the University Scholars Programme ([USP](http://usp.nus.edu.sg/)) at the National University of Singapore ([NUS](https://nus.edu.sg/)).
+
 ♟️ I’m currently researching model-based reinforcement learning, supervised by Prof. Harold Soh at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab as an undergraduate researcher.
+
 📈 In my free time, I direct the workshops team at [NUS Statistics Society](https://sites.google.com/view/nusstatisticssociety/workshops), delivering data science workshops in NUS.
+
 💼 I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # News

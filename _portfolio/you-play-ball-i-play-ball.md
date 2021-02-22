@@ -1,11 +1,11 @@
 ---
 title: "Reinforcement Learning: You Play Ball, I Play Ball"
-excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st prize at 17th STePS"
+excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st prize at 17th STePS 2020."
 date: 2020-11-01
 collection: portfolio
 ---
 
-WIP
+
 
 https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t
 
