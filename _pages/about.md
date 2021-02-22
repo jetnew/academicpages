@@ -27,15 +27,15 @@ redirect_from:
 
 # Projects
 
-* `Reinforcement Learning` [You Play Ball, I Play Ball] - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
-* `Reinforcement Learning` The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
-* `Natural Language Processing` CARElytics - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
-* `Natural Language Processing` Dr FAQ 
-* `Generative Modelling` Simkit  - Internship 2020
-* `Generative Modelling` This Gemstone Does Not Exist
-* `Time Series Anomaly Detection` Chiller Doctor  - Internship 2019
-* `Algorithmic Trading` Idle Trading Hero 
-* `Agent-Based Modelling` COVID Mask Policy Simulator
+* `Reinforcement Learning` [You Play Ball, I Play Ball](_portfolio/you-play-ball-i-play-ball.md) ⭐
+* `Reinforcement Learning` [The Chosen One](_portfolio/the-chosen-one.md) ⭐
+* `Natural Language Processing` [CARElytics](_portfolio/carelytics.md) ⭐
+* `Natural Language Processing` [Dr FAQ ](_portfolio/dr-faq.md)
+* `Generative Modelling` [Simkit](_portfolio/simkit.md) 💼
+* `Generative Modelling` [This Gemstone Does Not Exist](_portfolio/this-gemstone-does-not-exist.md)
+* `Time Series Anomaly Detection` [Chiller Doctor](_portfolio/chiller-doctor.md) 💼
+* `Algorithmic Trading` [Idle Trading Hero](_portfolio/idle-trading-hero.md)
+* `Agent-Based Modelling` [COVID Mask Policy Simulator](_portfolio/covid-mask-policy-simulator.md)
 
 # Activities
 * `2020` Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
