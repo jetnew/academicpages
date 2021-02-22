@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "about"
-excerpt: "about"
+title: "About"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -13,18 +13,19 @@ redirect_from:
 * In my free time, I direct the workshops team at [NUS Statistics Society](https://sites.google.com/view/nusstatisticssociety/workshops), delivering data science workshops in NUS.
 * I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
-# news
+# News
 
 * Feb 2021 - I was awarded the USP Honour Roll in recognition for achievements in USP.
 * Dec 2020 - I begun a 1-year research programme on reinforcement learning at NUS.
+* Nov 2020 - My CS3244 project was awarded [1st prize at STePS 2020](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t).
 * Aug 2020 - I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
 
-# experience
+# Experience
 
 * Summer 2020 - [Intern](https://www.linkedin.com/posts/jetnew_sip-report-simkit-grabpdf-activity-6694801691851804672-sk53), Machine Learning Engineer at Grab
 * Winter, Spring 2019 - Intern (Machine Learning) at IMDA
 
-# projects
+# Projects
 
 * Reinforcement Learning
   * You Play Ball, I Play Ball - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
@@ -43,7 +44,7 @@ redirect_from:
     * COVID Resource Allocation Simulator - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
     * COVID Mask Policy Simulator
 
-# activities
+# Activities
 * 2020 - Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
 * 2020 - Data Analytics at [Advisory Singapore](https://advisory.sg/)
 * 2019 - Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
