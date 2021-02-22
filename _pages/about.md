@@ -16,20 +16,20 @@ redirect_from:
 # news
 
 * Dec 2020 - I begun a 1-year research programme on reinforcement learning at NUS.
-* Aug 2020 - I spoke at Singapore Google Developer Space about my internship work at Grab.
+* Aug 2020 - I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
 
 # experience
 
-* Summer 2020 - Intern, Machine Learning Engineer at Grab
+* Summer 2020 - [Intern](https://www.linkedin.com/posts/jetnew_sip-report-simkit-grabpdf-activity-6694801691851804672-sk53), Machine Learning Engineer at Grab
 * Winter, Spring 2019 - Intern (Machine Learning) at IMDA
 
 # projects
 
 * Reinforcement Learning
-  * You Play Ball, I Play Ball - 1st Prize
-  * The Chosen One - Best AI Hack
+  * You Play Ball, I Play Ball - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
+  * The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
 * Natural Language Processing
-  * CARElytics - Top 10 Finalist
+  * CARElytics - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
   * Dr FAQ
 * Generative Modelling
   * Simkit - Internship 2020
@@ -38,9 +38,9 @@ redirect_from:
   * Chiller Doctor - Internship 2019
   * Idle Trading Hero
 * Misc
-  * Agent-Based Modelling - COVID Mask Policy Simulator - HackerNews Front Page
+  * Agent-Based Modelling - COVID Resource Allocation Simulator - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
 
 # activities
-* 2020 - Workshop Director at NUS Statistics Society
+* 2020 - Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
 * 2020 - Data Analytics at Advisory Singapore
-* 2019 - Workshop Member at NUS Google Developer Student Club
+* 2019 - Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
