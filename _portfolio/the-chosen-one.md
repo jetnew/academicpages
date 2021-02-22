@@ -6,3 +6,8 @@ collection: portfolio
 ---
 
 WIP
+
+https://github.com/jetnew/The-Chosen-One
+DevPost
+iNTUition Website
+Certificate

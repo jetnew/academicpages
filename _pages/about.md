@@ -15,10 +15,10 @@ redirect_from:
 
 # News
 
-* `Feb 2021`  I was awarded the USP Honour Roll in recognition for achievements in USP.
-* `Dec 2020`  I begun a 1-year research programme on reinforcement learning at NUS.
-* `Nov 2020`  My CS3244 project was awarded [1st prize at STePS 2020](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t).
-* `Aug 2020`  I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
+* `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
+* `Dec 2020` I begun a 1-year research programme on reinforcement learning at NUS.
+* `Nov 2020` My CS3244 project was awarded [1st prize at STePS 2020](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t).
+* `Aug 2020` I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
 
 # Experience
 
@@ -27,9 +27,8 @@ redirect_from:
 
 # Projects
 
-* Reinforcement Learning
-  * [You Play Ball, I Play Ball](/) - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
-  * The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
+* `Reinforcement Learning` [You Play Ball, I Play Ball](/) - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
+* `Reinforcement Learning` The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
 * Natural Language Processing
   * CARElytics - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
   * Dr FAQ

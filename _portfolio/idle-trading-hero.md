@@ -6,3 +6,10 @@ collection: portfolio
 ---
 
 Algorithmic trading using quantitative analysis.
+
+WIP
+
+https://github.com/jetnew/Idle-Trading-Hero
+https://github.com/stein212/IdleTradingHeroBackend
+Orbital Website
+Certificate

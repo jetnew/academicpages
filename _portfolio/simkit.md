@@ -6,3 +6,10 @@ collection: portfolio
 ---
 
 Environment Simulation Kit for creating reinforcement learning agents.
+
+WIP
+
+https://github.com/jetnew/Simkit
+La Kopi
+Report
+Slides

@@ -6,3 +6,7 @@ collection: portfolio
 ---
 
 Time series anomaly detection algorithm.
+
+WIP
+
+IMDA: https://www.imda.gov.sg/programme-listing/digital-services-lab/Intelligent-Building-Proactive-Energy-Management/Chiller-Doctor
