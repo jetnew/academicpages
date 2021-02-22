@@ -6,3 +6,8 @@ collection: portfolio
 ---
 
 This is a school project, and a work-in-progress to understand resource allocations, policy interventions and the extent to which they influence transmission in a building structure. It is currently a baseline experiment without any reference to current research on COVID-19, but stay tuned!
+
+WIP
+
+https://github.com/jetnew/COVID-Resource-Allocation-Simulator
+HN
