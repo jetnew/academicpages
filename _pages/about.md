@@ -17,26 +17,26 @@ redirect_from:
 
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
 * `Dec 2020` I begun a [1-year research programme](_posts/2020-12-23-notes-on-mbrl.md) on reinforcement learning at NUS.
-* `Nov 2020` My CS3244 project was awarded [1st prize at STePS](_portfolio/you-play-ball-i-play-ball.md).
-* `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](_portfolio/simkit.md).
-* `Jul 2020` I achieved [Top 10 Finalist](_portfolio/carelytics.md) at HackAsia Global Hackathon.
+* `Nov 2020` My CS3244 project was awarded [1st prize at STePS](portfolio/you-play-ball-i-play-ball.md).
+* `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](portfolio/simkit.md).
+* `Jul 2020` I achieved [Top 10 Finalist](portfolio/carelytics.md) at HackAsia Global Hackathon.
 
 # Experience
 
-* `Summer 2020` [Intern](_portfolio/simkit.md), Machine Learning Engineer at Grab
-* `Winter, Spring 2019` [Intern](_portfolio/chiller-doctor.md) (Machine Learning) at IMDA
+* `Summer 2020` [Intern](portfolio/simkit.md), Machine Learning Engineer at Grab
+* `Winter, Spring 2019` [Intern](portfolio/chiller-doctor.md) (Machine Learning) at IMDA
 
 # Projects
 
-* `Reinforcement Learning` [You Play Ball, I Play Ball](_portfolio/you-play-ball-i-play-ball.md) ⭐
-* `Reinforcement Learning` [The Chosen One](_portfolio/the-chosen-one.md) ⭐
-* `Natural Language Processing` [CARElytics](_portfolio/carelytics.md) ⭐
-* `Natural Language Processing` [Dr FAQ ](_portfolio/dr-faq.md)
-* `Generative Modelling` [Simkit](_portfolio/simkit.md) 💼
-* `Generative Modelling` [This Gemstone Does Not Exist](_portfolio/this-gemstone-does-not-exist.md)
-* `Time Series Anomaly Detection` [Chiller Doctor](_portfolio/chiller-doctor.md) 💼
-* `Algorithmic Trading` [Idle Trading Hero](_portfolio/idle-trading-hero.md)
-* `Agent-Based Modelling` [COVID Mask Policy Simulator](_portfolio/covid-mask-policy-simulator.md)
+* `Reinforcement Learning` [You Play Ball, I Play Ball](portfolio/you-play-ball-i-play-ball.md) ⭐
+* `Reinforcement Learning` [The Chosen One](portfolio/the-chosen-one.md) ⭐
+* `Natural Language Processing` [CARElytics](portfolio/carelytics.md) ⭐
+* `Natural Language Processing` [Dr FAQ ](portfolio/dr-faq.md)
+* `Generative Modelling` [Simkit](portfolio/simkit.md) 💼
+* `Generative Modelling` [This Gemstone Does Not Exist](portfolio/this-gemstone-does-not-exist.md)
+* `Time Series Anomaly Detection` [Chiller Doctor](portfolio/chiller-doctor.md) 💼
+* `Algorithmic Trading` [Idle Trading Hero](portfolio/idle-trading-hero.md)
+* `Agent-Based Modelling` [COVID Mask Policy Simulator](portfolio/covid-mask-policy-simulator.md)
 
 # Activities
 * `2020` Workshop Director at [NUS Statistics Society](_posts/2021-03-01-stats-soc-workshops.md)
