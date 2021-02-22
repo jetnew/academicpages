@@ -27,21 +27,16 @@ redirect_from:
 
 # Projects
 
-* [You Play Ball, I Play Ball](/) - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t) `Reinforcement Learning`
+* [You Play Ball, I Play Ball] `Reinforcement Learning` - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
 * The Chosen One `Reinforcement Learning` - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
-* Natural Language Processing
-  * CARElytics - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
-  * Dr FAQ
-* Generative Modelling
-  * Simkit - Internship 2020
-  * This Gemstone Does Not Exist
-* Time Series Analysis
-  * Chiller Doctor - Internship 2019
-  * Idle Trading Hero
-* Misc
-  * Agent-Based Modelling
-    * COVID Resource Allocation Simulator - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
-    * COVID Mask Policy Simulator
+* CARElytics `Natural Language Processing` - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
+* Dr FAQ `Natural Language Processing`
+* Simkit `Generative Modelling` - Internship 2020
+* This Gemstone Does Not Exist `Generative Modelling`
+* Chiller Doctor `Time Series Anomaly Detection` - Internship 2019
+* Idle Trading Hero `Algorithmic Trading`
+* COVID Resource Allocation Simulator `Agent-Based Modelling` - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
+* COVID Mask Policy Simulator `Agent-Based Modelling`
 
 # Activities
 * 2020 - Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
