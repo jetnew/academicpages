@@ -8,13 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-* I’m a computer science undergraduate, minor in statistics, enrolled in the University Scholars Programme (USP) at the National University of Singapore (NUS).
-* I’m currently researching model-based reinforcement learning, supervised by Prof. Harold Soh at the Collaborative Learning and Adaptive Robots (CLeAR) lab as an undergraduate researcher.
-* In my free time, I direct the workshops team at NUS Statistics Society, delivering data science workshops in NUS.
+* I’m a computer science undergraduate, enrolled in the University Scholars Programme (USP) at the National University of Singapore (NUS).
+* I’m currently researching model-based reinforcement learning, supervised by Prof. Harold Soh at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab as an undergraduate researcher.
+* In my free time, I direct the workshops team at [NUS Statistics Society](https://sites.google.com/view/nusstatisticssociety/workshops), delivering data science workshops in NUS.
 * I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # news
 
+* Feb 2020 - I was awarded the USP Honour Roll in recognition for achievements in USP.
 * Dec 2020 - I begun a 1-year research programme on reinforcement learning at NUS.
 * Aug 2020 - I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
 
@@ -38,9 +39,11 @@ redirect_from:
   * Chiller Doctor - Internship 2019
   * Idle Trading Hero
 * Misc
-  * Agent-Based Modelling - COVID Resource Allocation Simulator - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
+  * Agent-Based Modelling
+    * COVID Resource Allocation Simulator - [HackerNews Front Page](https://news.ycombinator.com/item?id=22726986)
+    * COVID Mask Policy Simulator
 
 # activities
 * 2020 - Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
-* 2020 - Data Analytics at Advisory Singapore
+* 2020 - Data Analytics at [Advisory Singapore](https://advisory.sg/)
 * 2019 - Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
