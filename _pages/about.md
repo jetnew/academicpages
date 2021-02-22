@@ -1,17 +1,14 @@
 ---
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "about me"
+excerpt: "about me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-💻 I'm a computer science undergraduate, minor in statistics, at the National University of Singapore, and enrolled in the University Scholars Programme.
+# about me
 
-🧠 I'm currently researching causal reinforcement learning under Prof. Harold Soh at the Collaborative Learning and Adaptive Robots (CLeAR) lab as an undergraduate researcher.
+I'm a computer science undergraduate under the University Scholars Programme at the National University of Singapore. I currently research model-based reinforcement learning, supervised by Prof Harold Soh. I previously interned as machine learning engineer at Grab (2020)and IMDA (2019). In my free time, I deliver data science workshops at NUS Statistics Society and Google Developer Student Club.
 
-📈 In my free time, I direct the workshops team at NUS Statistics Society, delivering data science workshops in NUS.
-
-💼 I previously interned as a machine learning engineer at Grab and IMDA.
