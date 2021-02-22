@@ -22,8 +22,8 @@ redirect_from:
 
 # Experience
 
-* Summer 2020 - [Intern](https://www.linkedin.com/posts/jetnew_sip-report-simkit-grabpdf-activity-6694801691851804672-sk53), Machine Learning Engineer at Grab
-* Winter, Spring 2019 - Intern (Machine Learning) at IMDA
+* `Summer 2020` [Intern](https://www.linkedin.com/posts/jetnew_sip-report-simkit-grabpdf-activity-6694801691851804672-sk53), Machine Learning Engineer at Grab
+* `Winter, Spring 2019` Intern (Machine Learning) at IMDA
 
 # Projects
 
