@@ -5,22 +5,27 @@ date: 2020-11-01
 collection: portfolio
 ---
 
+Multi-agent reinforcement learning has recently seen rising interest, popularised by projects like Multi-agent Hide-and-Seek and the AI Economist. Fascinating behaviour emerge from the interactions of multiple learning agents. Bayesian learning has also gotten popular from its ability to quantify and minimise uncertainty.
 
+I led my project team to combine Bayesian methods with multi-agent reinforcement learning in the Slime Volleyball gym environment that was recently created by David Ha, a researcher whose work I look up to. This project is done as part of the CS3244 Machine Learning class, taught by Prof Min-Yen Kan at NUS. Our work achieved 1st place by popular vote at the biannual NUS School of Computing project showcase, 17th STePS 2020.
 
-https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t
+To go straight to the point, our result shows that applying Bayesian methods in multi-agent reinforcement learning improves 4 aspects of training: performance, training stability, uncertainty and generalisability.
 
-Presented at National University of Singapore - [17th School of Computing Term Project Showcase](https://isteps.comp.nus.edu.sg/event/17th-steps/module/CS3244/project/3) (17th STePS).
+We implemented a Bayesian version of Proximal Policy Optimization (PPO), a popular reinforcement learning baseline algorithm, using TensorFlow Probability and Stable Baselines.
 
-<img src="https://user-images.githubusercontent.com/27071473/96207264-5ed17700-0f9d-11eb-80e5-8baee2408895.png">
+We designed 3 types of experiments to evaluate the Bayesian version of PPO with its default counterpart: Single-agent training (training against an expert), Self-play (training against itself) and Multi-agent training (training against each other).
 
-## Demo & Video
+WIP
 
-Click [here](https://www.slimerl.tech) to view interesting agent behaviour and notice the differences between agents and their Bayesian counterparts! Click [here](https://www.youtube.com/watch?v=8qjV19gkZXc) for a introductory video.
-
-## About
-
-In [Slime Volleyball](https://github.com/hardmaru/slimevolleygym), a two-player competitive game, we investigate how <ins>modelling uncertainty</ins> improves AI players’ learning in 3 ways: 1) <ins>against an expert</ins>, 2) <ins>against itself</ins> and 3) <ins>against each other</ins>, in the domain of multi-agent reinforcement learning (MARL).
-
-We show that by modelling uncertainty, Bayesian methods improve MARL training in 4 ways: 1) <ins>performance</ins>, 2) <ins>training stability</ins>, 3) <ins>uncertainty</ins> and 4) <ins>generalisability</ins>, and through experiments using [TensorFlow Probability](https://www.tensorflow.org/probability/) and [Stable Baselines](https://stable-baselines.readthedocs.io/en/master/), we present interesting differences in agent behaviour.
-
-We contribute code for 3 functionalities: 1) <ins>Bayesian methods using Flipout</ins> integrated into Stable Baselines, 2) <ins>Multi-agent versioned learning framework</ins> for Stable Baselines (previously with only single-agent support) and 3) <ins>Uncertainty visualisation using agent clones</ins> for Slime Volleyball Gym.
+# Links
+* [Project Report](https://docs.google.com/document/d/1HJ3IjbatOBlOJoJhyHPoM7hVIhLsD-Vcos-aLb9nVfY/edit?usp=sharing)
+* [Project Website](https://slimerl.tech/)
+* [Project Slides](https://docs.google.com/presentation/d/1lpYF99HBASFVS0ECSQm6nuvcRfUnbh9zDNzUaoKXSpo/edit?usp=sharing)
+* [Project Poster](https://github.com/jetnew/SlimeRL/blob/master/Project%20Poster.pdf)
+* [Project Video](https://www.youtube.com/watch?v=8qjV19gkZXc)
+* [GitHub Repository](https://github.com/jetnew/SlimeRL)
+* [STePS Website](https://isteps.comp.nus.edu.sg/event/17th-steps/module/CS3244/project/3)
+* [1st Prize Award LinkedIn Post](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
+* [Project Proposal](https://drive.google.com/file/d/1xvRyS5ofoN8bw9RjzibqT9YAHRRE6CYF/view?usp=sharing)
+* [Project Consultation 1](https://docs.google.com/presentation/d/1O6ExD_vdRdhKRxXiab7q1AjSzT7YCTlh76wlFFkfdyg/edit?usp=sharing)
+* [Project Consultation 2](https://docs.google.com/presentation/d/114YImbSTDSkVc3V_F6YmyryZBxyx8mnf2T0Vw_w9glw/edit?usp=sharing)
