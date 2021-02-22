@@ -8,22 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-* 💻 I’m a computer science undergraduate, enrolled in the University Scholars Programme ([USP](http://usp.nus.edu.sg/)) at the National University of Singapore ([NUS](https://nus.edu.sg/)).
-* ♟️ I’m currently researching model-based reinforcement learning, supervised by Prof. Harold Soh at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab as an undergraduate researcher.
+* 💻 I’m a computer science and statistics undergraduate, enrolled in the University Scholars Programme ([USP](http://usp.nus.edu.sg/)) at the National University of Singapore ([NUS](https://nus.edu.sg/)).
+* ♟️ I’m currently researching reinforcement learning, supervised by Prof. Harold Soh at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab.
 * 📈 In my free time, I direct the workshops team at [NUS Statistics Society](https://sites.google.com/view/nusstatisticssociety/workshops), delivering data science workshops in NUS.
 * 💼 I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # News
 
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
-* `Dec 2020` I begun a 1-year research programme on reinforcement learning at NUS.
-* `Nov 2020` My CS3244 project was awarded [1st prize at STePS 2020](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t).
-* `Aug 2020` I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
+* `Dec 2020` I begun a [1-year research programme](_posts/2020-12-23-notes-on-mbrl.md) on reinforcement learning at NUS.
+* `Nov 2020` My CS3244 project was awarded [1st prize at STePS](_portfolio/you-play-ball-i-play-ball.md).
+* `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](_portfolio/simkit.md).
+* `Jul 2020` I achieved [Top 10 Finalist](_portfolio/carelytics.md) at HackAsia Global Hackathon.
 
 # Experience
 
-* `Summer 2020` [Intern](https://www.linkedin.com/posts/jetnew_sip-report-simkit-grabpdf-activity-6694801691851804672-sk53), Machine Learning Engineer at Grab
-* `Winter, Spring 2019` Intern (Machine Learning) at IMDA
+* `Summer 2020` [Intern](_portfolio/simkit.md), Machine Learning Engineer at Grab
+* `Winter, Spring 2019` [Intern](_portfolio/chiller-doctor.md) (Machine Learning) at IMDA
 
 # Projects
 
@@ -38,6 +39,6 @@ redirect_from:
 * `Agent-Based Modelling` [COVID Mask Policy Simulator](_portfolio/covid-mask-policy-simulator.md)
 
 # Activities
-* `2020` Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
+* `2020` Workshop Director at [NUS Statistics Society](_posts/2021-03-01-stats-soc-workshops.md)
 * `2020` Data Analytics at [Advisory Singapore](https://advisory.sg/)
-* `2019` Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
+* `2019` Workshop Member at [NUS Google Developer Student Club](https://dsc.comp.nus.edu.sg/about)
