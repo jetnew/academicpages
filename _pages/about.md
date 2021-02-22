@@ -15,7 +15,7 @@ redirect_from:
 
 # news
 
-* Feb 2020 - I was awarded the USP Honour Roll in recognition for achievements in USP.
+* Feb 2021 - I was awarded the USP Honour Roll in recognition for achievements in USP.
 * Dec 2020 - I begun a 1-year research programme on reinforcement learning at NUS.
 * Aug 2020 - I [spoke at Singapore Google Developer Space](https://www.youtube.com/watch?v=wl_Z9URl6BU) about my internship work at Grab.
 

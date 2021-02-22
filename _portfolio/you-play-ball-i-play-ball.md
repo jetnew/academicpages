@@ -1,5 +1,5 @@
 ---
-title: "You Play Ball, I Play Ball"
+title: "Reinforcement Learning: You Play Ball, I Play Ball"
 excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st prize at 17th STePS"
 date: 2020-11-01
 collection: portfolio
