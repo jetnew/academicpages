@@ -39,6 +39,6 @@ redirect_from:
 * COVID Mask Policy Simulator `Agent-Based Modelling`
 
 # Activities
-* 2020 - Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
-* 2020 - Data Analytics at [Advisory Singapore](https://advisory.sg/)
-* 2019 - Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
+* `2020` Workshop Director at [NUS Statistics Society](https://www.youtube.com/playlist?list=PLiAp0_yuG0tZdmdMbVQBBNTQR6JefsHy4)
+* `2020` Data Analytics at [Advisory Singapore](https://advisory.sg/)
+* `2019` Workshop Member at [NUS Google Developer Student Club](https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu)
