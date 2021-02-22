@@ -27,8 +27,8 @@ redirect_from:
 
 # Projects
 
-* `Reinforcement Learning` [You Play Ball, I Play Ball](/) - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t)
-* `Reinforcement Learning` The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q)
+* [You Play Ball, I Play Ball](/) - [1st Prize](https://www.linkedin.com/posts/jetnew_machinelearning-reinforcementlearning-datascience-activity-6732485574315401216-1W-t) `Reinforcement Learning`
+* The Chosen One - [Best AI Hack](https://www.linkedin.com/posts/jetnew_today-i-joined-nanyang-technological-university-activity-6589154496453144576-_L9q) `Reinforcement Learning`
 * Natural Language Processing
   * CARElytics - [Top 10 Finalist](https://www.linkedin.com/posts/junjie-tan_this-summer-i-had-the-opportunity-to-participate-activity-6696411383728361472-L1UR)
   * Dr FAQ
