@@ -5,15 +5,12 @@ date: 2020-11-01
 collection: portfolio
 ---
 
-Multi-agent reinforcement learning has recently seen rising interest, popularised by projects like Multi-agent Hide-and-Seek and the AI Economist. Fascinating behaviour emerge from the interactions of multiple learning agents. Bayesian learning has also gotten popular from its ability to quantify and minimise uncertainty.
+Multi-agent reinforcement learning has recently been popular, emerging fascinating behaviour from the interaction of multiple agents. On another branch of artificial intelligence, Bayesian learning has also been getting popular from its capacity to quantify and reduce uncertainty.
 
-I led my project team to combine Bayesian methods with multi-agent reinforcement learning in the Slime Volleyball gym environment that was recently created by David Ha, a researcher whose work I look up to. This project is done as part of the CS3244 Machine Learning class, taught by Prof Min-Yen Kan at NUS. Our work achieved 1st place by popular vote at the biannual NUS School of Computing project showcase, 17th STePS 2020.
+In this project, we study the effect of Bayesian methods on multi-agent reinforcement learning, and use the Slime Volleyball environment created by David Ha. This project is done as part of CS3244 Machine Learning taught by Prof Min-Yen Kan at NUS, and achieved 1st place by popular vote at the biannual Computing Project Showcase, 17th STePS 2020.
 
-To go straight to the point, our result shows that applying Bayesian methods in multi-agent reinforcement learning improves 4 aspects of training: performance, training stability, uncertainty and generalisability.
+We train an RL agent (and its Bayesian version) in 3 ways: against a baseline expert, against itself via self-play, and against each other for multi-agent training.
 
-We implemented a Bayesian version of Proximal Policy Optimization (PPO), a popular reinforcement learning baseline algorithm, using TensorFlow Probability and Stable Baselines.
-
-We designed 3 types of experiments to evaluate the Bayesian version of PPO with its default counterpart: Single-agent training (training against an expert), Self-play (training against itself) and Multi-agent training (training against each other).
 
 WIP
 
