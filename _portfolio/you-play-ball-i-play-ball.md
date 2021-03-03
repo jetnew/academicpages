@@ -1,18 +1,21 @@
 ---
 title: "Reinforcement Learning: You Play Ball, I Play Ball"
-excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st prize at 17th STePS 2020."
+excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st place at 17th STePS 2020."
 date: 2020-11-01
 collection: portfolio
 ---
 
+As part of my CS3244 Machine Learning class, this project was awarded 1st place by popular vote at the NUS Computing Project Showcase, 17th STePS 2020.
+
 Multi-agent reinforcement learning has recently been popular, emerging fascinating behaviour from the interaction of multiple agents. On another branch of artificial intelligence, Bayesian learning has also been getting popular from its capacity to quantify and reduce uncertainty.
 
-In this project, we study the effect of Bayesian methods on multi-agent reinforcement learning, and use the Slime Volleyball environment created by David Ha. This project is done as part of CS3244 Machine Learning taught by Prof Min-Yen Kan at NUS, and achieved 1st place by popular vote at the biannual Computing Project Showcase, 17th STePS 2020.
+In this project, we study the effect of Bayesian methods on multi-agent reinforcement learning, and use the Slime Volleyball environment created by David Ha.
 
 We train an RL agent (and its Bayesian version) in 3 ways: against a baseline expert, against itself via self-play, and against each other for multi-agent training.
 
+In each of these experiments, we compare and contrast a Proximal Policy Optimisation agent and its Bayesian counterpart, in terms of their performance and behaviour.
 
-WIP
+We show that in almost all experiments, the Bayesian agent is improved in 4 ways: performance, training stability, uncertainty and generalisability, at the relatively small trade-off of sample efficiency.
 
 # Links
 * [Project Report](https://docs.google.com/document/d/1HJ3IjbatOBlOJoJhyHPoM7hVIhLsD-Vcos-aLb9nVfY/edit?usp=sharing)
