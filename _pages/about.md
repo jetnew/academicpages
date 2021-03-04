@@ -31,7 +31,7 @@ redirect_from:
 * `Reinforcement Learning` [You Play Ball, I Play Ball](portfolio/you-play-ball-i-play-ball) ⭐
 * `Reinforcement Learning` [The Chosen One](portfolio/the-chosen-one) ⭐
 * `Natural Language Processing` [CARElytics](portfolio/carelytics) ⭐
-* `Natural Language Processing` [Dr FAQ ](portfolio/dr-faq)
+* `Natural Language Processing` [Dr FAQ ](portfolio/dr-faq) :octocat:
 * `Generative Modelling` [Simkit](portfolio/simkit) 💼
 * `Generative Modelling` [This Gemstone Does Not Exist](portfolio/this-gemstone-does-not-exist)
 * `Time Series Anomaly Detection` [Chiller Doctor](portfolio/chiller-doctor) 💼
