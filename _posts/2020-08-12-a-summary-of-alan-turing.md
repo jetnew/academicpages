@@ -22,4 +22,4 @@ Given the undeniable possibility that machines could “learn” (p.14) based on
 
 A machine that learns may seem paradoxical because a conventional machine’s rules do not change. However, the rules that change over time in the learning process are temporary. The learning process is a tendency to act favourably toward specified objectives. The hope is that in time, machines will be able to rival humans in all intellectual fields, but for now, there is still much exploration and experimentation to be done. (398)
 
-Turing, Alan M. “Computing machinery and intelligence.” Parsing the turing test. Springer, Dordrecht, 2009. 23–65.
+Turing, A.M. 1950. “Computing Machinery and Intelligence.” Mind, New Series, 59 (236): 433–460.
