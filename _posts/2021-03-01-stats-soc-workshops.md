@@ -14,14 +14,14 @@ tags:
 A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 10-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
 
 <figure align="center">
-    <img src="images/technical-workshop/workshops.png" alt='missing' />
+    <img src="/images/technical-workshop/workshops.png" alt='missing' />
     <figcaption align="center"><i>Workshops at NUS Statistics Society 2020/21</i></figcaption>
 </figure>
 
 Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students.
 
 <figure align="center">
-    <img src="images/technical-workshop/pac-peng.jpg" alt='missing' />
+    <img src="/images/technical-workshop/pac-peng.jpg" alt='missing' />
     <figcaption align="center"><i>All About PCA: Theory, Algorithm, Applications. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">here</a>.</i></figcaption>
 </figure>
 
@@ -30,14 +30,14 @@ In Oct 2020, a workshop on <a href="https://sites.google.com/view/nusstatisticss
 Workshops build a sense of confidence and professionalism that is robustly adaptable to unexpected situations. Each workshop member is responsible for the workshop that their group is conducting. In semester 1, everyone was assigned to workshops that were their “specialty”, namely the SQL (a database query language), applied ML (machine learning) and ML theory workshops. Given prior knowledge in what everyone is supposed to present, everyone can instead focus on the workshop conducting skills required to run a workshop effectively. Behind every workshop is a full rehearsal a few days before.
 
 <figure align="center">
-    <img src="images/technical-workshop/sql-agatha.png" alt='missing' />
+    <img src="/images/technical-workshop/sql-agatha.png" alt='missing' />
     <figcaption align="center"><i>SQL for Data Scientists 101 & 102. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">here</a> and <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-102">here</a>.</i></figcaption>
 </figure>
 
 But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a>, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace (which by itself is an admirable feat). Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can do.
 
 <figure align="center">
-    <img src="images/technical-workshop/facemask-georgie.png" alt='missing' />
+    <img src="/images/technical-workshop/facemask-georgie.png" alt='missing' />
     <figcaption align="center"><i>Applied Machine Learning with Face Mask Detection. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">here</a>.</i></figcaption>
 </figure>
 
@@ -48,14 +48,14 @@ From this point of the article onwards, I will share fond personal experiences o
 Leadership is one of the core necessities in any project. Before directing workshops at NUS Statistics Society, I was a workshop member at <a href="https://dsc.comp.nus.edu.sg/">NUS Developer Student Club</a> in AY2019/2020, presenting <a href="https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu">a series of 5 data science workshops</a>, including one at Google Developer Space.
 
 <figure align="center">
-    <img src="images/technical-workshop/leaders.jpg" alt='missing' />
+    <img src="/images/technical-workshop/leaders.jpg" alt='missing' />
     <figcaption align="center"><i>A Leaders Outing to Lunch and Board Game Cafe.</i></figcaption>
 </figure>
 
 What made me make the switch to Statistics Society was the then and current president Joel Tan, who emphasised the flexibility of members to lead in their own style, anything from allowing us to decide the size of our team to the many new initiates we could try implementing over the year. This focus on member flexibility was shared across the society, and expressed in the many new initiatives we kick-started, such as <a href="https://www.instagram.com/nusstatssoc/">memes on Instagram</a>, <a href="https://sites.google.com/view/nusstatisticssociety/articles">publishing member-curated articles</a>, a workshop collaboration with the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/effective-data-visualization">psychology department</a> and <a href="https://datascience.sg/">Data Science SG community</a> and a monthly internal paper sharing club within the society, among many others. With good leadership, a good experience in the CCA will naturally follow. If this interests you, we are <a href="https://nus.campuslabs.com/engage/submitter/form/start/473251">currently recruiting the next batch of leaders</a> in the society!
 
 <figure align="center">
-    <img src="images/technical-workshop/workshop-interview.png" alt='missing' />
+    <img src="/images/technical-workshop/workshop-interview.png" alt='missing' />
     <figcaption align="center"><i>Workshop Team Recruitment Email</i></figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ During the recruitment for the workshop team, I faced a difficulty - 10 people m
 As a society, the shared value across the society emphasises on the experience of members. However, due to the COVID-19 pandemic, there were very few opportunities to meet up in person, much less for team bonding. In fact, all meetings in semester 1 were conducted online and all workshops across the year were conducted online.
 
 <figure align="center">
-    <img src="images/technical-workshop/team-dinner.png" alt='missing' />
+    <img src="/images/technical-workshop/team-dinner.png" alt='missing' />
     <figcaption align="center"><i>Workshops Team Christmas Pizza Dinner</i></figcaption>
 </figure>
 
