@@ -84,4 +84,56 @@ As a commitment towards a good experience for members, we allocated a part of ou
 
 All in all, conducting a technical workshop is a great means of professional development in one’s career, but the biggest takeaway is definitely the friends you meet and the memories forged. The past year has been extremely eventful and filled with challenging decisions, and I will continue to remember them for some time.
 
+------
+
+### Workshop Statistics
+
+<table style="width:100%">
+  <tr>
+    <th>Workshop</th>
+    <th>Machine Learning from Scratch</th>
+    <th>SQL for Data Scientists 101</th>
+    <th>SQL for Data Scientists 102</th>
+    <th>Applied Machine Learning for Face Mask Detection</th>
+    <th>All About PCA: Theory, Algorithm, Applications</th>
+    <th>Data Science Competition: Applied Computer Vision</th>
+    <th>Effective Data Storytelling</th>
+    <th>Using Tidyverse in R for Data Analysis and Visualisation</th>
+  </tr>
+  <tr>
+    <td>Registrations</td>
+    <td>NA</td>
+    <td>470</td>
+    <td>470</td>
+    <td>183</td>
+    <td>72</td>
+    <td>NA</td>
+    <td>88</td>
+    <td>83</td>
+  </tr>
+  <tr>
+    <td>Peak Concurrent Viewers</td>
+    <td>60</td>
+    <td>167</td>
+    <td>51</td>
+    <td>57</td>
+    <td>30</td>
+    <td>415</td>
+    <td>41</td>
+    <td>27</td>
+  </tr>
+    <tr>
+    <td>Feedback (Submissions)</td>
+    <td>-</td>
+    <td>4.93 (15)</td>
+    <td>4.90 (10)</td>
+    <td>4.50 (10)</td>
+    <td>4.71 (7)</td>
+    <td>4.31 (13)</td>
+    <td>4.45 (11)</td>
+    <td>4.33 (3)</td>
+  </tr>
+</table>
+
+
 To connect with us, find us on <a href="http://sites.google.com/view/nusstatisticssociety">our website</a>, <a href="http://tinyurl.com/StatsTele">Telegram channel, <a href="http://tinyurl.com/StatsTele">Instagram</a>, <a href="http://linkedin.com/company/nusstatssoc/">LinkedIn</a> or our <a href="mailto:statistics.society@u.nus.edu">society email</a>.
