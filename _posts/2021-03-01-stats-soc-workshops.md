@@ -88,47 +88,6 @@ To connect with us, find us on <a href="http://sites.google.com/view/nusstatisti
 
 ------
 
-### Watch the Workshops
-
-<table style="width:100%">
-  <tr>
-    <th>Watch</th>
-    <th>Workshop</th>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/slf.png" alt='missing' /></td>
-    <td>Machine Learning from Scratch</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/sql101.png" alt='missing' /></td>
-    <td>SQL for Data Scientists 101</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/sql102.png" alt='missing' /></td>
-    <td>SQL for Data Scientists 102</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/facemask.png" alt='missing' /></td>
-    <td>Applied Machine Learning with Face Mask Detection</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/pca.png" alt='missing' /></td>
-    <td>All About PCA: Theory, Algorithm, Applications</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/dsc.png" alt='missing' /></td>
-    <td>Data Science Competition: Applied Computer Vision</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/psych.png" alt='missing' /></td>
-    <td>Effective Data Storytelling</td>
-  </tr>
-  <tr>
-    <td><img src="/images/technical-workshop/tidyverse.png" alt='missing' /></td>
-    <td>Using Tidyverse in R for Data Analysis and Visualization</td>
-  </tr>
-</table>
-
 ### Workshop Statistics
 
 <table style="width:100%">
