@@ -16,7 +16,7 @@ tags:
 
 ## What is a technical workshop?
 
-A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 10-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
+A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 9-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
 
 <figure align="center">
     <img src="/images/technical-workshop/pca-peng.jpg" alt='missing' />
@@ -25,7 +25,7 @@ A technical workshop is a short lesson, like a lecture or tutorial, that usually
 
 ## A space for shared curiosity
 
-Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students. In Oct 2020, a workshop on <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">Principal Component Analysis</a> (PCA), a machine learning algorithm, attracted just over 25 live students. Those who attended shared the doubts they had, and even raised questions that presenters haven’t thought of before. Other students joined in the discussion and came up with an answer, teaching something new to the presenter. The recursion of students asking questions to the teachers and teachers learning from students and back again reinforces a dynamic relationship that strengthens everyone’s learning in the topic. Creating a space where all learners can feel safe to learn new things is the main reason why I chose to direct Workshops at Statistics Society.
+Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students. In Oct 2020, a workshop on <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">Principal Component Analysis</a> (PCA), a machine learning algorithm, attracted 30 live students. Those who attended shared the doubts they had, and even raised questions that presenters haven’t thought of before. Other students joined in the discussion and came up with an answer, teaching something new to the presenter. The recursion of students asking questions to the teachers and teachers learning from students and back again reinforces a dynamic relationship that strengthens everyone’s learning in the topic. Creating a space where all learners can feel safe to learn new things is the main reason why I chose to direct Workshops at Statistics Society.
 
 ## Building confidence and professionalism
 
@@ -38,7 +38,7 @@ Workshops build a sense of confidence and professionalism that is robustly adapt
 
 ## Managing the unpredictability of live events
 
-But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a>, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace, by itself is an admirable feat. Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can acquire.
+But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a> with a large crowd of 167 viewers, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace, by itself is an admirable feat. Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can acquire.
 
 <figure align="center">
     <img src="/images/technical-workshop/facemask-georgie.png" alt='missing' />
@@ -47,7 +47,7 @@ But inevitably, technical difficulties occur. During the <a href="https://sites.
 
 ## A sense of ownership
 
-Workshops create a strong portfolio and ownership towards the conduct of the workshop and the end-product of the workshop. In the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">applied ML workshop</a>, Georgie and Rama led in a hands-on demo to build an end-to-end face mask detection web app, including the initial machine learning training. Rama created a handy Jupyer notebook that compiled the training pipeline, from feature extraction, transfer learning, model training and evaluation, complete with elaborate documentation. Georgie constructed the backend to connect the face mask detector to a user-facing web app, with optimised latency to detect whether a person is wearing a mask in real time. The resources created by them are <a href="https://github.com/geoboom/facemask-workshop">freely available</a> and serves as a useful indicator to future employers that represent their capabilities.
+Workshops create a strong portfolio and ownership towards the conduct of the workshop and the end-product of the workshop. In the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">applied ML workshop</a> of 57 viewers, Georgie and Rama led in a hands-on demo to build an end-to-end face mask detection web app, including the initial machine learning training. Rama created a handy Jupyer notebook that compiled the training pipeline, from feature extraction, transfer learning, model training and evaluation, complete with elaborate documentation. Georgie constructed the backend to connect the face mask detector to a user-facing web app, with optimised latency to detect whether a person is wearing a mask in real time. The resources created by them are <a href="https://github.com/geoboom/facemask-workshop">freely available</a> and serves as a useful indicator to future employers that represent their capabilities.
 
 ## On leadership
 
@@ -87,6 +87,47 @@ All in all, conducting a technical workshop is a great means of professional dev
 To connect with us, find us on <a href="http://sites.google.com/view/nusstatisticssociety">our website</a>, <a href="http://tinyurl.com/StatsTele">Telegram channel, <a href="http://tinyurl.com/StatsTele">Instagram</a>, <a href="http://linkedin.com/company/nusstatssoc/">LinkedIn</a> or our <a href="mailto:statistics.society@u.nus.edu">society email</a>.
 
 ------
+
+### Watch the Workshops
+
+<table style="width:100%">
+  <tr>
+    <th>Watch</th>
+    <th>Workshop</th>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/slf.png" alt='missing' /></td>
+    <td>Machine Learning from Scratch</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/sql101.png" alt='missing' /></td>
+    <td>SQL for Data Scientists 101</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/sql102.png" alt='missing' /></td>
+    <td>SQL for Data Scientists 102</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/facemask.png" alt='missing' /></td>
+    <td>Applied Machine Learning with Face Mask Detection</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/pca.png" alt='missing' /></td>
+    <td>All About PCA: Theory, Algorithm, Applications</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/dsc.png" alt='missing' /></td>
+    <td>Data Science Competition: Applied Computer Vision</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/psych.png" alt='missing' /></td>
+    <td>Effective Data Storytelling</td>
+  </tr>
+  <tr>
+    <td><img src="/images/technical-workshop/tidyverse.png" alt='missing' /></td>
+    <td>Using Tidyverse in R for Data Analysis and Visualization</td>
+  </tr>
+</table>
 
 ### Workshop Statistics
 
