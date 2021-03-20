@@ -36,9 +36,9 @@ Workshops build a sense of confidence and professionalism that is robustly adapt
     <figcaption align="center">SQL for Data Scientists 101 & 102. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">here</a> and <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-102">here</a>.</figcaption>
 </figure>
 
-## The unpredictable nature of live events
+## Managing the unpredictability of live events
 
-But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a>, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace (which by itself is an admirable feat). Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can do.
+But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a>, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace, by itself is an admirable feat. Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can acquire.
 
 <figure align="center">
     <img src="/images/technical-workshop/facemask-georgie.png" alt='missing' />
