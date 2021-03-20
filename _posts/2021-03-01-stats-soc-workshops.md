@@ -58,16 +58,16 @@ Workshops create a strong portfolio and ownership towards the conduct of the wor
 
 Leadership is one of the core necessities in any endeavour. Before directing workshops at NUS Statistics Society, I was a workshop member at <a href="https://dsc.comp.nus.edu.sg/">NUS Developer Student Club</a> in AY2019/2020, presenting <a href="https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu">a series of 5 data science workshops</a>, including one at Google Developer Space.
 
-What made me make the switch to Statistics Society was the then and current president Joel Tan, who emphasised the flexibility of members to lead in their own style, anything from allowing us to decide the size of our team to the many new initiates we could try implementing over the year. This focus on member flexibility was shared across the society, and expressed in the many new initiatives we kick-started, such as <a href="https://www.instagram.com/nusstatssoc/">memes on Instagram</a>, <a href="https://sites.google.com/view/nusstatisticssociety/articles">publishing member-curated articles</a>, a workshop collaboration with the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/effective-data-visualization">psychology department</a> and <a href="https://datascience.sg/">Data Science SG community</a> and a monthly internal paper sharing club within the society, among many others. With good leadership, a good experience in the CCA will naturally follow. If this interests you, we are <a href="https://nus.campuslabs.com/engage/submitter/form/start/473251">currently recruiting the next batch of leaders</a> in the society!
+What made me make the switch to Statistics Society was the then and current president Joel Tan, who emphasised the flexibility of members to lead in their own style, anything from allowing us to decide the size of our team to the many new initiates we could try implementing over the year. This focus on member flexibility was shared across the society, and expressed in the many new initiatives we kick-started, such as <a href="https://www.instagram.com/nusstatssoc/">memes on Instagram</a>, <a href="https://sites.google.com/view/nusstatisticssociety/articles">publishing member-curated articles</a>, a workshop collaboration with the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/effective-data-visualization">psychology department</a> and <a href="https://datascience.sg/">Data Science SG community</a>, badminton sessions, and a monthly internal paper sharing club within the society, among many others. With good leadership, a good experience in the CCA will naturally follow. If this interests you, we are <a href="https://nus.campuslabs.com/engage/submitter/form/start/473251">currently recruiting the next batch of leaders</a> in the society!
 
 ## Accepting everyone
 
 <figure align="center">
-    <img src="/images/technical-workshop/workshop-interview.png" alt='missing' />
-    <figcaption align="center">Workshop Team Recruitment Email</figcaption>
+    <img src="/images/technical-workshop/team-profile.png" alt='missing' />
+    <figcaption align="center">The Workshops Team.</figcaption>
 </figure>
 
-During the recruitment for the workshop team, I faced a difficulty - 10 people made it through my interview (difficult as described by many), but most teams only had at most 5 members. Here is the dilemma: Having a large team can mean some members might not be meaningfully engaged if there wasn’t much work to do, while planning more work to do means that much more responsibility and organisation was required by me to commit to over the year. After much consideration, I decided against randomly selecting an arbitrarily smaller number of members, as it was unfair to those who did qualify but were not selected, accepted all 10 people, and readied to commit to more work. With a large 10-man strong team, the amount of work was great, but I believe the team felt was especially fulfilling as we conducted 8 impactful workshops with over 800 peak unique concurrent workshop participants, across the short span of a year!
+During the recruitment for the workshop team, I faced a difficulty - 9 people made it through my interview (difficult as described by many), but most teams only had at most 5 members. Here is the dilemma: Having a large team can mean some members might not be meaningfully engaged if there wasn’t much work to do, while planning more work to do means that much more responsibility and organisation was required by me to commit to over the year. After much consideration, I decided against randomly selecting an arbitrarily smaller number of members, as it was unfair to those who did qualify but were not selected, accepted all 9 people, and readied to commit to more work. With a large 9-man strong team, the amount of work was great, but I believe the team felt was especially fulfilling as we conducted 8 impactful workshops with over 800 peak unique concurrent workshop participants, across the short span of a year!
 
 ## Experience over outcomes
 
@@ -82,7 +82,9 @@ As a commitment towards a good experience for members, we allocated a part of ou
 
 ## Concluding
 
-All in all, conducting a technical workshop is a great means of professional development in one’s career, but the biggest takeaway is definitely the friends you meet and the memories forged. The past year has been extremely eventful and filled with challenging decisions, and I will continue to remember them for some time.
+All in all, conducting a technical workshop is a great means of professional development in one’s career, but the biggest takeaway is definitely the friends you meet and the memories forged. The past year has been extremely eventful and filled with challenging decisions, and I will continue to remember them for some time. 
+
+To connect with us, find us on <a href="http://sites.google.com/view/nusstatisticssociety">our website</a>, <a href="http://tinyurl.com/StatsTele">Telegram channel, <a href="http://tinyurl.com/StatsTele">Instagram</a>, <a href="http://linkedin.com/company/nusstatssoc/">LinkedIn</a> or our <a href="mailto:statistics.society@u.nus.edu">society email</a>.
 
 ------
 
@@ -134,6 +136,3 @@ All in all, conducting a technical workshop is a great means of professional dev
     <td>4.33 (3)</td>
   </tr>
 </table>
-
-
-To connect with us, find us on <a href="http://sites.google.com/view/nusstatisticssociety">our website</a>, <a href="http://tinyurl.com/StatsTele">Telegram channel, <a href="http://tinyurl.com/StatsTele">Instagram</a>, <a href="http://linkedin.com/company/nusstatssoc/">LinkedIn</a> or our <a href="mailto:statistics.society@u.nus.edu">society email</a>.
