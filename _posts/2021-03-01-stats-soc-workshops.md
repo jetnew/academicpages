@@ -88,6 +88,10 @@ To connect with us, find us on <a href="http://sites.google.com/view/nusstatisti
 
 ------
 
+### About the Author
+
+Jet New is the Director of Workshops at NUS Statistics Society AY2020/21. He studies computer science + USP and researches on causal reinforcement learning.
+
 ### Workshop Statistics
 
 <table style="width:100%">
