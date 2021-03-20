@@ -28,7 +28,7 @@ redirect_from:
 
 # Projects
 
-* `Reinforcement Learning` [You Play Ball, I Play Ball](portfolio/you-play-ball-i-play-ball) ⭐
+* `Reinforcement Learning` [You Play Ball, I Play Ball](portfolio/you-play-ball-i-play-ball) ⭐ [Read](portfolio/you-play-ball-i-play-ball){: .btn--research}
 * `Reinforcement Learning` [The Chosen One](portfolio/the-chosen-one) ⭐
 * `Natural Language Processing` [CARElytics](portfolio/carelytics) ⭐
 * `Natural Language Processing` [Dr FAQ ](portfolio/dr-faq)
