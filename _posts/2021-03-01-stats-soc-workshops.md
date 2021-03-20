@@ -60,7 +60,7 @@ Leadership is one of the core necessities in any endeavour. Before directing wor
 
 What made me make the switch to Statistics Society was the then and current president Joel Tan, who emphasised the flexibility of members to lead in their own style, anything from allowing us to decide the size of our team to the many new initiates we could try implementing over the year. This focus on member flexibility was shared across the society, and expressed in the many new initiatives we kick-started, such as <a href="https://www.instagram.com/nusstatssoc/">memes on Instagram</a>, <a href="https://sites.google.com/view/nusstatisticssociety/articles">publishing member-curated articles</a>, a workshop collaboration with the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/effective-data-visualization">psychology department</a> and <a href="https://datascience.sg/">Data Science SG community</a>, badminton sessions, and a monthly internal paper sharing club within the society, among many others. With good leadership, a good experience in the CCA will naturally follow. If this interests you, we are <a href="https://nus.campuslabs.com/engage/submitter/form/start/473251">currently recruiting the next batch of leaders</a> in the society!
 
-## Recruitment challenges
+## On recruitment decisions
 
 <figure align="center">
     <img src="/images/technical-workshop/team-profile.png" alt='missing' />
