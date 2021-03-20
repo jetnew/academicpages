@@ -13,14 +13,14 @@ A technical workshop is a short lesson, like a lecture or tutorial, that usually
 
 <figure align="center">
     <img src="/images/technical-workshop/workshops.png" alt='missing' />
-    <figcaption align="center"><i>Workshops at NUS Statistics Society 2020/21</i></figcaption>
+    <figcaption align="center">Workshops at NUS Statistics Society 2020/21</figcaption>
 </figure>
 
 Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students.
 
 <figure align="center">
     <img src="/images/technical-workshop/pca-peng.jpg" alt='missing' />
-    <figcaption align="center"><i>All About PCA: Theory, Algorithm, Applications. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">here</a>.</i></figcaption>
+    <figcaption align="center">All About PCA: Theory, Algorithm, Applications. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">here</a>.</figcaption>
 </figure>
 
 In Oct 2020, a workshop on <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">Principal Component Analysis</a> (PCA), a machine learning algorithm, attracted just over 25 live students. Those who attended shared the doubts they had, and even raised questions that presenters haven’t thought of before. Other students joined in the discussion and came up with an answer, teaching something new to the presenter. The recursion of students asking questions to the teachers and teachers learning from students and back again reinforces a dynamic relationship that strengthens everyone’s learning in the topic. Creating a space where all learners can feel safe to learn new things is the main reason why I chose to direct Workshops at Statistics Society.
@@ -29,14 +29,14 @@ Workshops build a sense of confidence and professionalism that is robustly adapt
 
 <figure align="center">
     <img src="/images/technical-workshop/sql-agatha.png" alt='missing' />
-    <figcaption align="center"><i>SQL for Data Scientists 101 & 102. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">here</a> and <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-102">here</a>.</i></figcaption>
+    <figcaption align="center">SQL for Data Scientists 101 & 102. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">here</a> and <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-102">here</a>.</figcaption>
 </figure>
 
 But inevitably, technical difficulties occur. During the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/sql-for-data-scientists-101">SQL workshop</a>, Agatha lost wifi connection, but Michael Yang stepped up to the occasion to take over the content his partner had prepared for the workshop (a full hour of content), given his prior knowledge in SQL and the familiarity having had a rehearsal with his partner. On the other hand, Agatha, despite having prepared hours of effort in the workshop, dealt with the inevitable with grace (which by itself is an admirable feat). Technical issues are a nature of live and online events, and to overcome them is an ability that only those who have gone through them can do.
 
 <figure align="center">
     <img src="/images/technical-workshop/facemask-georgie.png" alt='missing' />
-    <figcaption align="center"><i>Applied Machine Learning with Face Mask Detection. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">here</a>.</i></figcaption>
+    <figcaption align="center">Applied Machine Learning with Face Mask Detection. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">here</a>.</figcaption>
 </figure>
 
 Workshops create a strong portfolio and ownership towards the conduct of the workshop and the end-product of the workshop. In the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/applied-machine-learning-for-face-mask-detection">applied ML workshop</a>, Georgie and Rama led in a hands-on demo to build an end-to-end face mask detection web app, including the initial machine learning training. Rama created a handy Jupyer notebook that compiled the training pipeline, from feature extraction, transfer learning, model training and evaluation, complete with elaborate documentation. Georgie constructed the backend to connect the face mask detector to a user-facing web app, with optimised latency to detect whether a person is wearing a mask in real time. The resources created by them are <a href="https://github.com/geoboom/facemask-workshop">freely available</a> and serves as a useful indicator to future employers that represent their capabilities.
@@ -47,14 +47,14 @@ Leadership is one of the core necessities in any project. Before directing works
 
 <figure align="center">
     <img src="/images/technical-workshop/leaders.jpg" alt='missing' />
-    <figcaption align="center"><i>A Leaders Outing to Lunch and Board Game Cafe.</i></figcaption>
+    <figcaption align="center">A Leaders Outing to Lunch and Board Game Cafe.</figcaption>
 </figure>
 
 What made me make the switch to Statistics Society was the then and current president Joel Tan, who emphasised the flexibility of members to lead in their own style, anything from allowing us to decide the size of our team to the many new initiates we could try implementing over the year. This focus on member flexibility was shared across the society, and expressed in the many new initiatives we kick-started, such as <a href="https://www.instagram.com/nusstatssoc/">memes on Instagram</a>, <a href="https://sites.google.com/view/nusstatisticssociety/articles">publishing member-curated articles</a>, a workshop collaboration with the <a href="https://sites.google.com/view/nusstatisticssociety/workshops/effective-data-visualization">psychology department</a> and <a href="https://datascience.sg/">Data Science SG community</a> and a monthly internal paper sharing club within the society, among many others. With good leadership, a good experience in the CCA will naturally follow. If this interests you, we are <a href="https://nus.campuslabs.com/engage/submitter/form/start/473251">currently recruiting the next batch of leaders</a> in the society!
 
 <figure align="center">
     <img src="/images/technical-workshop/workshop-interview.png" alt='missing' />
-    <figcaption align="center"><i>Workshop Team Recruitment Email</i></figcaption>
+    <figcaption align="center">Workshop Team Recruitment Email</figcaption>
 </figure>
 
 During the recruitment for the workshop team, I faced a difficulty - 10 people made it through my interview (difficult as described by many), but most teams only had at most 5 members. Here is the dilemma: Having a large team can mean some members might not be meaningfully engaged if there wasn’t much work to do, while planning more work to do means that much more responsibility and organisation was required by me to commit to over the year. After much consideration, I decided against randomly selecting an arbitrarily smaller number of members, as it was unfair to those who did qualify but were not selected, accepted all 10 people, and readied to commit to more work. With a large 10-man strong team, the amount of work was great, but I believe it was especially fulfilling for the team as we conducted 8 impactful workshops with over 800 peak unique concurrent workshop participants, across the short span of a year!
@@ -63,7 +63,7 @@ As a society, the shared value across the society emphasises on the experience o
 
 <figure align="center">
     <img src="/images/technical-workshop/team-dinner.png" alt='missing' />
-    <figcaption align="center"><i>Workshops Team Christmas Pizza Dinner</i></figcaption>
+    <figcaption align="center">Workshops Team Christmas Pizza Dinner</figcaption>
 </figure>
 
 As a commitment towards a good experience for members, we allocated a part of our societal budget to subsidise team lunches once a semester, which helped with bonding in the society. At the end of 2020, when COVID-19 restrictions were reduced, we went for our first in-person team dinner. Nonetheless, what I think makes a bonded team is not the benefits that an organisation provides, but the willingness of each member to commit to the team. The purpose of joining a student organisation has never been for monetary gain or reputational benefits (there really isn’t much). It is not to achieve a certain outcomes, e.g. “I want to execute X number of workshops this year”, but rather to subscribe to a fun and enjoyable experience for everyone. Despite many COVID-19 difficulties, we persisted and forged many strong friendships across the society.
