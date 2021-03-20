@@ -91,6 +91,7 @@ Secondly, workshops should aim to be beginner-friendly and have as few pre-requi
 Thirdly, try to keep the duration of the workshop to at most 1.5 hours. Most of the learners, even the presenter, will begin to tire and feel that the workshop is dragging on by the 1.5-hour mark.
 
 Fourthly, involve your participants with some form of hands-on activity. Spend some buffer time to let participants play around with an API or attempt to solve problems. In our SQL workshop, since learning SQL requires practice, we introduced sample SQL questions and allocated time for students to try their hand at them, and the feedback showed that the hands-on practice benefitted the students.
+
 If this has piqued your interest, we are also recruiting members for the next academic year very soon!
 
 ## Concluding
