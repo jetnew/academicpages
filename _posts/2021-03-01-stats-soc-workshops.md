@@ -53,7 +53,7 @@ Workshops create a strong portfolio and ownership towards the conduct of the wor
 
 <figure align="center">
     <img src="/images/technical-workshop/leaders.jpg" alt='missing' />
-    <figcaption align="center">A Leaders Outing to Lunch and Board Game Cafe.</figcaption>
+    <figcaption align="center">A Leaders Outing to Lunch and Board Game Cafe. (FYI: Laws adhered)</figcaption>
 </figure>
 
 Leadership is one of the core necessities in any endeavour. Before directing workshops at NUS Statistics Society, I was a workshop member at <a href="https://dsc.comp.nus.edu.sg/">NUS Developer Student Club</a> in AY2019/2020, presenting <a href="https://www.youtube.com/playlist?list=PLiAp0_yuG0tY3bldy2K3L3s5XZmlmy8Gu">a series of 5 data science workshops</a>, including one at Google Developer Space.
