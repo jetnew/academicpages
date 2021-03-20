@@ -1,5 +1,5 @@
 ---
-title: 'Why You Should Conduct a Technical Workshop in University: Reflections on Workshops at NUS Statistics Society'
+title: 'Why You Should Conduct a Technical Workshop: Reflections at NUS Statistics Society'
 date: 2021-03-19
 permalink: /posts/2021/03/stats-soc-workshops/
 excerpt: 'Reflections on leading the Workshops Team at NUS Statistics Society AY2020/21.'
