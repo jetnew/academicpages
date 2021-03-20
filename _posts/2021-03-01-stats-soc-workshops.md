@@ -1,5 +1,5 @@
 ---
-title: 'Why You Should Conduct a Technical Workshop'
+title: 'Why You Should Conduct a Technical Workshop: Reflections on directing the workshops team at NUS Statistics Society'
 date: 2021-03-19
 permalink: /posts/2021/03/stats-soc-workshops/
 excerpt: 'Reflections on leading the workshops team at NUS Statistics Society.'
@@ -8,8 +8,6 @@ tags:
   - nus-statistics-society
   - workshops
 ---
-
-# Why You Should Conduct a Technical Workshop
 
 A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 10-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
 
