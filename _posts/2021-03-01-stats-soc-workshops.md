@@ -93,46 +93,62 @@ To connect with us, find us on <a href="http://sites.google.com/view/nusstatisti
 <table style="width:100%">
   <tr>
     <th>Workshop</th>
-    <th>Machine Learning from Scratch</th>
-    <th>SQL for Data Scientists 101</th>
-    <th>SQL for Data Scientists 102</th>
-    <th>Applied Machine Learning for Face Mask Detection</th>
-    <th>All About PCA: Theory, Algorithm, Applications</th>
-    <th>Data Science Competition: Applied Computer Vision</th>
-    <th>Effective Data Storytelling</th>
-    <th>Using Tidyverse in R for Data Analysis and Visualisation</th>
+    <th>Registrations</th>
+    <th>Peak Concurrent Viewers</th>
+    <th>Feedback (Submissions)</th>
   </tr>
   <tr>
-    <td>Registrations</td>
+    <td>Machine Learning from Scratch</td>
     <td>NA</td>
-    <td>470</td>
-    <td>470</td>
-    <td>183</td>
-    <td>72</td>
-    <td>NA</td>
-    <td>88</td>
-    <td>83</td>
-  </tr>
-  <tr>
-    <td>Peak Concurrent Viewers</td>
     <td>60</td>
-    <td>167</td>
-    <td>51</td>
-    <td>57</td>
-    <td>30</td>
-    <td>415</td>
-    <td>41</td>
-    <td>27</td>
+    <td>-</td>
   </tr>
     <tr>
-    <td>Feedback (Submissions)</td>
-    <td>-</td>
+    <td>SQL for Data Scientists 101</td>
+    <td>470</td>
+    <td>167</td>
     <td>4.93 (15)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>SQL for Data Scientists 102</td>
+    <td>470</td>
+    <td>51</td>
     <td>4.90 (10)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Applied Machine Learning for Face Mask Detection</td>
+    <td>183</td>
+    <td>57</td>
     <td>4.50 (10)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>All About PCA: Theory, Algorithm, Applications</td>
+    <td>72</td>
+    <td>30</td>
     <td>4.71 (7)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Data Science Competition: Applied Computer Vision</td>
+    <td>NA</td>
+    <td>415</td>
     <td>4.31 (13)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Effective Data Storytelling</td>
+    <td>88</td>
+    <td>41</td>
     <td>4.45 (11)</td>
+  </tr>
+  </tr>
+    <tr>
+    <td>Using Tidyverse in R for Data Analysis and Visualisation</td>
+    <td>83</td>
+    <td>27</td>
     <td>4.33 (3)</td>
   </tr>
 </table>
