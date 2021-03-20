@@ -4,9 +4,9 @@ date: 2021-03-19
 permalink: /posts/2021/03/stats-soc-workshops/
 excerpt: 'Reflections on leading the Workshops Team at NUS Statistics Society AY2020/21.'
 tags:
-  - data-science
   - nus-statistics-society
   - workshops
+  - data-science
 ---
 
 <figure align="center">
