@@ -40,7 +40,7 @@ Modelling environment dynamics is a common approach in MBRL, which can be learnt
 
 ## Directional Dynamics Modelling
 
-Directional dynamics modelling refers to the direction by which environment dynamics are being modelled. Given a trajectory consisting of tuples of transitions of the form $(s_t, a_t, s_{t+1})$, models of the environment can be learnt by predicting forward, backward or inverse. The forward model learns $P(s_{t+1}|s_t,a_t)$, predicting the next state. The backward model learns $P(s_t|s_{t+1},a_t)$ inferring the previous state given the next state. The inverse model learns $P(a_t|s_t,s_{t+1})$, inferring the action required to transition from current to next state.
+Directional dynamics modelling refers to the direction by which environment dynamics are being modelled. Given a trajectory consisting of tuples of transitions of the form $(s_t, a_t, s_{t+1})$, models of the environment can be learnt by predicting forward, backward or inverse. The forward model learns $P(s_{t+1}\vert s_t,a_t)$, predicting the next state. The backward model learns $P(s_t\vert s_{t+1},a_t)$ inferring the previous state given the next state. The inverse model learns $P(a_t\vert s_t,s_{t+1})$, inferring the action required to transition from current to next state.
 
 ## Planning: Shooting and Collocation
 
