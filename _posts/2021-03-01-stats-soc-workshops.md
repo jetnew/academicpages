@@ -88,9 +88,11 @@ Firstly, and arguably most importantly, workshops should be timed near the start
 
 Secondly, workshops should aim to be beginner-friendly and have as few pre-requisites as possible. Workshops are not meant to be a crash course -- they are meant to be an introductory taste to pique the learners' interest and curiosity to further explore the subject on their own. This is what I would improve on if I could turn back time. Some of our workshops were admittedly not beginner-friendly, leading some students to be lost midway in the workshop.
 
-Thirdly, try to keep the duration of the workshop to at most 1.5 hours. Most of the learners, even the presenter, will begin to tire and feel that the workshop is dragging on by the 1.5-hour mark.
+Thirdly, publicise your workshop by showing how your target audience will benefit from it. For example, students should learn SQL because it is highly relevant in many jobs from software engineers to data scientists. Showing the relevance of the workshop content will help potential participants understand how joining the workshop will be a good use of their time.
 
-Fourthly, involve your participants with some form of hands-on activity. Spend some buffer time to let participants play around with an API or attempt to solve problems. In our SQL workshop, since learning SQL requires practice, we introduced sample SQL questions and allocated time for students to try their hand at them, and the feedback showed that the hands-on practice benefitted the students.
+Fourthly, try to keep the duration of the workshop to at most 1.5 hours. Most of the learners, even the presenter, will begin to tire and feel that the workshop is dragging on by the 1.5-hour mark.
+
+Lastly, involve your participants with some form of hands-on activity. Spend some buffer time to let participants play around with an API or attempt to solve problems. In our SQL workshop, since learning SQL requires practice, we introduced sample SQL questions and allocated time for students to try their hand at them, and the feedback showed that the hands-on practice benefitted the students.
 
 If this has piqued your interest, we are also recruiting members for the next academic year very soon!
 
