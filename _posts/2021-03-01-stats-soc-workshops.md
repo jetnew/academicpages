@@ -9,12 +9,12 @@ tags:
   - workshops
 ---
 
-A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 10-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
-
 <figure align="center">
     <img src="/images/technical-workshop/workshops.png" alt='missing' />
     <figcaption align="center">Workshops at NUS Statistics Society 2020/21</figcaption>
 </figure>
+
+A technical workshop is a short lesson, like a lecture or tutorial, that usually emphasises hands-on practice into a technical tool or concept. In 2020 and 2021, <a href="https://sites.google.com/view/nusstatisticssociety/">NUS Statistics Society</a> conducted <a href="https://sites.google.com/view/nusstatisticssociety/workshops">8 technical workshops</a> in total for NUS students and the wider community in <a href="https://datascience.sg/">Data Science SG</a>. In this article, I share why I think you should experience conducting a technical workshop, based on my experience over 1 year directing the 10-member strong <a href="https://sites.google.com/view/nusstatisticssociety/about/about-workshops">Workshop Team</a> in the NUS Statistics Society 2020/21.
 
 Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students.
 
