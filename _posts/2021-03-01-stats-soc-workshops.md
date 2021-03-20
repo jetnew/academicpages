@@ -19,7 +19,7 @@ A technical workshop is a short lesson, like a lecture or tutorial, that usually
 Workshops create an environment of shared curiosity and enthusiasm around a particular topic. If a topic piques your interest, you can safely ask questions to the presenters or fellow students.
 
 <figure align="center">
-    <img src="/images/technical-workshop/pac-peng.jpg" alt='missing' />
+    <img src="/images/technical-workshop/pca-peng.jpg" alt='missing' />
     <figcaption align="center"><i>All About PCA: Theory, Algorithm, Applications. Watch <a href="https://sites.google.com/view/nusstatisticssociety/workshops/all-about-pca-theory-algorithm-application">here</a>.</i></figcaption>
 </figure>
 
