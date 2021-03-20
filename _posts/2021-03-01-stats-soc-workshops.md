@@ -2,7 +2,7 @@
 title: 'Why You Should Conduct a Workshop: Reflections at NUS Statistics Society'
 date: 2021-03-19
 permalink: /posts/2021/03/stats-soc-workshops/
-excerpt: 'Reflections on leading the Workshops Team at NUS Statistics Society AY2020/21.'
+excerpt: 'Reflections on leading the Workshops Team at NUS Statistics Society in AY2020/21.'
 tags:
   - nus-statistics-society
   - workshops
