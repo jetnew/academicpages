@@ -1,6 +1,6 @@
 ---
 title: 'Gaussian Mixture Models with TensorFlow Probability'
-date: 2020-12-23
+date: 2020-06-27
 excerpt: 'A note on Mixture of Gaussians with TensorFlow Probability. Published on Analytics Vidhya.'
 permalink: /posts/2020/06/notes-on-gmms-with-tfp/
 tags:
