@@ -1,6 +1,6 @@
 ---
 title: "Generative Modelling: Simkit"
-excerpt: "Environment Simulation Kit for creating reinforcement learning agents."
+excerpt: "Simkit was my internship project at Grab in summer 2020, which I presented at Google Developer Space."
 date: 2020-01-01
 collection: portfolio
 ---
