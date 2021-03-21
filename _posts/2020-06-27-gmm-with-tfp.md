@@ -8,7 +8,7 @@ tags:
   - tensorflow-probability
 ---
 
-Originally posted on (Analytics Vidhya)[https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22].
+Originally posted on [Analytics Vidhya](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22).
 
 ## Content
 
@@ -92,7 +92,7 @@ mvn_stddev = mvn.stddev().numpy()
 [1.4525477  1.44381714]
 ```
 
-However, `tfd.MultivariateNormalFullCovariance` will be deprecated and `MultivariateNormalTril(loc=loc, scale_tril=tf.linalg.cholesky(covariance_matrix))` should be used instead. Cholesky decomposition of a positive definite matrix (e.g. covariance matrix) can be interpreted as the "square root" of a positive definite matrix [(1)[http://www.seas.ucla.edu/~vandenbe/133A/lectures/chol.pdf]][(2)[http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam05-ukf.pdf]].
+However, `tfd.MultivariateNormalFullCovariance` will be deprecated and `MultivariateNormalTril(loc=loc, scale_tril=tf.linalg.cholesky(covariance_matrix))` should be used instead. Cholesky decomposition of a positive definite matrix (e.g. covariance matrix) can be interpreted as the "square root" of a positive definite matrix [[1](http://www.seas.ucla.edu/~vandenbe/133A/lectures/chol.pdf)][[2](http://ais.informatik.uni-freiburg.de/teaching/ws12/mapping/pdf/slam05-ukf.pdf)].
 
 ```python
 # Due to deprecated MultivariateNormalFullCovariance
