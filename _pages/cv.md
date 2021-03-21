@@ -11,6 +11,4 @@ redirect_from:
 
 Download [here](/files/Jet_New_Resume_2023.pdf).
 
-<object data="/files/Jet_New_Resume_2023.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" height="100%" width="100%"></object>
-
 <embed src="/files/Jet_New_Resume_2023.pdf#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="100%">
