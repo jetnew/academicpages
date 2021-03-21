@@ -11,7 +11,6 @@ tags:
   - tensorflow-probability
 ---
 
-
 A note on Mixture of Gaussians with TensorFlow Probability. Published on [Analytics Vidhya](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22).
 
 ## Content
@@ -23,7 +22,7 @@ A note on Mixture of Gaussians with TensorFlow Probability. Published on [Analyt
 5. Multivariate Gaussian Mixture Model
 6. Conditional Gaussian Mixture Model
 
-> In probability theory, a normal (or Gaussian or Gauss or Laplace–Gauss) distribution is a type of continuous probability distribution for a real-valued random variable. — Wikipedia
+In probability theory, a normal (or Gaussian or Gauss or Laplace–Gauss) distribution is a type of continuous probability distribution for a real-valued random variable. — Wikipedia
 
 ## Dependencies
 
