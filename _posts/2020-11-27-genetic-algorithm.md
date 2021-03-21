@@ -3,6 +3,7 @@ title: 'Evolutionary Computation: Genetic Algorithm (Part 1/3)'
 date: 2020-11-27
 excerpt: 'The genetic algorithm is a nature-inspired algorithm based on natural selection, that the fittest individuals of a population are selected to reproduce the next generation. 1st of a 3-part series on evolutionary computation.'
 permalink: /posts/2020/11/genetic-algorithm/
+comments: true
 tags:
   - evolutionary-computation
   - complex-systems

@@ -3,6 +3,7 @@ title: 'Foundational Papers in Complexity Science'
 date: 2030-03-01
 permalink: /posts/2021/03/complexity-science-reading/
 excerpt: 'Reflections on foundational papers in complexity science.'
+comments: true
 tags:
   - complex-systems
 ---

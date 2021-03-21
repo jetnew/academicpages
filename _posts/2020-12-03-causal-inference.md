@@ -3,6 +3,7 @@ title: 'A Note on Causal Inference'
 date: 2021-01-01
 excerpt: 'Causal inference is the inference of the effect of any treatment on the outcome, based on the causal structures of the underlying process.'
 permalink: /posts/2021/1/causal-inference/
+comments: true
 tags:
   - causal-inference
 ---

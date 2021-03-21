@@ -3,6 +3,7 @@ title: 'Evolutionary Computation: Neuroevolution (Part 2/3)'
 date: 2020-11-28
 excerpt: 'Neuroevolution is a method of applying evolutionary algorithms to optimise neural networks instead of using backpropagation. Neuroevolution therefore is a non-gradient (or derivation-free) optimisation, which can speed up training as backward passes are not computed. 2nd of a 3-part series on evolutionary computation.'
 permalink: /posts/2020/11/neuroevolution/
+comments: true
 tags:
   - evolutionary-computation
   - complex-systems

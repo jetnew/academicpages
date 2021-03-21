@@ -3,6 +3,7 @@ title: 'Interactive Vision: Lessons from Attentional Reinforcement Learning'
 date: 2020-12-23
 excerpt: 'Interactive vision was a framework proposed in 1994 by Churchland to replace the Pure Vision paradigm and its "rich replica" assumptions. After 20 years, as Churchland questioned, how much mileage can we get out of reinforcement learning should we assume that perceptions are a "semi-world representation" of goal-relevant properties?'
 permalink: /posts/2020/12/interative-vision/
+comments: true
 tags:
   - reinforcement-learning
   - attention-mechanism

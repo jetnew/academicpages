@@ -3,6 +3,7 @@ title: 'Notes on Model-Based Reinforcement Learning'
 date: 2020-12-23
 excerpt: 'Notes on Model-Based Reinforcement Learning (MBRL) as part of my Undergraduate Research Opportunities Programme (UROP) in NUS.'
 permalink: /posts/2021/01/notes-on-mbrl/
+comments: true
 tags:
   - research
   - reinforcement-learning
