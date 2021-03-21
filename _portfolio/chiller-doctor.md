@@ -1,6 +1,6 @@
 ---
-title: "Time Series Analysis: Chiller Doctor"
-excerpt: "Time series anomaly detection algorithm."
+title: "Chiller Doctor"
+excerpt: "Chiller Doctor is a time series anomaly detection algorithm, designed and implemented during my internship at Infocomm Media Development Authority in 2019."
 date: 2020-01-01
 collection: portfolio
 ---

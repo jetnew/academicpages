@@ -1,6 +1,6 @@
 ---
-title: "Reinforcement Learning: You Play Ball, I Play Ball"
-excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball, won 1st place at 17th STePS 2020."
+title: "You Play Ball, I Play Ball"
+excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball is my CS3244 Machine Learning class project that won 1st place at the NUS Computing Project Showcase, 17th STePS 2020."
 date: 2020-11-01
 collection: portfolio
 ---

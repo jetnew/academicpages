@@ -1,6 +1,6 @@
 ---
-title: "Generative Modelling: This Gemstone Does Not Exist"
-excerpt: "Deep convolutional generative adversarial network (DCGAN) for generating gemstones."
+title: "This Gemstone Does Not Exist"
+excerpt: "This Gemstone Does Not Exist, a deep convolutional generative adversarial network (DCGAN) for generating gemstones, was done as part of my CS6101 guest lecture class project, presented at NUS Computing Project Showcase in 2019."
 date: 2019-12-01
 collection: portfolio
 ---

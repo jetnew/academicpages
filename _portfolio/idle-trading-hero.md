@@ -1,6 +1,6 @@
 ---
 title: "Time Series Analysis: Idle Trading Hero"
-excerpt: "Algorithmic trading using quantitative analysis."
+excerpt: "Idle Trading Hero, an automated algorithmic trading platform that uses quantitative analysis, was my Orbital project in summer 2020, awarded the Artemis (highest) level,"
 date: 2020-01-01
 collection: portfolio
 ---

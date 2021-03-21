@@ -1,6 +1,6 @@
 ---
-title: "Agent-Based Modelling: COVID Mask Policy Simulator"
-excerpt: "Agent-based modelling study on mask-wearing and policy interventions."
+title: "COVID Mask Policy Simulator"
+excerpt: "COVID Mask Policy Simulator is an agent-based modelling study on mask wearing and its effect on policy interventions, done for my USP quantitative reasoning module."
 date: 2020-01-01
 collection: portfolio
 ---

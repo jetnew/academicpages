@@ -1,7 +1,7 @@
 ---
-title: "Natural Language Processing: CARElytics"
-excerpt: "Product-level social media analytics"
-date: 2020-01-01
+title: "CARElytics"
+excerpt: "CARElytics, a AI-enabled social media analytics solution for real-time brand and product insights, was designed during the HACK Asia Global Hackathon 2020, and was awarded Top 10 Finalist."
+date: 2020-07-12
 collection: portfolio
 ---
 

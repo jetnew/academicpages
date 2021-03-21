@@ -1,6 +1,6 @@
 ---
-title: "Reinforcement Learning: The Chosen One"
-excerpt: "Multi-agent reinforcement learning"
+title: "The Chosen One"
+excerpt: "The Chosen One, multi-agent reinforcement learning trained by adversarial training, was awarded the Best AI Hack at the iNTUition Hackathon 2019 at Nanyang Technological University."
 date: 2019-11-01
 collection: portfolio
 ---
