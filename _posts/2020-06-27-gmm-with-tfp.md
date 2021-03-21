@@ -9,7 +9,7 @@ tags:
   - tensorflow-probability
 ---
 
-Originally published on [Analytics Vidhya](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22).
+A note on Mixture of Gaussians with TensorFlow Probability. Published on [Analytics Vidhya](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22).
 
 ## Content
 
