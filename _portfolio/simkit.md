@@ -7,7 +7,7 @@ collection: portfolio
 
 # About Simkit
 
-Simkit was my internship project at Grab in summer 2020, which I [presented](https://www.youtube.com/watch?v=wl_Z9URl6BU) at Google Developer Space. Read the full report [here](files/sip-grab.pdf).
+Simkit was my internship project at Grab in summer 2020, which I [presented](https://www.youtube.com/watch?v=wl_Z9URl6BU) at Google Developer Space. Read the full report [here](/files/sip-grab.pdf).
 
 Simkit, or Environment Simulation Kit, is a generalized framework for building generative and probabilistic models which can be used to construct artificial environments for training reinforcement learning (RL) agents.
 
