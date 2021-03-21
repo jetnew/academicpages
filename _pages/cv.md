@@ -8,6 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-<iframe src="/files/Jet_New_Resume_2023.pdf" width="100%" height="100%" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+
+<object data="/files/Jet_New_Resume_2023.pdf" type="application/pdf">
+  <embed src="/files/Jet_New_Resume_2023.pdf" type="application/pdf"/>
+</object>
 
 You can download a PDF copy of my Resume [here](/files/Jet_New_Resume_2023.pdf).
