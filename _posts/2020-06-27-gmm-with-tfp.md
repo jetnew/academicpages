@@ -5,13 +5,13 @@ excerpt: 'A note on Mixture of Gaussians with TensorFlow Probability. Published 
 permalink: /posts/2020/06/notes-on-gmms-with-tfp/
 comments: true
 toc: true
-header:
-    og_image: "images/gmm-tfp/multivariate-gmm-pdf.png"
 tags:
   - generative-modelling
   - gaussian-mixture-models
   - tensorflow-probability
 ---
+
+{% include toc %}
 
 A note on Mixture of Gaussians with TensorFlow Probability. Published on [Analytics Vidhya](https://medium.com/analytics-vidhya/gaussian-mixture-models-with-tensorflow-probability-125315891c22).
 
