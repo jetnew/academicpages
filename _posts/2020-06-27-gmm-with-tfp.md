@@ -165,7 +165,7 @@ plt.plot(x, gmm.prob(x).numpy());
 print(gmm.mean().numpy())  # 23.0
 ```
 
-![GMM-PDF](/images/gmm-tfp/GMM-pdf.png)
+![GMM-PDF](/images/gmm-tfp/gmm-pdf.png)
 
 `tfd.MixtureSameFamily` allows definition of mixture models of the same family distribution without a for-loop.
 
