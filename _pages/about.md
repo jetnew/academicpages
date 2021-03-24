@@ -12,23 +12,23 @@ redirect_from:
 
 * 💻 I study computer science, and enrolled in the University Scholars Programme ([USP](http://usp.nus.edu.sg/)) at the National University of Singapore ([NUS](https://nus.edu.sg/)).
 * ♟️ I currently research causal reinforcement learning at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab.
-* 📈 I lead the workshops team at [NUS Statistics Society](posts/2021/03/stats-soc-workshops), delivering data science workshops.
+* 📈 I lead the workshops team at [NUS Statistics Society](/posts/2021/03/stats-soc-workshops), delivering data science workshops.
 * 💼 I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # News
 
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
-* `Dec 2020` I begun a [1-year research programme](posts/2020/12/notes-on-mbrl) on reinforcement learning at NUS.
-* `Nov 2020` My CS3244 project was awarded [1st prize at STePS](portfolio/you-play-ball-i-play-ball).
-* `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](portfolio/simkit).
+* `Dec 2020` I begun a [1-year research programme](/posts/2020/12/notes-on-mbrl) on reinforcement learning at NUS.
+* `Nov 2020` My CS3244 project was awarded [1st prize at STePS](/portfolio/you-play-ball-i-play-ball).
+* `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](/portfolio/simkit).
 * `Jul 2020` I achieved [Top 10 Finalist](portfolio/carelytics) at HackAsia Global Hackathon.
 
 # Experience
 
-* `Summer 2020` [Intern](portfolio/simkit.md), Machine Learning Engineer at Grab
-* `Winter, Spring 2019` [Intern](portfolio/chiller-doctor.md) (Machine Learning) at IMDA
+* `Summer 2020` [Intern](/portfolio/simkit), Machine Learning Engineer at Grab
+* `Winter, Spring 2019` [Intern](/portfolio/chiller-doctor) (Machine Learning) at IMDA
 
 # Activities
-* `2020` Workshop Director at [NUS Statistics Society](posts/2021/03/stats-soc-workshops)
+* `2020` Workshop Director at [NUS Statistics Society](/posts/2021/03/stats-soc-workshops)
 * `2020` Data Analytics at [Advisory Singapore](https://advisory.sg/)
 * `2019` Workshop Member at [NUS Google Developer Student Club](https://dsc.comp.nus.edu.sg/about)
