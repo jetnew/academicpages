@@ -1,6 +1,6 @@
 ---
 title: "You Play Ball, I Play Ball"
-excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball is my CS3244 Machine Learning class project that won 1st place at the NUS Computing Project Showcase, 17th STePS 2020.<br/><iframe src="https://giphy.com/embed/fAVu7DklkQyW7XnKpf" width="500" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>"
+excerpt: "Bayesian Multi-Agent Reinforcement Learning for Slime Volleyball is my CS3244 Machine Learning class project that won 1st place at the NUS Computing Project Showcase, 17th STePS 2020.<br/><img src='/images/slime-rl/slime.png'>"
 date: 2020-11-01
 collection: portfolio
 ---
