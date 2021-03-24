@@ -1,6 +1,6 @@
 ---
 title: "Simkit"
-excerpt: "Simkit, a framework for building generative and probabilistic models for training reinforcement learning agents, is my internship project at Grab in summer 2020, which I presented at Google Developer Space."
+excerpt: "Simkit, a framework for building generative and probabilistic models for training reinforcement learning agents, is my internship project at Grab in summer 2020, which I presented at Google Developer Space.<br/><img src='/images/simkit/preview.png'>"
 date: 2020-08-01
 collection: portfolio
 ---
