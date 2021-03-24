@@ -55,8 +55,8 @@ In the Conditional Generative models, I implemented the Gaussian mixture density
 
 * The GMDN is a model for representing normally distributed subpopulations within an overall population. 
   * A Gaussian mixture model is a universal approximator of densities, that any smooth density can be approximated by a Gaussian mixture model with enough components.
-  * The GMM is parameterized by mixture component weights, means and covariances. For each input x, predict a probability density function of P(Y=y|X=x) that is a probability weighted sum of smaller Gaussian distributions.
-  * The conditional Gaussian mixture model can be implemented using Mixture Density Networks, consisting of a neural network to predict the parameters that define the Gaussian mixture model. For each input x, the MDN predicts a probability density function of P(Y=y|X=x).
+  * The GMM is parameterized by mixture component weights, means and covariances. For each input x, predict a probability density function of $P(Y=y\vert X=x)$ that is a probability weighted sum of smaller Gaussian distributions.
+  * The conditional Gaussian mixture model can be implemented using Mixture Density Networks, consisting of a neural network to predict the parameters that define the Gaussian mixture model. For each input x, the MDN predicts a probability density function of $P(Y=y\vert X=x)$.
   * Each parameter pi, mu, sigma is approximated by a neural network as a function of input x, which represents the parent feature.
 
 * The CGAN is a generative adversarial model that conditions on parent features for both generator and discriminator models during training.
@@ -72,7 +72,7 @@ On the Probabilistic Response Model side of things:
 * The Bayesian neural network are essentially neural networks but with weights that are assigned a probability distribution to estimate uncertainty, and trained via variational inference.
   * The Bayesian Neural Network, unlikely an ordinary neural network, has weights that are assigned a probability distribution to estimate uncertainty. 
   * Bayesian neural networks can be trained with variational inference by perturbing the weights, such as using flipout. Flipout decorrelates the gradients between different examples without biasing the gradient estimates.
-  * The key focus of Bayesian neural networks is that it puts a prior distribution p(W) over the weights and approximates the posterior distribution P(W|D) a p(W)p(D|W), where D denotes observed data.  The evidence lower bound (ELBO) is maximised in variational inference:
+  * The key focus of Bayesian neural networks is that it puts a prior distribution p(W) over the weights and approximates the posterior distribution $P(W\vert D) \appropto p(W)p(D\vert W)$, where D denotes observed data.  The evidence lower bound (ELBO) is maximised in variational inference:
 
 * Monte carlo dropout is a method of Bayesian approximation by performing T stochastic forward passes through the neural network.
   * The Monte Carlo (MC) Dropout has been shown to approximate to Bayesian inference in deep Gaussian processes. Dropout training with neural networks allows modelling of uncertainty without sacrificing either computational complexity or test accuracy.
