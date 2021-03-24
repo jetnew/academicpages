@@ -18,7 +18,7 @@ redirect_from:
 # News
 
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
-* `Dec 2020` I begun a [1-year research programme](/posts/2020/12/notes-on-mbrl) on reinforcement learning at NUS.
+* `Dec 2020` I begun a 1-year research programme on reinforcement learning at NUS.
 * `Nov 2020` My CS3244 project was awarded [1st prize at STePS](/portfolio/you-play-ball-i-play-ball).
 * `Aug 2020` I spoke at Singapore Google Developer Space about my [internship work at Grab](/portfolio/simkit).
 * `Jul 2020` I achieved [Top 10 Finalist](portfolio/carelytics) at HackAsia Global Hackathon.
