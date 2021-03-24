@@ -5,6 +5,8 @@ date: 2020-11-01
 collection: portfolio
 ---
 
+<iframe src="https://giphy.com/embed/fAVu7DklkQyW7XnKpf" width="500" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fAVu7DklkQyW7XnKpf">via GIPHY</a></p>
+
 As part of my CS3244 Machine Learning class, this project was awarded 1st place by popular vote at the NUS Computing Project Showcase, 17th STePS 2020.
 
 Multi-agent reinforcement learning has recently been popular, emerging fascinating behaviour from the interaction of multiple agents. On another branch of artificial intelligence, Bayesian learning has also been getting popular from its capacity to quantify and reduce uncertainty.
