@@ -72,7 +72,7 @@ On the Probabilistic Response Model side of things:
 * The Bayesian neural network are essentially neural networks but with weights that are assigned a probability distribution to estimate uncertainty, and trained via variational inference.
   * The Bayesian Neural Network, unlikely an ordinary neural network, has weights that are assigned a probability distribution to estimate uncertainty. 
   * Bayesian neural networks can be trained with variational inference by perturbing the weights, such as using flipout. Flipout decorrelates the gradients between different examples without biasing the gradient estimates.
-  * The key focus of Bayesian neural networks is that it puts a prior distribution p(W) over the weights and approximates the posterior distribution $P(W\vert D) \appropto p(W)p(D\vert W)$, where D denotes observed data.  The evidence lower bound (ELBO) is maximised in variational inference:
+  * The key focus of Bayesian neural networks is that it puts a prior distribution p(W) over the weights and approximates the posterior distribution $P(W\vert D) \propto p(W)p(D\vert W)$, where D denotes observed data.  The evidence lower bound (ELBO) is maximised in variational inference:
 
 * Monte carlo dropout is a method of Bayesian approximation by performing T stochastic forward passes through the neural network.
   * The Monte Carlo (MC) Dropout has been shown to approximate to Bayesian inference in deep Gaussian processes. Dropout training with neural networks allows modelling of uncertainty without sacrificing either computational complexity or test accuracy.
