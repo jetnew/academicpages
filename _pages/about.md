@@ -29,6 +29,7 @@ redirect_from:
 * `Winter, Spring 2019` [Intern](/portfolio/chiller-doctor) (Machine Learning) at IMDA
 
 # Activities
+* `2021` President at [NUS Statistics and Data Science Society](https://sites.google.com/view/nusstatisticssociety/)
 * `2020` Workshop Director at [NUS Statistics Society](/posts/2021/03/stats-soc-workshops)
 * `2020` Data Analytics at [Advisory Singapore](https://advisory.sg/)
 * `2019` Workshop Member at [NUS Google Developer Student Club](https://dsc.comp.nus.edu.sg/about)
