@@ -9,11 +9,11 @@ tags:
   - programming
 ---
 
-## Why Python?
+# Why Python?
 
 Python is a hugely popular programming language that is used for a wide variety of applications, such as web development, workflow automation and data science. Python is a beginner-friendly programming language yet is widely used across industry and academia. The key strength of Python is its developer ecosystem that builds open-source extension packages that can be imported by anyone. This article is for all my non-programming friends who might want to learn Python. Feel free to contact me if you face difficulty following this article.
 
-## Programming Environment, Print and Comments
+# Programming Environment, Print and Comments
 
 For the purposes of learning, we will use replit as the development environment. Go over to [replit.com](https://replit.com/) and create an account, then create a new "repl" in Python 3. To install Python on your local computer (without needing to go online like replit.com), go over to [python.org](https://www.python.org/) and download the latest version (Python 3.9.6 at time of writing).
 
@@ -37,7 +37,7 @@ Notice that the color of the code changes, indicating that the *code* has turned
 print("Hello world!")  # this code prints "Hello world!" to the terminal
 ```
 
-## Variables and Data Types
+# Variables and Data Types
 
 Variables are "containers" that hold values. Values can be in the form of various data types, such as integers, floats, characters and strings. You can assign a value to a variable like this:
 
@@ -57,7 +57,7 @@ e = True      # this is a boolean (true or false) variable, which must have a ca
 
 One important thing to note is that string variables can be surrounded by either single ('') or double ("") quotes, which make no difference in Python. Returning to `print("Hello world!")`, notice that `"Hello world!"` is a string that we directly input into `print()`.
 
-## Operators
+# Operators
 
 Operators are what you use to manipulate data and variables. For example, you may use arithmetic operators to perform arithmetic:
 
@@ -94,7 +94,7 @@ print(a)
 
 Notice now that after the line `a += b` is the same as `a = a + b`, and `a` now holds the value 7.
 
-## Functions
+# Functions
 
 What is `print()` then? `print()` is a function. A function is a block of code that are grouped together. Why do we need functions? Functions give the block of code a name so that we (the programmer) knows what the block of code does. For example, we may want a `print_name()` function that prints according to a specified name given as input, _without knowing how that is being done under the hood_.
 
@@ -128,11 +128,11 @@ print(a)        # show that the variable 'a' now has a value of 7
 
 First, notice that we now have 2 arguments (function inputs), `x` and `y`. Second, notice that instead of `print()`, we have `return x + y`. What this means is that the function `add(x, y)` will now return a value. Because the function returns a value, we can do variable assignment of a function, `a = add(2, 5)`, and `a` now has a value of `7`. To recap, `2` and `5` are _set_ into `x` and `y` respectively, and `x + y`, i.e. `7`, is returned and assigned to the variable `a`.
 
-## 4 Data Structures: List, Tuple, Dictionary, Set
+# 4 Data Structures: List, Tuple, Dictionary, Set
 
 What if we want to manipulate many variables and values (think hundreds or thousands) at a time? Because we want to easily access and modify variables, we use data structures instead of manually defining and assigning thousands of individual variables.
 
-### List
+## List
 
 For example, take the example of having 3 variables:
 
@@ -182,7 +182,7 @@ number_list[4] = 'E'  # set the element at index 4 as 'E'
 print(number_list)    # prints ['a', 'B', 'c', 'd', 'E', 'f']
 ```
 
-### Tuple
+## Tuple
 
 Tuples are essentially the same as lists, with the exception that you cannot modify elements of a tuple after creating the tuple. That means that the following code will output an error:
 
@@ -197,7 +197,7 @@ Why don't tuples support element assignment? Why would I use a tuple instead of 
 
 Tuple indexing works the same as list indexing.
 
-### Dictionary
+## Dictionary
 
 Dictionaries are a type of data structure that associates a 'key' with a 'value'. While we reference elements of a list and tuple by its index, we reference elements of a dictionary by its key. Dictionaries encapsulate elements with curly braces `{}`:
 
@@ -215,7 +215,7 @@ print(animal_counts['duck'])
 
 Note that you can only reference the value by its key, and not reference the key by its value. Dictionaries are especially useful when you want to provide a semantics when referencing values (in contrast to referencing by a meaningless index).
 
-### Set
+## Set
 
 A set is a collection of unique elements, encapsulating elements using curly braces `{}` (like a dictionary). However, unlike a dictionary, it does not have a key-value pair, only elements:
 
@@ -226,9 +226,9 @@ print(number_set)  # prints {1, 2, 3, 4}
 
 Notice that even though we specify multiple instances of `4`, a set automatically keeps a collection of unique elements only. This is useful when we want to count the number of unique elements in a collection.
 
-## Booleans and Conditionals (If-Elif-Else)
+# Booleans and Conditionals (If-Elif-Else)
 
-### Boolean
+## Boolean
 
 We have learnt previously that booleans are a data type that is either a `True` or `False` value. In the while-loop, we learnt that we can use *boolean conditions* (e.g. `i < 5`) as well. Here are the boolean conditions:
 
@@ -251,7 +251,7 @@ print(i < 5 or j >= 7)   # prints True
 print(i < 5 and j >= 7)  # prints False
 ```
 
-### Conditionals (If-Elif-Else)
+## Conditionals (If-Elif-Else)
 
 We can adapt the code to adapt to different situations by using `if`, `elif` and `else` (in that order). If a boolean expression is true, the code run will enter that condition.
 
@@ -300,11 +300,11 @@ else:
 Notice that for the first code snippet uses `if` and the second uses `elif` in the middle condition. The first code snippet will print both `"Legal to smoke."` and `"Can learn driving!"` while the second snippet will only print `"Legal to smoke."`. This is because the code body of `elif` will only be run if the above `if` conditions are `False`.
 
 
-## For-loops and While-loops
+# For-loops and While-loops
 
 If we want to run the same (or similar) code multiple times, one elegant way of doing so, rather than copy-pasting the same line of code over and over again, is by using loops.
 
-### For-loop
+## For-loop
 
 The for-loop is an easy way to specify doing something $N$ number of times:
 
@@ -345,7 +345,7 @@ for i in range(7, 2, -1):  # Start at 7, end at (but not including) 2, increment
   print(i)
 ```
 
-### While-loop
+## While-loop
 
 A while-loop is another (more flexible) way to specify loops. This is how a standard while-loop looks like:
 
@@ -366,7 +366,7 @@ A very common beginner mistake is an infinite-loop, where the *continue conditio
 
 A while loop is much more flexible because you can flexibly change the *continue condition* to be a more complex boolean expression.
 
-### Conclusion
+# Conclusion
 
 We have gone through the following concepts:
 
