@@ -26,6 +26,7 @@ redirect_from:
 
 # Experience
 
+* `Summer 2021` AI Undergraduate Researcher at [CLeAR AI Lab](http://clear-nus.github.io/)
 * `Summer 2020` [Intern](/portfolio/simkit), Machine Learning Engineer at Grab
 * `Winter, Spring 2019` [Intern](/portfolio/chiller-doctor) (Machine Learning) at IMDA
 
