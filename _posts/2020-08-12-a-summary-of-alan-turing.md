@@ -1,7 +1,7 @@
 ---
 title: 'A Summary of Alan Turing Computing Machinery and Intelligence'
 date: 2020-08-12
-excerpt: 'A summary of computer scientist Alan Turing Computing Machinery and Intelligence in 1950.'
+excerpt: 'A summary of computer scientist Alan Turing: Computing Machinery and Intelligence in 1950.'
 permalink: /posts/2020/08/a-summary-of-alan-turing/
 comments: true
 tags:
