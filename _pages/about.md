@@ -11,12 +11,13 @@ redirect_from:
 {% include base_path %}
 
 * 💻 I study computer science, and enrolled in the University Scholars Programme ([USP](http://usp.nus.edu.sg/)) at the National University of Singapore ([NUS](https://nus.edu.sg/)).
-* ♟️ I currently research causal reinforcement learning at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab.
-* 📈 I lead the workshops team at [NUS Statistics Society](/posts/2021/03/stats-soc-workshops), delivering data science workshops.
+* ♟️ I currently research reinforcement learning at the Collaborative Learning and Adaptive Robots ([CLeAR](http://clear-nus.github.io/)) lab.
+* 📈 I lead the [NUS Statistics & Data Science Society](/posts/2021/03/stats-soc-workshops) as president, organising technical workshops and events such as the annual Data Science Competition.
 * 💼 I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # News
 
+* `May 2021` My team won 1st Runner Up at the Optigram Data Visualization Competition.
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
 * `Dec 2020` I begun a 1-year research programme on reinforcement learning at NUS.
 * `Nov 2020` My CS3244 project was awarded [1st prize at STePS](/portfolio/you-play-ball-i-play-ball).
