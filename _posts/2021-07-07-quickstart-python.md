@@ -55,7 +55,7 @@ d = "abcd"    # this is also a string, surrounded by double quotes ("")
 e = True      # this is a boolean (true or false) variable, which must have a capital T or F.
 ```
 
-One important thing to note is that string variables can be surrounded by either single ('') or double ("") quotes, which make no difference in Python. Returning to `print("Hello world!")`, notice that `"Hello world!"` is a string that we directly input into `print()`.
+One important thing to note is that string variables can be surrounded by either single (`''`) or double (`""`) quotes, which make no difference in Python. Returning to `print("Hello world!")`, notice that `"Hello world!"` is a string that we directly input into `print()`.
 
 # Operators
 
