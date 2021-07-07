@@ -1,0 +1,31 @@
+---
+title: 'Determinism Between the Gene, the Mind and the Society'
+date: 2021-05-21
+excerpt: 'An essay on determinism between the gene, the mind and the society.'
+permalink: /posts/2021/05/determinism-gene-mind-society/
+comments: true
+tags:
+  - essay
+---
+
+The determination of a mind by the gene and the determination of a society by the mind assumes strict criteria that the determinant, the gene and mind, must be necessary and sufficient to determine the determined, the mind and society, respectively. However, while the gene is a necessary factor as evidenced by polygenic scores, it may not completely determine and is thus insufficient to determine a mind due to the possibility of quantum consciousness. Likewise, while the mind is a necessary factor, it is insufficient to determine a society due to environmental possibilism that the environment too influences the course of a society. Therefore, while what happens in a society does have a genetic origin, it is not the sole determinant that determines the course of a society.
+
+The view that the gene determines the mind is supported by research into the power of polygenic scores in predicting psychological traits such as schizophrenia, major depressive and bipolar disorder. The polygenic score estimates the aggregate effect of genetic predispositions to statistically predict an individual’s trait. Polygenic scores can currently predict 7 percent of the variance of the liability to be diagnosed as schizophrenic, predicting even better than traditionally used environmental factors such as whether an individual suffered from social disadvantage, cannabis use or childhood trauma (Plomin). Furthermore, research that increase sample sizes is ongoing that will further increase the predictive power of polygenic scores. The predictive power of polygenic scores thus serves as evidence that the gene is necessary to determine a mind.
+
+However, the gene may not completely determine the mind and is thus insufficient because the possibility of quantum consciousness cannot be ruled out. Quantum consciousness is a hypothesis that posits that quantum-mechanical phenomena play an important role in the brain’s function and could explain consciousness. Theoretical physicist Eugene Wigner proposed the “Wigner’s friend” thought experiment that the wave function collapses due to its interaction with consciousness (Wigner). Quantum physicist Pascual Jordan argued for the amplifier hypothesis of free will, that it is possible for quantum fluctuations in the brain to be amplified by deterministic chaos, resulting in behavioural choices (Jordan). The mind could possess the freedom to realize one particular quantum mechanical event, making a difference to the brain. While the quantum consciousness hypothesis remains an open question, since the possibility of quantum consciousness cannot be ruled out, the gene may not completely determine and is thus insufficient to determine the mind.
+
+The view that the mind determines a society is easy to adopt in consideration of the existence of a free will, that individuals possess the ability to choose between different possible courses of action. Naturally, the capacity for a human agency allows individuals of a society to make choices and impose those choices on the world, influencing their society.
+
+However, environmental determinism argues that the development of societies originated from geographic and ecological forces. Geographer and historian Jared Diamond argued that the basic geography of the east-west axis of Eurasia contributed greatly to the rapid spread of food crops from the Fertile Crescent in Southwest Asia between 6500 B.C. and 3500 B.C. across Greece, Cyprus, the Indian subcontinent, Egypt, central Europe, southern Spain and Britain (Diamond). The east-west spread of food crop was enabled by similar climate conditions of spreading regions, allowing domesticated crop from the Fertile Crescent to adapt well. In contrast, the north-south axis of the Americas and Africa created major hurdles for adapting crops due to significant differences in climate across latitudes. Diamond argued that such geographic constraints led to eventual differences in the development of societies.
+
+Nonetheless, geographer James Blaut argued against strict environmental determinism, that Diamond’s theory assumed that agriculture is accepted wherever it spread, but cultural factors should be also be considered to explain the refusal of agriculture in Australia and South Africa (Blaut). Environmental determinism of how geography completely determines society is too strict as it devalues human agency and cultural factors in influencing society. As an alternative approach to environmental determinism, environmental possibilism theorises that while the environment does set constraints in how a society develops, culture is also determined by social conditions that influence society (Singh and Dhillon). Since human actions both influences and are influenced by the environment, cultural factors too influenced the course of society. Therefore, the environment does not completely determine and is insufficient in determining the course of a society.
+
+In conclusion, the determination of the mind by the gene and that of a society by the mind, while necessary due to the predictive power of polygenic scores and the existence of individuals’ free will, are insufficient due to the possibility of quantum consciousness and environmental possibilism. Therefore, while what happens in a society does have a genetic origin, the gene is not the sole determinant that determines the course of a society.
+
+### References
+* Blaut, James M. "Environmentalism and Eurocentricism." Geographical Review (1999): 391-408.
+* Diamond, Jared. Guns, Germs, and Steel. W. W. Norton, 1997.
+* Jordan, Pascual. "Die Verstärkertheorie der Organismen in ihrem gegenwärtigen Stand." Naturwissenschaften (1938): 537-545.
+* Plomin, Robert. Blueprint: How DNA makes us who we are. The MIT Press, 2018.
+* Singh, Jasbir and S S Dhillon. Agricultural Geography. New Delhi: Tata McGraw-Hill, 2004.
+* Wigner, Eugene. "Remarks on the Mind Body Question, in Symmetries and Reflections, Scientific Essays." American Journal of Physics (1967): 1169-1170.
