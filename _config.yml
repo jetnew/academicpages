@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jet New"
   avatar           : "profile.png"
-  bio              : "NUS Computer Science + University Scholars Programme. Researching causal reinforcement learning. Ex-intern at Grab, IMDA."
+  bio              : "NUS Computer Science + University Scholars Programme. Researching reinforcement learning. Ex-intern at Grab, IMDA."
   location         : "Singapore"
   employer         :
   pubmed           :  # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
