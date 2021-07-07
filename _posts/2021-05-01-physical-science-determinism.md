@@ -1,5 +1,5 @@
 ---
-title: 'Is physical science a paradise of determinism?'
+title: 'Is Physical Science a Paradise of Determinism?'
 date: 2021-05-21
 excerpt: 'An essay on the appeal of determinism on physical science.'
 permalink: /posts/2021/05/physical-science-determinism/
