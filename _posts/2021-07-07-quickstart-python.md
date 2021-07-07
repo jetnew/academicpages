@@ -1,5 +1,5 @@
 ---
-title: 'A Quickstart to Python Programming For My Friends'
+title: 'A Quickstart to Python Programming For Friends'
 date: 2021-07-07
 permalink: /posts/2021/07/quickstart-python/
 excerpt: 'A quickstart walkthrough to into the basics of Python programming.'
@@ -17,7 +17,7 @@ Python is a hugely popular programming language that is used for a wide variety 
 
 For the purposes of learning, we will use replit as the development environment. Go over to [replit.com](https://replit.com/) and create an account, then create a new "repl" in Python 3. To install Python on your local computer (without needing to go online like replit.com), go over to [python.org](https://www.python.org/) and download the latest version (Python 3.9.6 at time of writing).
 
-In your repl, the first codkasse you should run is:
+In your repl, the first code you should run is:
 
 ```python
 print("Hello world!")
