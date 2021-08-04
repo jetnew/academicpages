@@ -16,7 +16,7 @@ redirect_from:
 * 💼 I previously interned as a machine learning engineer at Grab (2020) and IMDA (2019).
 
 # News
-* `Aug 2021` I was conferred Silver Award in the NUS SoC Student Awards for Accomplishment in competitions.
+* `Aug 2021` I was conferred Silver in the NUS SoC Student Awards for Accomplishment.
 * `May 2021` My team won 1st Runner Up at the Optigram Data Visualization Competition.
 * `Feb 2021` I was awarded the USP Honour Roll in recognition for achievements in USP.
 * `Dec 2020` I begun a 1-year research programme on reinforcement learning at NUS.
